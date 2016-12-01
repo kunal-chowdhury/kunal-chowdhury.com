@@ -1,0 +1,1 @@
+optipng.exe -zc1-9 -zm1-9 -zs0-3 -f0-5 *.png
