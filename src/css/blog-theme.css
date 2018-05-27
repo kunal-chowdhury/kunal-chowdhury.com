@@ -1,0 +1,114 @@
+.status-msg-wrap{font-size:120%;width:100%;margin:14px 4px 0px 4px;color:#fff!important;background-color:$(color.default);padding-top:-20px;}
+.status-msg-body,.status-msg-hidden{padding:0.6em 0!important;margin:0px 15px;}
+.status-msg-body>a{color:#fff;font-size:100%;}
+.status-msg-border{border:0;border-bottom:1px solid #ccc}
+
+#comments{overflow:hidden;font-size:90%;padding:0 15px}
+#comments h4{display:inline;padding:10px;line-height:40px}
+#comments h4,.comments .comment-header,.comments .comment-thread.inline-thread .comment{position:relative}
+#comments h4,.comments .continue a{background:#00467F}
+#comments h4,.comments .user a,.comments .continue a{font-size:16px}
+#comments h4,.comments .continue a{font-weight:normal;color:#fff}
+#comments h4:after{content:"";position:absolute;bottom:-10px;left:10px;border-top:10px solid #00467F;border-right:20px solid transparent;width:0;height:0;line-height:0}
+#comments .avatar-image-container img{border:0}
+.comment-thread{color:#111}
+.comment-thread a{color:#777}
+.comment-thread ol{margin:0 0 20px}
+.comment-thread .comment-content a,.comments .user a,.comments .comment-thread.inline-thread .user a{color:#00467F}
+.comments .avatar-image-container,.comments .avatar-image-container img{width:48px;max-width:48px;height:48px;max-height:48px}
+.comments .comment-block,.comments .comments-content .comment-replies,.comments .comment-replybox-single{margin-left:60px}
+.comments .comment-block,.comments .comment-thread.inline-thread .comment{border:1px solid #ddd;background:#f9f9f9;padding:10px}
+.comments .comments-content .comment{margin:15px 0 0;padding:0;width:100%;line-height:1em}
+.comments .comments-content .icon.blog-author{position:absolute;top:-12px;right:-12px;margin:0;background-image: url(//lh3.ggpht.com/-GDMurKK2tec/T5JCD6hoKoI/AAAAAAAABAc/COHOItBlFWk/author.png);width:36px;height:36px}
+.comments .comments-content .inline-thread{padding:0 0 0 20px}
+.comments .comments-content .comment-replies{margin-top:0}
+.comments .comment-content{padding:5px 0;line-height:1.4em}
+.comments .comment-thread.inline-thread{border-left:1px solid #ddd;background:transparent}
+.comments .comment-thread.inline-thread .comment{width:auto}
+.comments .comment-thread.inline-thread .comment:after{content:"";position:absolute;top:10px;left:-20px;border-top:1px solid #ddd;width:10px;height:0px}
+.comments .comment-thread.inline-thread .comment .comment-block{border:0;background:transparent;padding:0}
+.comments .comment-thread.inline-thread .comment-block{margin-left:48px}
+.comments .comment-thread.inline-thread .user a{font-size:13px}
+.comments .comment-thread.inline-thread .avatar-image-container,.comments .comment-thread.inline-thread .avatar-image-container img{width:36px;max-width:36px;height:36px;max-height:36px}
+.comments .continue{border-top:0;width:100%}
+.comments .continue a{padding:10px 0;text-align:center}
+.comment .continue{display:none}
+#comment-editor{width:103%!important}
+.comment-form{width:100%;max-width:100%}
+#blog-pager-newer-link{float:left}
+#blog-pager-older-link{float:right}
+#blog-pager{text-align:center;padding:0 15px}
+
+#subscription-box{width: 278px;padding: 10px;margin: 5px 5px 5px 0px;background-color: #60a917;color: white;opacity:0.7;}#subscription-box:hover{opacity:1.0;}#email-input-box{height: 20px;width:155px;margin: 5px 2px 2px 2px;border: 1px solid white;}#email-subscribe-button{height: 26px;margin: 5px 2px 2px 2px;border: 1px solid white;background-color: #60a917;color: white;cursor: hand;}#email-subscribe-button:hover{border: 1px solid #60a917;background-color: white;color: #60a917;}
+
+/* Search Box */
+#hbz-searchbox{min-width:300px;margin:0px auto;border-radius:3px;overflow:hidden;max-width:300px}#hbz-input{width:59.2%;padding:10.5px 4%;font:700 15px "lucida sans","trebuchet MS",Tahoma;border:none;background-color:#EEE}#hbz-input:focus{outline:0;background-color:#FFF;box-shadow:0 0 2px #333 inset}#hbz-submit{overflow:visible;position:relative;float:right;border:none;padding:0;cursor:pointer;height:40px;width:32.8%;font:700 15px/40px "lucida sans","trebuchet MS",Tahoma;color:#FFF;text-transform:uppercase;background-color:#D83C3C}#hbz-submit::before{content:"";position:absolute;border-width:8px;border-style:solid solid solid none;border-color:transparent #D83C3C;top:12px;left:-6px}#hbz-submit:active,#hbz-submit:focus{background-color:#C42F2F;outline:0}#hbz-submit:active::before,#hbz-submit:focus::before{border-color:transparent #C42F2F}#hbz-submit:hover{background-color:#E54040}#hbz-submit:hover::before{border-color:transparent #E54040}
+/* Search Box */
+
+/* Footer */
+#footer{background:$(color.default);clear:both;margin:0;line-height:1.5em;color:#f3f3f3;border-top:10px solid $(color.default);width:$(screen.width);}
+.mobile #footer  {width:98%}
+#footer .widget{margin:0 0 1.5em;padding:10px;}#footer h2{color:#f4efd6;font:normal normal 18px 'Allan',Arial,Verdana,Sans-serif,'Trebuchet MS',Trebuchet;text-shadow:0 1px 0 #000}#footer a,#footer a:visited{color:#d4ca92;text-decoration:none}#footer a:hover{color:#fff}#footer-left{width:33%;float:left;margin:0}#footer-center{width:33%;float:left;margin:0}#footer-right{width:33%;float:right;margin:0}
+.mobile #footer-left{width:100%}.mobile #footer-center{display:none}.mobile #footer-right{width:100%}
+#footer-column-container li{border-bottom:0px solid #000;border-top:0px solid #8c7f67;line-height:1.6em}
+/* Footer */
+
+/* Credit */
+.credit{margin:0 auto;padding:10px 5px 30px;width:$(screen.width);;font-size:12px;color:#333;line-height:1.6em}
+.mobile .credit{width:98%}
+.botleft{text-align:left;width:auto;float:left}
+.botright{text-align:right;width:auto;float:right}
+/* Credit */
+
+/* Code Snippet */
+#codeSnippetWrapper{border:dotted 1px #606060;padding:5px;}.csharpcode-wrapper,.csharpcode-wrapper pre{background-color:#f4f4f4;border:solid 1px silver;cursor:text;font-family:'Courier New',Courier,Monospace;font-size:9pt;line-height:12pt;margin:20px 0 10px 0;max-height:200px;overflow:auto;padding:4px;}.csharpcode-wrapper pre{border-style:none;margin:0;overflow:visible;padding:0}.csharpcode,.csharpcode pre,.csharpcode .alt{background-color:#f4f4f4;border-style:none;color:black;font-family:'Courier New',Courier,Monospace;font-size:9pt;line-height:12pt;overflow:visible;padding:0;}.csharpcode pre{margin:0}.csharpcode .alt{background-color:white}.csharpcode .asp{background-color:#ff0}.csharpcode .attr{color:#f00}.csharpcode .cls{color:#c63}.csharpcode .html{color:#800000}.csharpcode .kwrd{color:#00f}.csharpcode .lnum{color:#606060}.csharpcode .op{color:#0000c0}.csharpcode .preproc{color:#c63}.csharpcode .rem{color:#008000}.csharpcode .str{color:#F00}
+/* Code Snippet */
+
+#PopularPosts1 {color:#fff;}
+#PopularPosts #header {background-color:#1777b1;height:30px;}
+#PopularPosts1 h2{margin-left:15px;color:#fff;}
+.popular-posts{color:#1777b1;font-size:15px;}
+.popular-posts a{color:#1777b1;font-size:15px;}
+.popular-posts ul{list-style:none;margin-top:-10px;margin-bottom:-10px;}
+.popular-posts ul li{margin-left:-16px;margin-right:-15px;padding-left:15px !important;padding-right:15px !important;border-left:10px solid Transparent;}
+.popular-posts ul li:hover{border-left:10px solid #1777b1;}
+
+.archiveheader{background-color:#1777b1;height:30px;}
+.archiveheader h2{margin-left:15px;color:#fff;}
+
+blockquote{display:block;background:#f9f9f9;border-left:10px solid #ccc;padding:15px 20px 15px 30px;margin:20px 0px 20px 8px;position:relative;quotes:"\201C""\201D""\2018""\2019";}
+blockquote p{display:inline;background:#f9f9f9;}
+
+.infoGreen{max-width:100%;margin-left:0px;margin-right:0px;background:#ddffdd;padding:10px 20px 10px 20px;border-width:8px 1px;border-style:solid;border-color:#4CAF50;}
+.infoGreen h3{margin:-12px -20px 14px -20px;padding:4px 8px 10px 8px;color:white;font-size:18px;font-weight:normal;background:#4CAF50;}
+.infoRed{max-width:700px;margin-left:0px;background:#FFF7F7;color:red;padding:10px 10px 10px 20px;border-left:10px solid red;font-weight:bold;}
+
+code{font-family:Monospace;font-size:18px;color:#990000;padding:2px 4px;}
+command{font-size:18px;color:gray;background:lightgray;font-weight:bold;border:gray dashed 1px;padding:4px 6px 4px 8px;display:block;margin:8px 0px;}
+screen{font-weight:bold;color:green;padding:1px 4px;}
+key{font-weight:bold;font-style:italic;color:blue;}
+keywords{font-weight:bold;color:brown;}
+
+.search-box{margin-top:10px;margin-left:auto; margin-right:0;}
+
+.pw-button{margin:0px 2px !important;}
+
+/* Sidebar */
+  #sidebar-wrapper{float:right;margin-left:5px;overflow:hidden;width:$(sidebar.width);word-wrap:break-word;margin-top:-5px;border:1px solid lightgray;}
+  .sidebar h2{color:#555;font-size:18px;margin:0 0 0.3em;font-weight:normal}
+  .sidebar .widget-content{color:#555;font-size:16px;border:1px solid #ccc;padding:10px 15px;line-height:1.3em;margin:0 0 15px}
+  .sidebar ul{margin:0;padding:0}
+  .sidebar li{margin:0;padding:5px 0}
+
+  .MyBooks_Ads{background-image:url('//raw.githubusercontent.com/kunal-chowdhury/kunal-chowdhury.com/5973b9f8700d687cd929bafff167417a266ebd7f/src/images/books/my-books.jpg');background-repeat:no-repeat;background-size:100% 100%;width:$(sidebar.width);height:84px;margin:2px 0px 4px 0px;}
+
+  .MicrosoftMVPLogo{background-image:url('//3.bp.blogspot.com/-nKSYTmrNfqQ/Wm2NbjCW88I/AAAAAAAATc0/vnhxXNs7qEwxA_0NEnxg1IZpix_nX-f_ACLcBGAs/s300/microsoft-mvp-logo-kunal-chowdhury.jpg');background-repeat:no-repeat;background-size:100% 100%;width:$(sidebar.width);height:105px;}
+
+  .SocialTwitterLogo{background-image:url('//3.bp.blogspot.com/-O_H18BWPCtI/WoBQ7fBW-II/AAAAAAAATiI/o7uV-r2aQ0sNQayNIkwJhSMmeGmyTpnSgCPcBGAYYCw/s1600/twitter.jpg');}
+  .SocialFacebookLogo{background-image:url('//3.bp.blogspot.com/-pNpLY8dACI4/WoBQ6dmXhtI/AAAAAAAATh8/FSDT3g0arNAZFNflqq-z4CMebqLwKAf9wCPcBGAYYCw/s1600/facebook.jpg');}
+  .SocialLinkedInLogo{background-image:url('//3.bp.blogspot.com/-GHEDva-2Hlw/WoBQ7Cc--KI/AAAAAAAATiA/2IotIfWBAnkwhdsSJZTKcJ4i2KxEoOBuQCPcBGAYYCw/s1600/linkedin.jpg');}
+  .SocialGooglePlusLogo{background-image:url('//3.bp.blogspot.com/-Gr0Bf4p5k54/WoBQ6VvQYKI/AAAAAAAATh0/yCd0yGCxPsIR1tfv7EpJWPUvyZEm9RjVwCPcBGAYYCw/s1600/google-plus.jpg');}
+  .SocialGitLogo{background-image:url('//3.bp.blogspot.com/-R0zo6DpiHq8/WoBQ6Wb1oeI/AAAAAAAATh4/9auvKByL1I4VgG8u-TRQLHRGnOFXipQ3wCPcBGAYYCw/s1600/github.jpg');}
+  .SocialFeedLogo{background-image:url('//3.bp.blogspot.com/-2cAsT8zZpPg/WoBQ7TSkwNI/AAAAAAAATiE/ZHlxHb4DB6gUrBtYxg6DxHNbOuFM-KMlQCPcBGAYYCw/s1600/rss-feed.jpg');}
+  .SocialTwitterLogo,.SocialFacebookLogo,.SocialLinkedInLogo,.SocialGooglePlusLogo,.SocialGitLogo,.SocialFeedLogo{background-repeat:no-repeat;background-size:100% 100%;width:40px;height:40px;float:left;margin:2px 5px;}
+/* Sidebar */
