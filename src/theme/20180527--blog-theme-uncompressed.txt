@@ -336,7 +336,8 @@ a.heading-link{opacity:0;margin-left:10px;text-decoration:none;}
   .SocialTwitterLogo,.SocialFacebookLogo,.SocialLinkedInLogo,.SocialGooglePlusLogo,.SocialGitLogo,.SocialFeedLogo{background-repeat:no-repeat;background-size:100% 100%;width:40px;height:40px;float:left;margin:2px 5px;}
 /* Sidebar */
 
-
+	.cookie-choices-info{position:fixed;top:auto !important;bottom:0px !important;background-color:$(color.default);}
+	
     ]]></b:skin>
 
     <b:if cond='data:blog.pageType == &quot;item&quot;'>
@@ -349,7 +350,7 @@ a.heading-link{opacity:0;margin-left:10px;text-decoration:none;}
       </style>
     </b:if>
 
-	<script async='true'>cookieOptions = {&quot;msg&quot;: &quot;This website uses cookies to ensure you get the best experience. To know about how we use it, read our&quot;, &quot;link&quot;: &quot;//www.kunal-chowdhury.com/p/cookie-policy.html&quot;, &quot;close&quot;: &quot;Close&quot;, &quot;learn&quot;: &quot;Cookie Policy&quot; };</script>
+	<script async='true'>cookieOptions = {&quot;msg&quot;: &quot;This site uses cookies from Google to deliver its services, to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.&quot;, &quot;link&quot;: &quot;//www.kunal-chowdhury.com/p/cookie-policy.html&quot;, &quot;close&quot;: &quot;Close&quot;, &quot;learn&quot;: &quot;Learn More&quot; };</script>
 
 <!--
 	<b:if cond='data:blog.isMobile == false'>
