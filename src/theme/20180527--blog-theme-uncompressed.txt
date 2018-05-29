@@ -32,6 +32,8 @@
 	<link rel="dns-prefetch" href="//www.googletagservices.com"/>
 	<link rel="dns-prefetch" href="//apps.developermedia.com"/>
 
+	<include expiration='5d' path='**.*'/>
+	
     <script async='true' src='//code.jquery.com/jquery-3.3.1.slim.min.js'> </script>
 	<!--<b:include data='blog' name='google-analytics' async='true'/>-->
 	<script async='true' type='text/javascript'>
@@ -78,6 +80,7 @@
 
   	<meta content='global' name='distribution'/>
   	<meta content='1 day' name='revisit-after'/>
+	<meta content='sat, 28 dec 2030 00:00:00 GMT' http-equiv='expires'/>
   	<meta content='PUBLIC,max-age=2592000' name='CACHE-CONTROL'/>
   	<meta content='PUBLIC,max-age=2592000' http-equiv='CACHE-CONTROL'/>
   	<meta content='text/html; charset=utf-8' http-equiv='content-type'/>
@@ -604,7 +607,7 @@ a.heading-link{opacity:0;margin-left:10px;text-decoration:none;}
 
           <div class='postDiv'>
             <article expr:id='&quot;post-body-&quot; + data:post.id'>
-              <a expr:href='data:post.url'><div class='headerImage' expr:style='&quot;background-image:url(\&quot;&quot; + data:post.firstImageUrl + &quot;\&quot;);&quot;'>&#160;</div></a>
+              <a expr:href='data:post.url'><div class='headerImage' expr:style='&quot;background-image:url(\&quot;&quot; + data:post.firstImageUrl + &quot;?imgmax=300\&quot;);&quot;'>&#160;</div></a>
               <div class='thumbnail'>
                 <div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title' rel='author'><h1 class='post-title'><data:post.title/></h1></a></div>
                 <div class='info'><time expr:title='data:post.timestamp' itemprop='datePublished'><data:post.timestamp/></time> <b> | </b> <a expr:href='data:post.labels[0].url' rel='tag noindex nofollow'><b:eval expr='data:post.labels[0].name'/></a></div>
