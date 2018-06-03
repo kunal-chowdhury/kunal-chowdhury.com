@@ -366,7 +366,7 @@ a.heading-link{opacity:0;margin-left:10px;text-decoration:none;}
 
     <div id='head-top'>
       <div id='header-wrapper'>
-        <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+        <div id='header-inner'><div id='header-left'><div class='titlewrapper'><a expr:href='data:blog.homepageUrl'><img alt='kunal-chowdhury.com' src='//3.bp.blogspot.com/-ThnEqjSRK_Q/Wm2MjueFNpI/AAAAAAAATco/LrNzwRdmWDgLaIEoUjmtFS5VHHnoLkpagCLcBGAs/s297/blog-logo.jpg' style='margin-top:4px;margin-left:-4px;' title='kunal-chowdhury.com'/></a></div></div><div id='header-right'><div style='margin-left:-15px;'><b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'><ins class='adsbygoogle' data-ad-client='ca-pub-1723220052920165' data-ad-slot='5601413021' style='display:inline-block;width:728px;height:90px'/><script async='true'>(adsbygoogle=window.adsbygoogle||[]).push({});</script><b:else/><div class='lqm_ad' data-format='728x90' data-publisher='lqm.kunal.site' data-type='ad' data-zone='728x90-LeaderBoard-Top' id='LeaderBoardTop'/></b:if></div></div></div>
           <b:widget id='Header1' locked='true' mobile='yes' title='A Microsoft Technology Blog for developers and consumers - Kunal-Chowdhury.com (Header)' type='Header' version='1'>
             <b:widget-settings>
               <b:widget-setting name='displayUrl'>//3.bp.blogspot.com/-ThnEqjSRK_Q/Wm2MjueFNpI/AAAAAAAATco/LrNzwRdmWDgLaIEoUjmtFS5VHHnoLkpagCLcBGAs/s297/blog-logo.jpg</b:widget-setting>
