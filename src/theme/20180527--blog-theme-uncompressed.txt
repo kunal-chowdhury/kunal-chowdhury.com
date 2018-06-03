@@ -224,9 +224,9 @@ a img{border-width:0}
 /* Search Box */
 
 /* Footer */
-#footer{background:$(color.default);clear:both;margin:0;line-height:1.5em;color:#f3f3f3;width:$(screen.width)}#footer h2{color:#f4efd6;font:normal normal 17px 'Allan',Arial,Verdana,Sans-serif,'Trebuchet MS',Trebuchet;text-shadow:0 1px 0 #000}#footer a,#footer a:visited{color:#d4ca92;text-decoration:none}#footer a:hover{color:#fff}#footer-left{width:35%;float:left;margin:8px;display:block;}#footer-center{width:25%;float:left;margin:8px;display:block;}#footer-right{width:35%;float:right;margin:8px;display:block;}
+#footer{background:$(color.default);clear:both;margin:0;line-height:1.5em;color:#f3f3f3;width:100%;}#footer-column-container{width:$(screen.width);margin:auto;}#footer h2{color:#f4efd6;font:normal normal 17px 'Allan',Arial,Verdana,Sans-serif,'Trebuchet MS',Trebuchet;text-shadow:0 1px 0 #000}#footer a,#footer a:visited{color:#d4ca92;text-decoration:none}#footer a:hover{color:#fff}#footer-left{width:35%;float:left;margin:8px;display:block;}#footer-center{width:25%;float:left;margin:8px;display:block;}#footer-right{width:35%;float:right;margin:8px;display:block;}
 
-.mobile #footer{width:98%}.mobile #footer-left{width:100%;float:left;}.mobile #footer-center{width:100%;float:left;}.mobile #footer-right{width:100%;float:left;}
+.mobile #footer{width:98%}.mobile #footer-column-container{width:100%;}.mobile #footer-left{width:98%;float:left;}.mobile #footer-center{width:98%;float:left;}.mobile #footer-right{width:98%;float:left;}
 /* Footer */
 
 /* Credit */
@@ -1583,38 +1583,30 @@ a.heading-link{opacity:0;margin-left:10px;text-decoration:none;}
 			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1723220052920165" data-ad-slot="5138787052" data-ad-format="auto"></ins>
 			<script async='true'>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
 			<div style='clear:both;'/>
-			<!--<b:if cond='data:blog.isMobile'>
-            	<div align='center'>
-					<ins class='adsbygoogle' data-ad-client='ca-pub-1723220052920165' data-ad-format='auto' data-ad-slot='6635494720' style='display:block'> </ins>
-					<script async='true'>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-              	</div>
-				<div style='clear:both;'/>
-          	</b:if>-->
         </div>
-
         <!-- end content-wrapper -->
-        <footer id='footer'>
-          <div id='footer-column-container'>
-            <div id='footer-left'>
-				<h2 class='title'>About Me</h2>
-				Kunal Chowdhury is a Windows Platform Development MVP of Microsoft, a Telerik MVP, Nokia Developer Champion, Speaker in various Microsoft events, Author, passionate Blogger and a Software Engineer by profession.<br /><br />Twitter: <a href="//twitter.com/kunal2383" target="_blank">@kunal2383</a> &#160;&#160;&#160; Facebook: <a href="//facebook.com/blog.kunal" target="_blank">blog.kunal</a>
-            </div>
-            <div id='footer-center'>
-			  <h2 class='title'>More Links</h2>
-              <a href="//www.kunal-chowdhury.com/p/about-me.html" target="_blank">About Kunal Chowdhury</a><br/> <a href="//www.kunal-chowdhury.com/p/books.html" target="_blank">My Books</a><br/> <a href="//www.kunal-chowdhury.com/p/blog-stats.html" target="_blank">Statistics</a><br/> <h3>Legals</h3> <a href="//www.kunal-chowdhury.com/p/privacy-policy.html" target="_blank">Privacy Policy</a><br/> <a href="//www.kunal-chowdhury.com/p/cookie-policy.html" target="_blank">Cookie Policy</a><br/>
-            </div>
-            <div id='footer-right'>
-              <h2 class='title'>Disclaimer</h2>
-			  This is my personal blog. The opinions expressed here represent my own and not those of my current employer, previous employers and/or any other companies.<br/><br/>For accuracy and official reference refer to MSDN. I have documented my personal experience on this blog to share my technical skills.
-            </div>
-            <div style='clear:both;'/>
-          </div>
-        </footer> 
       </div>
     </div>
     <!-- end outer-wrapper -->
+	
+	<footer id='footer'>
+	  <div id='footer-column-container'>
+		<div id='footer-left'>
+			<h2 class='title'>About Me</h2>
+			Kunal Chowdhury is a Windows Platform Development MVP of Microsoft, a Telerik MVP, Nokia Developer Champion, Speaker in various Microsoft events, Author, passionate Blogger and a Software Engineer by profession.<br /><br />Twitter: <a href="//twitter.com/kunal2383" target="_blank">@kunal2383</a> &#160;&#160;&#160; Facebook: <a href="//facebook.com/blog.kunal" target="_blank">blog.kunal</a>
+		</div>
+		<div id='footer-center'>
+		  <h2 class='title'>More Links</h2>
+		  <a href="//www.kunal-chowdhury.com/p/about-me.html" target="_blank">About Kunal Chowdhury</a><br/> <a href="//www.kunal-chowdhury.com/p/books.html" target="_blank">My Books</a><br/> <a href="//www.kunal-chowdhury.com/p/blog-stats.html" target="_blank">Statistics</a><br/> <h3>Legals</h3> <a href="//www.kunal-chowdhury.com/p/privacy-policy.html" target="_blank">Privacy Policy</a><br/> <a href="//www.kunal-chowdhury.com/p/cookie-policy.html" target="_blank">Cookie Policy</a><br/>
+		</div>
+		<div id='footer-right'>
+		  <h2 class='title'>Disclaimer</h2>
+		  This is my personal blog. The opinions expressed here represent my own and not those of my current employer, previous employers and/or any other companies.<br/><br/>For accuracy and official reference refer to MSDN. I have documented my personal experience on this blog to share my technical skills.
+		</div>
+		<div style='clear:both;'/>
+	  </div>
+	</footer> 
+	
     <div class='credit'>
       <div class='botleft'>
         &#169; 2008-2018 
