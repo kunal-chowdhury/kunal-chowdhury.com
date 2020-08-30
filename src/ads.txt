@@ -1,16 +1,25 @@
-# google
-google.com, pub-1723220052920165, DIRECT, f08c47fec0942fa0
+# last updated on 22-July-2020
+contact=webmaster@kunal-chowdhury.com
+contact=ads-manager@kunal-chowdhury.com
 
-# developermedia
+# developer media
 google.com, pub-8472437385854639, DIRECT, f08c47fec0942fa0
 google.com, pub-3253068245265339, DIRECT, f08c47fec0942fa0
 
+# google
+google.com, pub-1723220052920165, DIRECT, f08c47fec0942fa0
+
 # increaserev
-increaserev.com, 234234, DIRECT
-google.com, pub-5918552270747313, RESELLER, f08c47fec0942fa0
 google.com, pub-1937576406332709, RESELLER, f08c47fec0942fa0
-google.com, pub-7002491002409919, RESELLER, f08c47fec0942fa0
+google.com, pub-8834194653550774, RESELLER, f08c47fec0942fa0
+google.com, pub-3737030722290655, RESELLER, f08c47fec0942fa0
+google.com, pub-9031689156885069, RESELLER, f08c47fec0942fa0
+google.com, pub-2930805104418204, RESELLER, f08c47fec0942fa0
+google.com, pub-9031689156885069, DIRECT, f08c47fec0942fa0
+google.com, pub-8834194653550774, DIRECT, f08c47fec0942fa0
+google.com, pub-3737030722290655, DIRECT, f08c47fec0942fa0
 google.com, pub-3958635835380150, DIRECT, f08c47fec0942fa0
 google.com, pub-9326071770086369, DIRECT, f08c47fec0942fa0
-google.com, pub-6095998129303807, DIRECT, f08c47fec0942fa0
-google.com, pub-9031689156885069, RESELLER, f08c47fec0942fa0
+google.com, pub-5413329544040947, DIRECT, f08c47fec0942fa0
+google.com, pub-5413329544040947, RESELLER, f08c47fec0942fa0
+google.com, pub-4903453974745530, RESELLER, f08c47fec0942fa0
