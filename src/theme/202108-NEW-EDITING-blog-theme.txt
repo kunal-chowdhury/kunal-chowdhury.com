@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:js='false' expr:dir='data:blog.languageDirection' lang='en-us' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+  <meta charset='utf-8' />
+  <meta content='on' http-equiv='x-dns-prefetch-control' />
+  <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+  <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+  <meta content='en-us' http-equiv='content-language' />
+  <meta content='ALL' name='Googlebot-News' />
+  <meta content='ALL' name='googlebot' />
+  <meta content='ALL' name='robots' />
+  <meta content='1 day' name='revisit-after' />
+  <meta content='unsafe-url' name='referrer' />
+  <meta content='Kunal-Chowdhury.com' name='application-name' />
+  <meta content='#1ebaed' name='msapplication-TileColor' />
+  <meta content='#00467f' name='theme-color' />
+  <meta content='general' name='rating' />
+  <meta content='all' name='audience' />
+  <meta content='Kunal Chowdhury' name='Author' />
+  <meta content='Kunal Chowdhury' name='Publisher' />
+  <meta content='Kunal Chowdhury' name='Designer' />
+  <meta content='2008 - 2021, Kunal Chowdhury' name='COPYRIGHT' />
+  <meta content='3259b7cfa95503d58b32e2e381fd4984' name='p:domain_verify' />
+  <meta content='210fdaf75b12fee10faca8f599580b95' name='p:domain_verify' />
+  <meta content='avsq7etCT6-c-exbeaitKcsayWHw2wXgemZ10NUmTao' name='google-site-verification' />
+  <meta content='qGClJE5MRwJ1cOfHZuP1DZMqnmA' name='alexaVerifyID' />
+  <meta content='2c39e1da17d7' name='bitly-verification' />
+  <meta content='3E4724F39C0C60E43BC38B4C834236F7' name='msvalidate.01' />
+  <meta content='9c258945890d6641' name='yandex-verification' />
+  <meta content='EPsMejy6JKOrqE7r' name='rankz-verification' />
+  <meta content='208422635856350' property='fb:pages' />
+  <meta content='global' name='distribution' />
+  <meta content='PUBLIC,max-age=2592000' name='CACHE-CONTROL' />
+  <meta content='news' property='taboola-category' />
+  <meta content='Microsoft, Windows 11, Windows 10, Visual Studio 2015, Visual Studio 2017, Visual Studio 2019, C#, .NET, Microsoft Azure, Microsoft Office 2016, Office 365, Git, Tips and Tricks, HTML, TypeScript, jQuery, Technology News, Gadgets, Kunal Chowdhury' name='news_keywords' />
+  <meta content='Microsoft, Windows 11, Windows 10, Visual Studio 2015, Visual Studio 2017, Visual Studio 2019, C#, .NET, Microsoft Azure, Microsoft Office 2016, Office 365, Git, Tips and Tricks, HTML, TypeScript, jQuery, Technology News, Gadgets, Kunal Chowdhury' name='keywords' />
+  <meta expr:content='data:blog.metaDescription' name='description' />
+  <meta expr:content='data:blog.metaDescription' name='abstract' />
+  
+  <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+    <title><data:blog.pageName/></title>
+  <b:else/>
+    <title><data:blog.pageTitle/></title>
+  </b:if>
+  
+  <script type='text/javascript'><b:if cond='data:blog.isMobile'>var __g_isMobile = true;<b:else/>var __g_isMobile = false;</b:if></script>
+  <script type='text/javascript'>
+  /*<![CDATA[*/
+    var loaded, scrolled = 0, __g_taboola = false, __g_taboola_midArticleLoaded = false;
+    var childNetworkId="21637028082",child=childNetworkId.trim()?","+childNetworkId.trim():"";
+	var abpUnit = __g_isMobile ? "300x250" : "728x90";
+  /*]]>*/
+  </script>
+  
+  <!-- Twitter Meta -->
+  <meta content='summary_large_image' name='twitter:card' />
+  <meta content='@kunaldchowdhury' name='twitter:site' />
+  <meta content='@kunaldchowdhury' name='twitter:creator' />
+  <meta expr:content='data:blog.pageName' name='twitter:title' />
+  <meta expr:content='data:blog.metaDescription' name='twitter:description' />
+  <meta expr:content='data:blog.postImageUrl' name='twitter:image' />
+  <meta expr:content='data:blog.url.canonical' name='twitter:url' />
+  <meta expr:content='data:blog.homepageUrl' name='twitter:domain' />
+  
+  <!-- Facebook Meta -->
+  <meta content='208422635856350' property='fb:profile_id' />
+  <meta content='www.kunal-chowdhury.com' property='og:site_name' />
+  <meta content='article' property='og:type' />
+  <meta content='true' property='og:rich_attachment' />
+  <meta expr:content='data:blog.url.canonical' property='og:url' />
+  <meta expr:content='data:blog.pageName' property='og:title' />
+  <meta expr:content='data:blog.metaDescription' property='og:description' />
+  <meta expr:content='data:blog.postImageUrl' property='og:image' />
+  
+  <link href='https://www.kunal-chowdhury.com/favicon.ico' rel='icon' type='image/x-icon' />
+  <link expr:href='data:blog.url.canonical' rel='canonical' />
+  <link href='https://www.kunal-chowdhury.com/p/about-me.html' rel='author' />
+  <link href='//www.kunal-chowdhury.com/feeds/posts/default' rel='alternate' title='Kunal-Chowdhury.com - The Technology Navigator - Atom' type='application/atom+xml' />
+  <link href='https://www.kunal-chowdhury.com/feeds/posts/default?alt=rss' rel='alternate' title='Kunal-Chowdhury.com - The Technology Navigator - RSS' type='application/rss+xml' />
+  <b:skin>
+    <![CDATA[/**/
+
+	/* Global */
+	html,p,body{font-family:Segoe UI,Arial,Tahoma;margin:0px;font-size:20px;word-wrap:break-word}a:link,a:visited{color:#0060a6;text-decoration:none}a:hover{color:#ff0084}a img{border-width:0}
+	*{box-sizing:border-box}
+
+	#outer-wrapper{margin:0 auto;padding-top:0;width:1300px}.mobile #outer-wrapper{margin:-8 auto;width:auto}#main-wrapper{float:right;width:815px}.mobile #main-wrapper{width:96vw;margin:8px}#wrap2{float:left}
+
+	.separator{clear:both}.separator-large{clear:both;margin:10px 0px;width:100%}
+
+	.adsZone300x250-ATF{width:300px;min-height:250px;border:1px solid #c0c0c0}
+	.adsZone300x250{min-height:250px;margin-top:4px;margin-bottom:4px;width:100%;border:1px solid #c0c0c0}
+	.adsZone160x600{min-height:600px;border:1px solid #c0c0c0}
+	.adsZone300x600{width:302px;min-height:250px;margin-top:4px;margin-bottom:4px;border:1px solid #c0c0c0}
+	.adsZone728x90{min-height:90px;margin:4px auto}
+
+	.adsZone300x250-ATF,.adsZone300x250{}
+	.adsZone300x250-ATF,.adsZone300x250,.adsZone160x600,.adsZone300x600,.adsZone728x90{margin:auto;vertical-align:middle;align:center;text-align:center}
+	/*.adsZone300x250:before,.adsZone300x600:before,.adsZone300x600:before,.adsZone160x600:before,.adsZone728x90:before{content:"Advertisement";font-size:12px;color:gray}*/
+
+	.row{height:265px;width:100%}.column{float:left;width:50%;padding:4px 0px;height:265px;}.row:after{content:"";display:table;clear:both;}
+
+	.nav-button{text-decoration:none;padding:8px 16px;margin:8px 0px;background-color:#00467f}.nav-button a{color:white}.previous{}.next{}
+
+	/* Header-Content */
+	#navbar-iframe{display:none!important}
+	#header-top{background-color:#00467f;margin:-8px 0px}
+	#header-wrapper{padding:0;height:50px;margin:0 auto;width:1300px;background-color:#00467f}.mobile #header-wrapper{width:100%;background-color:#00467f}
+	#header-left{float:left;margin:4px 0 0 10px}
+	#header-right{float:right;margin:8px 0 0 4px}.mobile #header-right{display:none}
+	#menu-wrapper{color:white;float:left;margin:10px}#menu-wrapper a{color:white}.search-box{float:right;margin:6px 10px}
+
+	#hbz-searchbox{min-width:300px;margin:0 auto;border-radius:3px;overflow:hidden;}#hbz-input-search,#hbz-input-subscribe{width:56%;padding:8px 4%;border:0;background-color:#EEE}#hbz-input-search:focus,#hbz-input-subscribe:focus{outline:0;background-color:#FFF;box-shadow:0 0 2px #333 inset}#hbz-submit-search,#hbz-submit-subscribe{float:right;border:0;cursor:pointer;height:30px;width:32.8%;font:700 15px/40px;color:#FFF;text-transform:uppercase;background-color:#d83c3c}#hbz-submit-search:active,#hbz-submit-subscribe:active,#hbz-submit-search:focus,#hbz-submit-subscribe:focus{background-color:#c42f2f;outline:0}#hbz-submit-search:hover,#hbz-submit-subscribe:hover{background-color:#e54040}#subscription-box{width:100%;padding:10px;margin:5px 10px 5px 0px;background-color:#006600;color:white;}.social-share-div{position:fixed;right:0;z-index:999999999999;background-color:#ffffff;border-radius:8px;padding:8px}.socialIcons{width:64px;height:64px;opacity:0.75;display:inline-block;padding:8px;margin:4px;border-radius:5px}.mobile .socialIcons{width:36px;height:36px}a:hover .socialIcons{opacity:1}.twitter{background-color:#55ACEE}.facebook{background-color:#3B5998}.linkedin{background-color:#007bb5}.whatsapp{background-color:#007b00}
+
+	#blog-pager-newer-link{float:right}#blog-pager-older-link{float:left}#blog-pager{text-align:center;padding:0 15px}.list{list-style-type:none;margin:0;padding:0}.list li{padding:4px 0px}.promotion{margin:8px -4px}.promotion ul{list-style:none;margin:0px -30px}.mobile .promotion ul{list-style:none;margin:0px 8px 0px -30px}.promotion li,.promotion a{float:left;position:relative;width:100%;margin-bottom: 4px;line-height:2em}.promotion li a{padding:4px 12px;background:#00467f;color:#fff;text-decoration:none;}
+
+
+	/* HomePage-Content */ 
+	.recent-posts-heroImage{width:350px;float:left;margin-right:16px}.recent-posts-div{border-bottom:1px solid lightgray;padding:7px 0px}.recent-posts-right-div{height:90px;line-height:1.8em}
+	.RecentPostsByCategory{margin:2px 6px;float:left}.RecentPostsByCategory-44{width:44%}.recent-posts-ul{list-style-type:none;padding:0px}.recent-posts-ul-li{padding:5px;border-bottom:1px solid lightgray;min-height:68px;background-color:brown;margin:8px 0px}.recent-posts-ul-li-100{padding:5px;border-bottom:1px solid lightgray}.recent-posts-ul-li-div-a{line-height:1.4em;color:white !important}.bookAdsPlacementDesktop{width:130px;height:160px}
+
+	/* Sidebar-Start */
+	#sidebar-wrapper{font-size:16px;float:left;margin-left:5px;overflow:hidden;width:305px;word-wrap:break-word;margin-top:5px;margin-right:5px}.mobile #sidebar-wrapper{width:100%}
+	.SidebarPosts{margin-top:10px}.SidebarPosts-Header{font-size:20px;font-weight:bold}.sidebar-posts-ul{list-style-type:none;padding:0px;margin-top:0px}.sidebar-posts-ul-li{padding:5px;border-bottom:1px solid lightgray;min-height:68px;background-color:green;margin:8px 0px;display:table;width:100%}.sidebar-posts-ul-li-div{display:table-cell;vertical-align:middle}.sidebar-posts-ul-li-div-a{line-height:1.4em;color:white !important;}
+
+	#rightStickyPanel{font-size:16px;float:right;background-color:white;height:300px;width:160px;margin-left:4px;margin-top:4px}
+
+	.main .widget{margin:0 0 1em;padding:0 0 1em}.main .Blog{border-bottom-width:0}.status-msg-wrap{font-size:120%;width:100%;margin:14px 4px 0 4px;color:#fff!important;background-color:#00467f;padding-top:-20px}.status-msg-body,.status-msg-hidden{padding:.6em 0!important;margin:0 15px}.status-msg-body&gt;a{color:#fff;font-size:100%}.status-msg-border{border:0;border-bottom:1px solid #ccc}.post-timestamp{background:no-repeat scroll 12px center transparent;padding-left:3px}
+
+	#footer{background-color:black;clear:both;margin:0;line-height:1.5em;color:#f3f3f3;width:100%;}#footer-column-container{background-color:black;width:1300px;margin:auto;}#footer h2{color:#f4efd6;font:normal normal 17px;text-shadow:0 1px 0 #000}#footer a,#footer a:visited{color:#d4ca92;text-decoration:none}#footer a:hover{color:#fff}#footer-left{width:35%;float:left;margin:8px;}#footer-center{width:25%;float:left;margin:8px;}#footer-right{width:35%;float:right;margin:8px;display:block;}.mobile #footer{width:98%}.mobile #footer-column-container{width:100%;}.mobile #footer-left{width:98%;float:left;}.mobile #footer-center{width:98%;float:left;}.mobile #footer-right{width:98%;float:left;}.creditPanel{background-color:black;width:100%}.credit{background-color:black;margin:0 auto;padding:10px 5px 30px;width:1300px;font-size:12px;color:#fff;line-height:1.6em}.mobile .credit{width:98%}.botleft{text-align:left;width:auto;float:left}.botright{text-align:right;width:auto;float:right}.pw-button{margin:0 2px!important}.post{color:#4f4f4f;margin:4px 0 0 0;padding:15px 10px !important;border:1px solid #ccc}.post header{margin:-15px;padding:10px 12px 5px 12px}.post h1{font-size:40px;color:#00467f;font-weight:600;line-height:1.4em;margin-bottom:5px;margin-top:0;border-bottom:2px solid #00467f}.mobile .post h1{font-size:30px}.post h2{font-size:35px;color:#000;font-weight:650;line-height:1.4em;margin:20px -10px 10px -15px;padding:5px 15px 10px 15px}.post header time{color:#00467f}.post ul{line-height:2em}.postDiv h1{font-size:24px;color:#00467f;font-weight:bold;line-height:1.4em;margin-bottom:5px;margin-top:0}.post-body{line-height:1.7em;margin:0 0 .75em}.post-footer{margin:1em 0 0;text-transform:none;font-size:15px;border-top:1px solid lightgray}.anchor-icon{display:inline;color:white}a.heading-link{opacity:0;margin-left:10px;text-decoration:none}.post h2:hover a.heading-link{opacity:1}.CenterDiv{display:block;margin:auto;width:100%}#wrappanel{width:100%;height:100%;display:-webkit-flex;-webkit-flex-wrap:wrap;display:flex;flex-wrap:wrap}#wrappanel .postDiv{margin:4px;width:100%}#wrappanel .thumbnail{line-height:1.7em;margin:8px -4px;text-align:center;text-align:left}#wrappanel .headerImage{aspect-ratio: attr(width) / attr(height);width:94vw;height:53vw;border:1px lightgray solid}#wrappanel .title{font-size:20px;font-weight:bold;padding:0 4px}#wrappanel .content{padding:0 4px}#wrappanel .info{font-size:14px;color:gray;margin:6px 0;padding:0 4px}#stackpanel{width:100%}#stackpanel .postDiv{width:99%;border:1px lightgray solid;margin:15px 4px}#stackpanel .thumbnail{margin:8px;text-align:center;text-align:left}#stackpanel .title{font-size:26px;font-weight:normal;padding:0 4px 10px 4px;border-bottom:1px solid #00467f}#stackpanel .content{padding:12px 4px}#stackpanel .info{font-size:13px;color:gray;margin:6px 0;padding:5px 4px 4px 4px;border-top:1px solid lightgray}.cookie-choices-info{position:fixed;top:auto !important;bottom:0px !important;background-color:#00467f;}.post ol{font-size:20px;line-height:2em}.step{font-size:20px;line-height:2em;list-style-type:none;counter-reset:elementcounter;padding-left:0px}.step li{margin-top:10px;margin-bottom:10px}.step li:before{content:'Step ' counter(elementcounter) '. ';font-weight:bold;counter-increment:elementcounter}ol&gt;p{margin-top:10px;margin-bottom:10px}
+
+	/* Styles for Inner Pages */
+	.articleContent a{color:#2878C8;font-weight:500;padding-bottom:3px;padding-top:2px}.articleContent a:hover{color:#ff0000}.articleContent a[target=&quot;_blank&quot;]:after{content:&quot; (&quot;url(&#39;https://3.bp.blogspot.com/-HWAQ2IYwPLY/YFNrjNDRfuI/AAAAAAAAck4/yLCKtP8eBaEBHsFNJid7EdNX1Tmt8r_dwCLcBGAsYHQ/s0/external.png&#39;)&quot;)&quot;}.articleContent .trc_rbox_container a[target=&quot;_blank&quot;]:after{content:&quot;&quot;}.post-footer{background:#f4f4f4;padding:10px 15px}.trc_rbox_container{margin:4px}blockquote{display:block;background:#f9f9f9;border-left:4px solid #1777b1;padding:15px 20px 15px 30px;margin:10px 0 10px -8px;position:relative;quotes:&quot;\201C&quot;&quot;\201D&quot;&quot;\2018&quot;&quot;\2019&quot;}blockquote p{display:inline;background:#f9f9f9}.post blockquote h2{background-color:transparent;color:black;font-weight:bold}.infoGreen{max-width:100%;margin-left:0;margin-right:0;background:#dfd;padding:10px 20px 10px 20px;border-width:8px 1px;border-style:solid;border-color:#006400}.infoGreen .title{font-size:20px;font-weight:bold;color:white;margin:-20px;padding:10px 20px;background:#006400;display:block}.infoRed{max-width:100%;margin-left:0;margin-right:0;background:#fff7f7;padding:10px 20px 10px 20px;border-width:8px 1px;border-style:solid;border-color:#ff0000}.infoRed .title{font-size:20px;font-weight:bold;color:white;margin:-20px;padding:10px 20px;background:#ff0000;display:block}var{color:#900;font-weight:bold}.hscroll{overflow-x:auto;overflow-y:hidden;white-space:nowrap;border:1px solid #e1e1e1;background-color:#f1f1f1;font-size:14pt;padding-left:10px;padding-right:10px}code{color:#900;font-weight:bold;padding:2px 4px}p.command{color:black;background:lightgray;font-weight:bold;border:gray dashed 1px;padding:4px 6px 4px 8px;display:block;margin:8px 0;overflow:auto}screen{font-weight:bold;color:green;padding:1px 4px}key{font-size:95%;color:#fff;background-color:#333;padding:2px 8px;border-radius:5px}kbd{font-size:95%;font-weight:bold;background:none repeat scroll 0% 0% #DDD;padding:2px 8px;border:0.15em outset #FFF;outline:1px solid #BBB}keywords{font-weight:bold;color:brown}figcaption{background-color:#f0f0f0;font-size:14px;text-align:center}.postImage{aspect-ratio: attr(width) / attr(height);margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px;border:1px solid lightgray;float:none;display:block;width:100%;text-align:center}.postImageNoAds{margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px;border:1px solid lightgray;float:none;display:block;width:100%;max-width:728px;text-align:center}.youtube,.youtube .play-button,.youtube img{cursor:pointer}.wrapper{max-width:680px;margin:10px auto;padding:0 20px}.youtube{background-color:#000;margin-bottom:10px;position:relative;padding-top:56.25%;overflow:hidden}.youtube img{width:100%;top:-16.82%;left:0;opacity:.7}.youtube .play-button{width:90px;height:60px;background-color:#333;box-shadow:0 0 30px rgba(0,0,0,.6);z-index:1;opacity:.8;border-radius:6px}.youtube .play-button:before{content:&quot;&quot;;border-style:solid;border-width:15px 0 15px 26px;border-color:transparent transparent transparent #fff}.youtube .play-button,.youtube .play-button:before,.youtube iframe,.youtube img{position:absolute}.youtube .play-button,.youtube .play-button:before{top:50%;left:50%;transform:translate3d(-50%,-50%,0)}.youtube iframe{height:100%;width:100%;top:0;left:0}.articleContent .toc a{font-weight:normal;color:#00467f;border-bottom:1px solid #00467f;padding-bottom:3px;border-top:0px}.toc{text-decoration:none;margin:auto;background-color:rgba(218,228,237,.25);border-radius:8px;border:1px solid #e1e1e1;border-bottom:0px;padding-top:20px;padding-bottom:10px}.toc .title{font-weight:bold;margin-left:20px}.highlights:before{content:'HIGHLIGHTS';color:#ff0000;font-weight:bold;font-size:18px}ul.toc-list{margin-right:10px}.highlights ul{list-style:none}.highlights > ul > li{margin-left:-40px;margin-bottom:4px;line-height:2em;border-left:4px solid brown;padding:2px 14px;background-color:#FFF5D4}.highlights a{border-bottom:0px;border-top:0px;font-weight:normal;color:#c00000;}.youmaylike:before{content:&#39;You may like:&#39;;color:#ff0000;font-weight:bold}.youmaylike{margin-top:10x;margin-bottom:10px}.youmaylike ul{list-style:none;margin:10px}.youmaylike&gt;ul&gt;li{margin-left:-40px;margin-bottom:4px;line-height:2em;border-left:4px solid brown;padding:2px 14px;background-color:#FFF5D4;font-size:14px}q{font-style:oblique;color:gray}
+
+	/* Also Read Widget */
+	.alsoReadWidget{margin:10px auto;border:1px solid #e1e1e1;border-radius:5px}.alsoReadWidget ul{list-style:none;margin-left:-20px}.alsoReadWidget ul:before{content:"Also Read";font-weight:700;font-size:20px}.alsoReadWidget ul > li{line-height:1.9em;text-indent:-28px;margin-left:28px}.alsoReadWidget ul > li:before{content:"\2605";color:#00467f;margin-right:10px}
+
+	@media all and (max-width: 1415px){.LeftSticky120x600{display:none}}@media all and (min-width: 1415px){.ATFPost{display:none}}
+
+	.mobile .post-comment-link{display:none}.mobile .post-labels{display:none}.post-labels-div{margin:4px;padding:4px 12px;background-color:#f5f5f5;border-radius:2px;display:inline-block;font-size:18px}.post-labels-div>a{color:#999}#head-top{height:55px;}
+
+	/**/]]>
+  </b:skin>
+</head>
+
+<body expr:class='&quot;loading&quot;+data:blog.mobileClass'>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MQL3L3P' style='display:none;visibility:hidden' width='0' />
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  <span itemprop='publisher' itemscope='itemscope' itemtype='//schema.org/Organization'>
+    <meta content='Kunal Chowdhury' itemprop='name' />
+  </span>
+  
+  <div id='header-top'>
+    <div id='header-wrapper'>
+      <div id='header-left'>
+        <a href='https://www.kunal-chowdhury.com'>
+          <b:if cond='data:blog.isMobile'>
+            <img alt='kunal-chowdhury.com' height='35' src='https://3.bp.blogspot.com/-OepLKLvkeOk/XaAGD9IHkjI/AAAAAAAAXVQ/IDP0iJVWJ106OAhys0gc_JIWAkufWf_EQCLcBGAsYHQ/s200/blog-logo-mobile-min.jpg' style='margin-top:4px;margin-left:-4px;' title='kunal-chowdhury.com' width='200' />
+          <b:else/>
+            <img alt='kunal-chowdhury.com' height='41' src='https://3.bp.blogspot.com/-uLxLqZUaOk8/XaAGDg58nmI/AAAAAAAAXVM/K_42QOZG8ww_K1UjqwqQSl192RipXjdjgCLcBGAsYHQ/s200/blog-logo-min.jpg' style='margin-top:4px;margin-left:-4px;' title='kunal-chowdhury.com' width='200' />
+          </b:if>
+        </a>
+      </div>
+      <b:if cond='data:blog.isMobile==false'>
+	    <div id='header-right'>
+          <div id='menu-module'>
+            <div id='menu-wrapper'>
+              <a href='https://www.kunal-chowdhury.com/search/label/Tech News'>News</a> | <a href='https://www.kunal-chowdhury.com/p/blog-stats.html'>Blog Stats</a> | <a href='https://www.kunal-chowdhury.com/p/about-me.html'>About Me</a>
+            </div>
+            <div class='search-box'>
+              <form action='https://www.kunal-chowdhury.com/search' id='hbz-searchbox' method='get'>
+                <input id='hbz-input-search' name='q' placeholder='Search...' type='text' />
+                <input name='max-results' type='hidden' value='10' />
+                <button id='hbz-submit-search' type='submit'>Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+	  </b:if>
+    </div>
+  </div>
+  
+  <div class='separator' />
+  
+  <div id='outer-wrapper'>
+    <b:if cond='data:blog.isMobile==false'>
+      <sidebar>
+        <div id='sidebar-wrapper'>
+          <!-- Setupad Ads Banner - 300x600 -->
+          <div class='adsZone300x600'><iframe id='kunal-chowdhury.com_300x600_responsive_sidebar_DFP' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' topmargin='0' leftmargin='0' width='1' height='1' title='Advertisement'></iframe></div><br/>
+		  
+          <!-- Developer Media Ads Banner - 300x250 -->
+          <div class='adsZone300x250'><div data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='SIDEBAR-300x250-01' /></div><br/>
+		  
+          <!-- Popular Posts -->
+          <b:section id='PopularPostsSection' preferred='yes'>
+            <b:widget id='PopularPosts1' locked='false' mobile='yes' title='Trending Posts' type='PopularPosts' version='1'>
+              <b:widget-settings>
+                <b:widget-setting name='numItemsToShow'>1</b:widget-setting>
+                <b:widget-setting name='showThumbnails'>false</b:widget-setting>
+                <b:widget-setting name='showSnippets'>false</b:widget-setting>
+                <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <div class='SidebarPosts'>
+                  <span class='SidebarPosts-Header'>Trending Posts</span>
+                  <ul class='sidebar-posts-ul'>
+                    <!--<li class='sidebar-posts-ul-li'><div class='sidebar-posts-ul-li-div'><a alt='' class='sidebar-posts-ul-li-div-a' href='' title=''></a></div></li>-->
+                    <li class='sidebar-posts-ul-li'><div class='sidebar-posts-ul-li-div'><a alt='Microsoft officially announces Windows 11, the next major version of Windows' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/2021/06/windows-11.html' title='Microsoft officially announces Windows 11, the next major version of Windows'>Microsoft officially announces Windows 11, the next major version of Windows</a></div></li>
+                    <li class='sidebar-posts-ul-li'><div class='sidebar-posts-ul-li-div'><a alt='Windows 11 will be offered as a free upgrade to Windows 10 users' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/2021/06/windows-11-free-upgrade.html' title='Windows 11 will be offered as a free upgrade to Windows 10 users'>Windows 11 will be offered as a free upgrade to Windows 10 users</a></div></li>
+                    <li class='sidebar-posts-ul-li'><div class='sidebar-posts-ul-li-div'><a alt='Check to find if you have a Windows 11 compatible system' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/2021/06/windows-11-compatibility-check.html' title='Check to find if you have a Windows 11 compatible system'>Check to find if you have a Windows 11 compatible system</a></div></li>
+                    <li class='sidebar-posts-ul-li'><div class='sidebar-posts-ul-li-div'><a alt='Microsoft releases Visual Studio 2022 Preview 1' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/2021/06/download-visual-studio-2022-preview-1.html' title='Microsoft releases Visual Studio 2022 Preview 1'>Microsoft releases Visual Studio 2022 Preview 1</a></div></li>
+                  </ul>
+                </div>
+              </b:includable>
+            </b:widget>
+          </b:section>
+		  
+          <!-- Setupad Ads Banner - 300x250 -->
+          <div class='adsZone300x250'><iframe frameborder='0' height='1' id='kunal-chowdhury.com_300x250_responsive_DFP' leftmargin='0' marginheight='0' marginwidth='0' scrolling='no' title='Advertisement' topmargin='0' width='1' /></div><br/>
+		  
+          <!-- Latest Tech News Widget -->
+          <div id='latestTechNews'><span class='SidebarPosts-Header'>Latest Tech News</span></div><div class='separator' />
+		  
+          <!-- Developer Media Ads Banner - 300x250 -->
+          <div class='adsZone300x250'><div data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='SIDEBAR-300x250-02' /></div><br/>
+		  
+          <div class='promotion' style='margin:0px -10px'>
+            <ul>
+              <li><a alt='Follow me on Twitter' href='https://twitter.com/kunaldchowdhury' rel='noopener' target='_blank' title='Follow me on Twitter'>Follow me on Twitter</a></li>
+			  <li><a alt='Like us on Facebook' href='https://facebook.com/kunaldchowdhury' rel='noopener' target='_blank' title='Like us on Facebook'>Like us on Facebook</a></li>
+			  <li><a alt='Join us on WhatsApp' href='https://chat.whatsapp.com/EMLDdY52Ww7DZUOHIAwcEz' rel='noopener' target='_blank' title='Join us on WhatsApp'>Join us on WhatsApp</a></li>
+			  <li><a alt='Join us on Telegram' href='https://t.me/kunaldchowdhury' rel='noopener' target='_blank' title='Join us on Telegram'>Join us on Telegram</a></li>
+            </ul>
+          </div><div class='separator' />
+		  
+          <div id='subscription-box'>
+            <form action='//kunal-chowdhury.us2.list-manage1.com/subscribe/post?u=d8190962a12bbe4cb90852563&amp;id=7c7ee47e8b' class='validate' method='post' target='_blank'>
+              <label for='hbz-input-subscribe'>Subscribe to our Free Newsletter:</label>
+              <div style='margin-top:8px;'>
+                <input id='hbz-input-subscribe' name='EMAIL' placeholder='Email Address' type='email' />
+                <button id='hbz-submit-subscribe' type='submit'>Subscribe</button>
+              </div>
+            </form>
+          </div><div class='separator' />
+		  
+          <!-- Popular Tutorials Start -->
+          <div class='SidebarPosts'>
+            <span class='SidebarPosts-Header'>Popular Tutorials</span>
+            <ul class='sidebar-posts-ul'>
+              <li class='sidebar-posts-ul-li'>
+                <div class='sidebar-posts-ul-li-div'>
+                  <a alt='GIT Bash Command Tutorials for Beginners' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/git-cheatsheet.html' title='GIT Bash Command Tutorials for Beginners'>GIT Bash Command Tutorials for Beginners</a>
+                </div>
+              </li>
+              <li class='sidebar-posts-ul-li'>
+                <div class='sidebar-posts-ul-li-div'>
+                  <a alt='TypeScript Tutorial for Absolute Beginners' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/typescript-tutorial.html' title='TypeScript Tutorial for Absolute Beginners'>TypeScript Tutorial for Absolute Beginners</a>
+                </div>
+              </li>
+              <li class='sidebar-posts-ul-li'>
+                <div class='sidebar-posts-ul-li-div'>
+                  <a alt='Microsoft Azure Portal Tips and Tricks' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/azure-tips-and-tricks.html' title='Microsoft Azure Portal  Tips and Tricks'>Microsoft Azure Portal Tips and Tricks</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+		  
+          <!-- Developer Media Ads Banner - 300x250 -->
+          <div class='adsZone300x250'><div data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='SIDEBAR-300x250-03' /></div><br/>
+        </div>
+      </sidebar>
+    </b:if>
+	
+    <div id='wrap2'>
+      <div id='content-wrapper'>
+        <div id='main-wrapper'>
+          <b:section class='main' id='main' showaddelement='no'>
+            <b:widget id='Blog1' locked='true' mobile='yes' title='Blog Posts' type='Blog' version='1'>
+              <b:widget-settings>
+                <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                <b:widget-setting name='style.textcolor'>#999999</b:widget-setting>
+                <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                <b:widget-setting name='style.urlcolor'>#999999</b:widget-setting>
+                <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+                <b:widget-setting name='style.linkcolor'>#f6f600</b:widget-setting>
+                <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+                <b:widget-setting name='reactionsLabel' />
+                <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                <b:widget-setting name='style.layout'>468x60</b:widget-setting>
+                <b:widget-setting name='showLabels'>true</b:widget-setting>
+                <b:widget-setting name='showLocation'>false</b:widget-setting>
+                <b:widget-setting name='postLabelsLabel'>Categories:</b:widget-setting>
+                <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+                <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+                <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                <b:widget-setting name='showReactions'>false</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main' var='top'>
+                <div class='blog-posts hfeed'>
+                  <b:if cond='data:blog.url == data:blog.homepageUrl AND data:blog.isMobile==false'>
+                    <b:include data='top' name='TEMPLATE_DESKTOP_HOMEPAGE' />
+                    <b:else/>
+                    <b:include data='top' name='TEMPLATE_STATUS_MESSAGE' />
+                    <b:include data='top' name='TEMPLATE_ERROR_PAGE' />
+                    <b:include data='top' name='TEMPLATE_DESKTOP_INDEX' />
+                    <b:include data='top' name='TEMPLATE_DESKTOP_ARCHIVE' />
+                    <b:include data='top' name='TEMPLATE_DESKTOP_POSTS' />
+                    <b:include data='top' name='TEMPLATE_MOBILE_INDEX' />
+                    <b:include data='top' name='TEMPLATE_MOBILE_ARCHIVE' />
+                    <b:include data='top' name='TEMPLATE_MOBILE_POSTS' />
+                    <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+                      <b:loop index='i' values='data:posts' var='post'>
+                        <article>
+                          <div class='post' itemscope='itemscope' itemtype='https://schema.org/Article'>
+                            <header>
+                              <a expr:name='data:post.id' />
+                              <!--<a expr:href='data:post.url' expr:title='data:post.title'>-->
+                                <h1 class='post-title' itemprop='name'><b:if cond='data:post.labels'><b:if cond='data:post.labels any (label =&gt; label.name == &quot;Tech News&quot;)'>📢</b:if></b:if> <data:post.title/></h1>
+                              <!--</a>-->
+                              <div class='separator' />
+                              <b:if cond='data:blog.isMobile == false'>
+                                <b:if cond='data:blog.metaDescription == &quot;&quot;'>
+                                  <div>
+                                    <span class='published' expr:content='data:post.timestamp' expr:title='data:post.timestampISO8601' itemprop='datePublished'>
+                                      <time>
+                                        <data:post.timestamp/>
+                                      </time>
+                                    </span>
+                                  </div>
+                                  <b:else/>
+                                  <div style='font-size:18px'>
+                                    <q><data:blog.metaDescription/></q> - <b:if cond='data:post.labels'><b:if cond='data:post.labels any (label =&gt; label.name == &quot;News&quot;)'>Story<b:else/>Article</b:if></b:if> by <b>Kunal Chowdhury</b> on <span class='published' expr:content='data:post.timestamp' expr:title='data:post.timestampISO8601' itemprop='datePublished'><time><data:post.timestamp/></time></span>
+                                  </div>
+                                </b:if>
+                                <b:else/>
+                                <div style='float:right;'>
+                                  <b:include data='post' name='ArticleShareButtons' />
+                                </div>
+                                <div class='separator' />
+                              </b:if>
+                              <hr/>
+							  
+							  <!-- ATF Image and Ad unit -->
+							  <b:if cond='data:blog.isMobile == false AND data:post.labels AND data:post.labels any (label =&gt; label.name == &quot;Tech News&quot;)'><div><img expr:src='data:blog.postImageUrl' class='postImage'/></div><div class='adsZone728x90' style='margin-top:-100px;margin-left:4px;margin-right:4px'><div align='center' class='lqm_ad' data-format='728x90' data-publisher='lqm.kunal.site' data-type='ad' data-zone='POST-728x90-ATF'/></div><script>/*<![CDATA[*/var fImg = document.querySelectorAll('.postImage');if (fImg != null && fImg.length > 1){fImg[1].style.display = 'none';}/*]]>*/</script></b:if>
+							  
+                              <b:if cond='data:blog.isMobile==false'>
+                                <div class='social-share-div'>
+                                  <a alt='Share on Twitter' expr:href='&quot;https://twitter.com/share?url=&quot; + data:blog.url.canonical + &quot;&amp;via=kunaldchowdhury&amp;text=&quot; + data:blog.pageName' onclick='trackSocialShare(&quot;twitter&quot;,&quot;tweet&quot;)' rel='noreferrer' target='_blank' title='Share on Twitter'>
+                                    <div class='socialIcons twitter'>
+                                      <svg aria-hidden='true' data-icon='twitter' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z' fill='white' />
+                                      </svg>
+                                    </div>
+                                  </a>
+                                  <br/>
+                                  <a alt='Share on Facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url.canonical + &quot;&amp;t=&quot; + data:blog.pageName' onclick='trackSocialShare(&quot;facebook&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on Facebook'>
+                                    <div class='socialIcons facebook'>
+                                      <svg aria-hidden='true' data-icon='facebook' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z' fill='white' />
+                                      </svg>
+                                    </div>
+                                  </a>
+                                  <br/>
+                                  <a alt='Share on LinkedIn' expr:href='&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:blog.url.canonical' onclick='trackSocialShare(&quot;linkedin&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on LinkedIn'>
+                                    <div class='socialIcons linkedin'>
+                                      <svg aria-hidden='true' data-icon='linkedin' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                                        <path d='M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z' fill='white' />
+                                      </svg>
+                                    </div>
+                                  </a>
+                                  <b:if cond='data:blog.isMobile'>
+                                    <br/>
+                                    <a alt='Share on WhatsApp' expr:href='&quot;whatsapp://send?text=&quot; + data:blog.pageName + &quot; &quot; + data:blog.url.canonical' onclick='trackSocialShare(&quot;whatsapp&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on WhatsApp'>
+                                      <div class='socialIcons whatsapp'>
+                                        <svg aria-hidden='true' data-icon='whatsapp' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                                          <path d='M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z' fill='white' />
+                                        </svg>
+                                      </div>
+                                    </a>
+                                  </b:if>
+                                </div>
+                              </b:if>
+                            </header>
+                            <div class='post-header'>
+                              <div class='post-header-line-1' />
+                            </div>
+                            <br/>
+                            <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+                              <article class='articleContent' id='postBody'>
+                                <data:post.body/>
+                              </article>
+                              <div class='separator' />
+                              <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
+                                <div>
+                                  <span class='post-labels'>
+                                    <b:if cond='data:post.labels'>
+                                      <b:loop index='i' values='data:post.labels' var='label'>
+                                        <b:if cond='data:label.name in {&quot;Editorial&quot;,&quot;Sponsored&quot;}'>
+                                          <b:else/>
+                                          <div class='post-labels-div'>
+                                            <a expr:href='data:label.url' rel='tag'>
+                                              <data:label.name/>
+                                            </a>
+                                          </div>
+                                        </b:if>
+                                      </b:loop>
+                                    </b:if>
+                                  </span>
+                                </div>
+                              </b:if>
+                              <!--<b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+                		<aside style='background-color:brown;padding:8px;color:white'><span style='font-size:22px;font-weight:bold'>Read more:</span><br/><div id='latestPostsPanel'/></aside>
+              		  </b:if>-->
+                              <!--<b:include name='nextprev'/>-->
+                              <!--<div class='post-footer'><div class='post-footer-line post-footer-line-1'> Published by: <a expr:href='data:post.authorProfileUrl' expr:title='data:post.author' itemprop='author' itemscope='itemscope' itemtype='//schema.org/Person' name='author' rel='author'><span itemprop='name'><data:post.author/></span></a><span class='post-timestamp'> on <a class='timestamp-link' expr:href='data:post.url.canonical' itemprop='url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='dateModified'><data:post.timestamp/></abbr></a></span> under <span class='post-labels'><b:if cond='data:post.labels'><b:loop index='i' values='data:post.labels' var='label'><a expr:href='data:label.url' rel='tag noindex nofollow'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>, </b:if></b:loop></b:if></span></div></div>-->
+                            </div>
+                          </div>
+                        </article>
+                        <!--<script type='application/ld+json'>
+{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@graph&quot;:[{&quot;@type&quot;:&quot;Organization&quot;,&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#organization&quot;,&quot;name&quot;:&quot;kunal-chowdhury.com&quot;,&quot;url&quot;:&quot;https://www.kunal-chowdhury.com/&quot;,&quot;sameAs&quot;:[&quot;https://www.facebook.com/kunaldchowdhury&quot;,&quot;https://www.youtube.com/channel/UCS4y3ThCQzxv0QZMsp5YwQw&quot;,&quot;https://twitter.com/kunaldchowdhury&quot;],&quot;logo&quot;:{&quot;@type&quot;:&quot;ImageObject&quot;,&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#logo&quot;,&quot;url&quot;:&quot;https://3.bp.blogspot.com/-uLxLqZUaOk8/XaAGDg58nmI/AAAAAAAAXVM/K_42QOZG8ww_K1UjqwqQSl192RipXjdjgCLcBGAsYHQ/s200/blog-logo-min.jpg&quot;,&quot;inLanguage&quot;:&quot;en-US&quot;,&quot;width&quot;:200,&quot;height&quot;:41,&quot;caption&quot;:&quot;kunal-chowdhury.com&quot;},&quot;image&quot;:{&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#logo&quot;}},{&quot;@type&quot;:&quot;WebSite&quot;,&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#website&quot;,&quot;url&quot;:&quot;https://www.kunal-chowdhury.com/&quot;,&quot;name&quot;:&quot;kunal-chowdhury.com&quot;,&quot;inLanguage&quot;:&quot;en-US&quot;,&quot;description&quot;:&quot;Latest Technology News, Product Reviews, Tips and Tricks on Windows and Android&quot;,&quot;publisher&quot;:{&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#organization&quot;},&quot;potentialAction&quot;:[{&quot;@type&quot;:&quot;SearchAction&quot;,&quot;target&quot;:&quot;https://www.kunal-chowdhury.com/search?q={search_term_string}&quot;,&quot;query-input&quot;:&quot;required name=search_term_string&quot;}]},{&quot;@type&quot;:&quot;ImageObject&quot;,&quot;@id&quot;:&quot;<data:blog.url.canonical/>#primaryimage&quot;,&quot;inLanguage&quot;:&quot;en-US&quot;,&quot;url&quot;:&quot;<data:blog.postImageUrl/>&quot;,&quot;width&quot;:800,&quot;height&quot;:450,&quot;caption&quot;:&quot;<data:blog.pageName/>&quot;},{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;<data:blog.url.canonical/>#webpage&quot;,&quot;url&quot;:&quot;<data:blog.url.canonical/>&quot;,&quot;name&quot;:&quot;<data:blog.pageName/>&quot;,&quot;isPartOf&quot;:{&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#website&quot;},&quot;inLanguage&quot;:&quot;en-US&quot;,&quot;primaryImageOfPage&quot;:{&quot;@id&quot;:&quot;<data:blog.url.canonical/>#primaryimage&quot;},&quot;datePublished&quot;:&quot;<data:post.timestamp/>&quot;,&quot;dateModified&quot;:&quot;<data:post.timestamp/>&quot;,&quot;potentialAction&quot;:[{&quot;@type&quot;:&quot;ReadAction&quot;,&quot;target&quot;:[&quot;<data:blog.url.canonical/>&quot;]}]},{&quot;@type&quot;:&quot;NewsArticle&quot;,&quot;@id&quot;:&quot;<data:blog.url.canonical/>#article&quot;,&quot;isPartOf&quot;:{&quot;@id&quot;:&quot;<data:blog.url.canonical/>#webpage&quot;},&quot;author&quot;:{&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#/schema/person/24E74FA26B6240909D34FB2BDC456B0B&quot;},&quot;headline&quot;:&quot;<data:blog.pageName/>&quot;,&quot;datePublished&quot;:&quot;<data:post.timestamp/>&quot;,&quot;dateModified&quot;:&quot;<data:post.timestamp/>&quot;,&quot;commentCount&quot;:0,&quot;mainEntityOfPage&quot;:{&quot;@id&quot;:&quot;<data:blog.url.canonical/>#webpage&quot;},&quot;publisher&quot;:{&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#organization&quot;},&quot;image&quot;:{&quot;@id&quot;:&quot;<data:blog.url.canonical/>#primaryimage&quot;},&quot;articleSection&quot;:&quot;Tech News&quot;,&quot;inLanguage&quot;:&quot;en-US&quot;,&quot;potentialAction&quot;:[{&quot;@type&quot;:&quot;CommentAction&quot;,&quot;name&quot;:&quot;Comment&quot;,&quot;target&quot;:[&quot;<data:blog.url.canonical/>#respond&quot;]}],&quot;copyrightYear&quot;:&quot;2021&quot;,&quot;copyrightHolder&quot;:{&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#organization&quot;}},{&quot;@type&quot;:[&quot;Person&quot;],&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#/schema/person/24E74FA26B6240909D34FB2BDC456B0B&quot;,&quot;name&quot;:&quot;Kunal Chowdhury&quot;,&quot;image&quot;:{&quot;@type&quot;:&quot;ImageObject&quot;,&quot;@id&quot;:&quot;https://www.kunal-chowdhury.com/#authorlogo&quot;,&quot;inLanguage&quot;:&quot;en-US&quot;,&quot;url&quot;:&quot;https://raw.githubusercontent.com/kunal-chowdhury/kunal-chowdhury.com/master/src/images/profile-photos/kunal-chowdhury-200x200.jpg&quot;,&quot;caption&quot;:&quot;Kunal Chowdhury&quot;},&quot;description&quot;:&quot;Kunal Chowdhury is the owner and editor in chief of kunal-chowdhury.com. He is a Microsoft Windows Insider MVP (2021 - 2022), Microsoft MVP (2010 - 2018), Windows 10 Champion, Microsoft India Rockstar, former Telerik Developer Expert, former Codeproject MVP and Mentor, Speaker in various Microsoft events, Author, passionate Blogger and a Software Engineer by profession. He was also a Nokia Developer Champion for his contribution towards Windows Phone and Nokia Lumia.&quot;,&quot;sameAs&quot;:[&quot;https://twitter.com/kunaldchowdhury&quot;]}]}
+</script>-->
+                      </b:loop>
+                    </b:if>
+                    <div id='prevPostsWidget' />
+                    <b:include name='nextprev' /></b:if>
+					
+				<!-- Ads Insertion at ATF -->
+				<b:if cond='(data:blog.isMobile AND data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}) OR (data:blog.isMobile == false AND data:blog.pageType in {&quot;static_page&quot;})'>
+					<!-- <hr/><b><span style="color:brown">📢 Do you know that we are now on <a alt="Subscribe us on Google News" href="https://news.google.com/publications/CAAqBwgKML6KmwswgpWzAw" rel="noopener" link-type="external" target="_blank" title="Subscribe us on Google News">Google News</a>? Don&#39;t forget to subscribe us!</span></b><hr/> -->
+					<script>
+					/*<![CDATA[*/
+						var atfip = document.getElementsByName('more');
+						if (atfip != null && atfip.length > 0) { // item page
+							var atfipe = atfip[0];
+							if (atfipe != null){
+								try {atfipe.insertAdjacentHTML('afterend','<p>&#160;</p>'+'<div class="adsZone' + abpUnit + '"><div align="center" class="lqm_ad" data-format="' + abpUnit + '" data-publisher="lqm.kunal.site" data-type="ad" data-zone="POST-' + abpUnit + '-ATF"/></div>');} catch {}
+							}
+						}
+						else { // static page
+							var atfsp = document.getElementsByTagName('p');
+							if (atfsp != null && atfsp.length > 3) {
+								var atfspe = atfsp[3];
+								if (atfspe != null){
+									try {atfspe.insertAdjacentHTML('afterend','<div class="adsZone' + abpUnit + '"><div align="center" class="lqm_ad" data-format="' + abpUnit + '" data-publisher="lqm.kunal.site" data-type="ad" data-zone="POST-' + abpUnit + '-ATF"/></div>'+'<p>&#160;</p>');} catch {}
+								}
+							}
+						}
+					/*]]>*/
+					</script>
+				</b:if>
+				
+                  <!-- Taboola Ads - Below Articles -->
+                  <b:include name='TaboolaAds-BelowArticle-Thumbnails' />
+                </div>
+              </b:includable>
+              <b:includable id='ArticleShareButtons' var='post'>
+                <a alt='Share on Twitter' expr:href='&quot;https://twitter.com/share?url=&quot; + data:post.url.canonical + &quot;&amp;via=kunaldchowdhury&amp;text=&quot; + data:post.title' onclick='trackSocialShare(&quot;twitter&quot;,&quot;tweet&quot;)' rel='noreferrer' target='_blank' title='Share on Twitter'>
+                  <div class='socialIcons twitter'>
+                    <svg aria-hidden='true' data-icon='twitter' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z' fill='white' />
+                    </svg>
+                  </div>
+                </a>
+                <a alt='Share on Facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url.canonical + &quot;&amp;t=&quot; + data:post.title' onclick='trackSocialShare(&quot;facebook&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on Facebook'>
+                  <div class='socialIcons facebook'>
+                    <svg aria-hidden='true' data-icon='facebook' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z' fill='white' />
+                    </svg>
+                  </div>
+                </a>
+                <a alt='Share on LinkedIn' expr:href='&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:post.url.canonical' onclick='trackSocialShare(&quot;linkedin&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on LinkedIn'>
+                  <div class='socialIcons linkedin'>
+                    <svg aria-hidden='true' data-icon='linkedin' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z' fill='white' />
+                    </svg>
+                  </div>
+                </a>
+                <b:if cond='data:blog.isMobile'>
+                  <a alt='Share on WhatsApp' expr:href='&quot;whatsapp://send?text=&quot; + data:post.title + &quot; &quot; + data:post.url.canonical' onclick='trackSocialShare(&quot;whatsapp&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on WhatsApp'>
+                    <div class='socialIcons whatsapp'>
+                      <svg aria-hidden='true' data-icon='whatsapp' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z' fill='white' />
+                      </svg>
+                    </div>
+                  </a>
+                </b:if>
+              </b:includable>
+              <b:includable id='TEMPLATE_DESKTOP_ARCHIVE'>
+                <b:if cond='data:blog.pageType in {&quot;archive&quot;}'>
+                  <b:if cond='data:blog.isMobile==false'>
+                    <div id='stackpanel'>
+                      <b:include name='TaboolaAds-MidArticle-Thumbnails' />
+                      <div class='separator' />
+                      <style>
+  .thumbnailPostDivAds{margin:auto;width:728px;display:block;margin-top:8px}.thumbnailPostDiv{height:100px;background:#f7f7f7;margin:8px 16px;padding:20px 8px;border-style:solid;border-color:lightgray;border-width:1px 0px}.thumbnailPostDivTitle{font-size:18px}.thumbnailPostDivImageDiv{width:200px;height:140px;float:left;margin-right:16px}.thumbnailPostDivImage{width:200px;height:100px;}.listPostDiv{height:80px;padding:16px 8px;background:#f7f7f7;margin:8px 16px;border-style:solid;border-color:lightgray;border-width:1px 0px}.listPostDivTitle{font-size:18px}abbr{font-size:14px}
+                      </style>
+                      <b:loop index='i' values='data:posts' var='post'>
+                        <b:if cond='(data:i) lt 10'>
+                          <b:if cond='(data:i) != 0 and ((data:i) % 3) == 0'>
+                            <!-- NO REVENUE <div class='lqm_ad thumbnailPostDivAds' data-format='728x90' data-publisher='lqm.kunal.site' data-type='ad' data-zone='728x90-IndexPage-Desktop'/><div class='separator'/>-->
+                          </b:if>
+                          <article expr:id='&quot;post-body-&quot; + data:post.id'>
+                            <div class='thumbnailPostDiv'>
+                              <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
+                                <div class='thumbnailPostDivImageDiv'>
+                                  <img class='thumbnailPostDivImage' expr:alt='data:post.title' expr:src='data:post.firstImageUrl + &quot;?imgmax=200&quot;' expr:title='data:post.title' height='150' loading='lazy' width='200' />
+                                </div>
+                                <div class='thumbnailPostDivTitle'>
+                                  <data:post.title/>
+                                </div>
+                              </a>
+                              <abbr expr:content='data:post.timestamp' expr:title='data:post.timestamp' itemprop='datePublished'>
+                                <time>
+                                  <data:post.timestamp/>
+                                </time>
+                              </abbr>
+                            </div>
+                          </article>
+                          <b:else/>
+                          <b:if cond='(data:i) != 0 and (data:i) != 10 and ((data:i) % 10) == 0'>
+                            <!-- NO REVENUE <div class='lqm_ad thumbnailPostDivAds' data-format='728x90' data-publisher='lqm.kunal.site' data-type='ad' data-zone='728x90-IndexPage-Desktop'/><div class='separator'/>-->
+                          </b:if>
+                          <article expr:id='&quot;post-body-&quot; + data:post.id'>
+                            <div class='listPostDiv'>
+                              <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
+                                <div class='listPostDivTitle'>
+                                  <data:post.title/>
+                                </div>
+                              </a>
+                              <abbr expr:content='data:post.timestamp' expr:title='data:post.timestamp' itemprop='datePublished'>
+                                <time>
+                                  <data:post.timestamp/>
+                                </time>
+                              </abbr>
+                            </div>
+                          </article>
+                        </b:if>
+                        <div class='separator' />
+                      </b:loop>
+                    </div>
+                  </b:if>
+                </b:if>
+              </b:includable>
+              <b:includable id='TEMPLATE_DESKTOP_BOOKS_ADS'>
+                <div class='separator' />
+                <div class='RecentPostsByCategory'>
+                  <span class='RecentPostsByCategory-Header'>Authored Books</span>
+                  <hr/>
+                  <a alt='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2019' target='_blank' title='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)'>
+                    <img alt='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)' class='bookAdsPlacementDesktop' loading='lazy' src='https://3.bp.blogspot.com/-62saFW-XEdY/XXyVGzGc_vI/AAAAAAAAXKI/emgHDiGwMlklWHxybpNnQRymLezUKzNBgCLcBGAsYHQ/s130/mastering-visual-studio-2019%255B1%255D.jpg?imgmax=230' title='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)' />
+                  </a>&#160;&#160;&#160;&#160;
+                  <a alt='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2017' target='_blank' title='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)'>
+                    <img alt='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)' class='bookAdsPlacementDesktop' loading='lazy' src='https://3.bp.blogspot.com/-mrQyPWyO6vY/XOrNl2DPyWI/AAAAAAAAWAA/Xz_awQk6hA8_UK6a0Avyc5By2JZPJwLFwCLcBGAs/s130/mastering-visual-studio-2017.jpg?imgmax=230' title='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)' />
+                  </a>&#160;&#160;&#160;&#160;
+                  <a alt='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#wpfdevelopmentcookbook' target='_blank' title='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)'>
+                    <img alt='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)' class='bookAdsPlacementDesktop' loading='lazy' src='https://3.bp.blogspot.com/-4pAj671XFuQ/XOrNm2c492I/AAAAAAAAWAI/Slb1iS8oj-E3hOhvQQq_Xdq37Zch0UYeACLcBGAs/s130/windows-presentation-foundation-development-cookbook.jpg?imgmax=230' title='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)' />
+                  </a>&#160;&#160;&#160;&#160;
+                  <a alt='Getting Started with Visual Studio 2017, C# 7.0, and Source Control [Video] (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#gettingstartedwithvs2017' target='_blank' title='Getting Started with Visual Studio 2017, C# 7.0, and Source Control [Video] (Author: Kunal Chowdhury)'>
+                    <img alt='Getting Started with Visual Studio 2017, C# 7.0, and Source Control [Video] (Author: Kunal Chowdhury)' class='bookAdsPlacementDesktop' loading='lazy' src='https://3.bp.blogspot.com/-hlADI-Ykkt8/XOrNl6PGI6I/AAAAAAAAWAE/_69HxSZWVX89gWmyezAMbVbpdwB2P2dEQCLcBGAs/s130/getting-started-with-visual-studio-2017-csharp-source-control.jpg?imgmax=230' title='Getting Started with Visual Studio 2017, C# 7.0, and Source Control [Video] (Author: Kunal Chowdhury)' />
+                  </a>&#160;&#160;&#160;&#160;
+                  <a alt='Building Apps Using XAML, UWP, and .NET Core [Video] (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#buildingappsusingxaml' target='_blank' title='Building Apps Using XAML, UWP, and .NET Core [Video] (Author: Kunal Chowdhury)'>
+                    <img alt='Building Apps Using XAML, UWP, and .NET Core [Video] (Author: Kunal Chowdhury)' class='bookAdsPlacementDesktop' loading='lazy' src='https://3.bp.blogspot.com/-RBEPCQsGqQw/XOrNlqATvhI/AAAAAAAAV_8/nrYJhRDzjSsyQ8OL__SOZd76eMAPRHTiwCLcBGAs/s130/building-apps-using-xaml-uwp-dotnet-core.jpg?imgmax=230' title='Building Apps Using XAML, UWP, and .NET Core [Video] (Author: Kunal Chowdhury)' />
+                  </a>
+                </div>
+                <b:include name='TaboolaAds-MidArticle-Thumbnails' />
+                <div class='separator' />
+              </b:includable>
+              <b:includable id='TEMPLATE_DESKTOP_HOMEPAGE'>
+                <style>
+  .thumnail-div-348{width:399px}.thumbnail-div-outer{margin:5px 4px 20px 4px;border:1px solid lightgray;padding:5px}.thumbnail-div-img{width:100%;height:auto}.thumbnail-div-title{font-size:20px;line-height:1.5em;text-decoration:none;margin:10px 0px}.thumbnail-div-summary{font-size:12px;line-height:1.8em}
+                </style>
+                <div id='wrappanel'>
+                  <b:loop index='i' values='data:posts' var='post'>
+                    <b:if cond='(data:i)==0'>
+                      <div class='thumbnail-div-outer'>
+                        <div class='thumbnail-div-img'>
+                          <a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                            <img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 728, &quot;800:450&quot;)' expr:title='data:post.title' height='410' loading='lazy' width='728' />
+                          </a>
+                        </div>
+                        <hr/>
+                        <div class='thumbnail-div-title'>
+                          <a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                            <data:post.title/>
+                          </a>
+                        </div>
+                        <div class='thumbnail-div-summary'>
+                          <data:post.longSnippet/>
+                        </div>
+                      </div>
+                      <b:else/>
+                      <b:if cond='(data:i)==3'>
+                        <b:include name='TaboolaAds-MidArticle-Thumbnails' />
+                        <div class='separator-large' />
+                      </b:if>
+                      <div class='thumnail-div-348 thumbnail-div-outer'>
+                        <div class='thumbnail-div-img'>
+                          <a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                            <img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 348, &quot;800:450&quot;)' expr:title='data:post.title' height='196' loading='lazy' width='348' />
+                          </a>
+                        </div>
+                        <hr/>
+                        <div class='thumbnail-div-title'>
+                          <a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                            <data:post.title/>
+                          </a>
+                        </div>
+                      </div>
+                    </b:if>
+                  </b:loop>
+                </div>
+                <b:include name='nextprev' /></b:includable>
+              <b:includable id='TEMPLATE_DESKTOP_INDEX'>
+                <b:if cond='data:blog.pageType in {&quot;index&quot;}'>
+                  <b:if cond='data:blog.isMobile==false'>
+                    <!--<div id='stackpanel'><div class='postDiv' style='padding:10px 10px 10px 10px;width:96%;height:150px;'><a alt='Redmi Note 8 Pro, Redmi Note 8 and Redmi 8 now open for sale in India' href='https://www.kunal-chowdhury.com/p/redmi-note-8-pro.html' title='Redmi Note 8 Pro, Redmi Note 8 and Redmi 8 now open for sale in India'><img alt='Redmi Note 8 Pro, Redmi Note 8 and Redmi 8 now open for sale in India' class='postImage lazy' data-src='https://3.bp.blogspot.com/-HrCUlGktQv0/XgW_LbOS2tI/AAAAAAAAX3U/m92EN1p9LHYkIc4dWjKr3jfqb1B1Zv_AACLcBGAsYHQ/s1600/redmi-note-8-pro-min.jpg' style='width:300px;float:left;margin-right:20px' title='Redmi Note 8 Pro, Redmi Note 8 and Redmi 8 now open for sale in India'/><h1>Redmi Note 8 Pro, Redmi Note 8 and Redmi 8 now open for sale in India</h1></a></div></div>-->
+                    <div id='stackpanel'>
+                      <b:loop index='i' values='data:posts' var='post'>
+                        <b:if cond='(data:i) == 1'>
+                          <b:include name='TaboolaAds-MidArticle-Thumbnails' />
+                          <div class='separator' />
+                        </b:if>
+                        <b:if cond='(data:i) != 0 and ((data:i) % 3) == 0'>
+                          <!-- NO REVENUE <div class='lqm_ad' data-format='728x90' data-publisher='lqm.kunal.site' data-type='ad' data-zone='728x90-IndexPage-Desktop' style='margin:auto;width:728px;display:block;'/>-->
+                        </b:if>
+                        <div class='postDiv'>
+                          <article expr:id='&quot;post-body-&quot; + data:post.id'>
+                            <div class='thumbnail'>
+                              <div class='title'>
+                                <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
+                                  <h1 class='post-title'>
+                                    <data:post.title/>
+                                  </h1>
+                                </a>
+                              </div>
+                              <div class='content' itemprop='articleBody'>
+                                <data:post.body/>
+                              </div>
+                              <div class='info'>Published by
+                                <a href='//www.kunal-chowdhury.com/p/about-me.html' rel='author' target='_blank'>Kunal Chowdhury</a>on
+                                <time expr:title='data:post.timestamp' itemprop='dateModified'>
+                                  <data:post.timestamp/>
+                                </time>under
+                                <a expr:href='data:post.labels[0].url' rel='tag noindex nofollow'>
+                                  <b:eval expr='data:post.labels[0].name' />
+                                </a>
+                                <b>|</b>
+                                <a expr:href='data:post.labels[1].url' rel='tag noindex nofollow'>
+                                  <b:eval expr='data:post.labels[1].name' />
+                                </a>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                        <div class='separator' />
+                      </b:loop>
+                    </div>
+                  </b:if>
+                </b:if>
+              </b:includable>
+              <b:includable id='TEMPLATE_DESKTOP_POSTS' />
+              <b:includable id='TEMPLATE_ERROR_PAGE'>
+                <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+                  <div class='post-404'>
+                    <div class='actions-404'>
+                      <div class='ops-404'>
+                        <span>Oops;</span>Sorry, but the page you were trying to view does not exist.</div>
+                      <div class='title-404'>404</div>
+                      <div class='link-404'>
+                        <a href='/'>
+                          <trans>Back to Home</trans>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+  .post-404{padding-top:40px;padding-bottom:60px}.actions-404{width:100%;float:right;text-align:center}.ops-404{width:50%;margin:0 auto;font-size:26px;font-weight:400;font-style:italic}.ops-404 span,.title-404{font-weight:700}.title-404{font-size:200px;line-height:1.1;color:red}.link-404{font-size:18px;padding-top:20px;padding-bottom:50px}#blog-pager,#sidebar-wrapper,.status-msg-wrap{display:none}.status-msg-border{border:0!important}.status-msg-bg{background-color:#fff}#main-wrapper{width:100%;max-width:100%}
+                  </style>
+                </b:if>
+              </b:includable>
+              <b:includable id='TEMPLATE_MOBILE_ARCHIVE'>
+                <b:if cond='data:blog.pageType in {&quot;archive&quot;}'>
+                  <b:if cond='data:blog.isMobile'>
+                    <div id='wrappanel'>
+                      <b:loop index='i' values='data:posts' var='post'>
+                        <!--Books Ads (mobile-start)-->
+                        <b:if cond='(data:i) == 1'>
+                          <div class='promotion'>
+                            <span style='margin-left:10px;line-height:2em;color:red'>
+                              <b>Books you may like:</b>
+                            </span>
+                            <ul>
+                              <li>
+                                <a alt='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2019' target='_blank' title='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)'>Mastering Visual Studio 2019</a>
+                              </li>
+                              <li>
+                                <a alt='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2017' target='_blank' title='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)'>Mastering Visual Studio 2017</a>
+                              </li>
+                              <li>
+                                <a alt='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#wpfdevelopmentcookbook' target='_blank' title='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)'>Windows Presentation Foundation Development Cookbook</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <b:include name='TaboolaAds-MidArticle-Thumbnails' /></b:if>
+                        <!--Books Ads (mobile-ends)-->
+                        <b:if cond='(data:i) != 0 and ((data:i) % 3) == 0'>
+                          <!-- NO REVENUE <div class='lqm_ad' data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='300x250-IndexPage-Mobile' style='margin:auto;width:300px;display:block;'/>-->
+                        </b:if>
+                        <div class='postDiv'>
+                          <article expr:id='&quot;post-body-&quot; + data:post.id'>
+                            <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
+                              <img class='headerImage' expr:alt='data:post.title' expr:src='data:post.firstImageUrl + &quot;?imgmax=250&quot;' expr:title='data:post.title' loading='lazy' />
+                            </a>
+                            <div class='thumbnail'>
+                              <div class='title'>
+                                <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title' rel='author'>
+                                  <h1 class='post-title'>
+                                    <data:post.title/>
+                                  </h1>
+                                </a>
+                              </div>
+                              <div class='info'>
+                                <time expr:title='data:post.timestamp' itemprop='datePublished'>
+                                  <data:post.timestamp/>
+                                </time>
+                                <b>|</b>
+                                <a expr:href='data:post.labels[0].url' rel='tag noindex nofollow'>
+                                  <b:eval expr='data:post.labels[0].name' />
+                                </a>
+                              </div>
+                              <div class='content' itemprop='articleBody'>
+                                <data:post.snippet/>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                      </b:loop>
+                    </div>
+                  </b:if>
+                </b:if>
+              </b:includable>
+              <b:includable id='TEMPLATE_MOBILE_INDEX'>
+                <b:if cond='data:blog.pageType in {&quot;index&quot;}'>
+                  <b:if cond='data:blog.isMobile'>
+                    <div id='wrappanel'>
+                      <b:loop index='i' values='data:posts' var='post'>
+                        <!--Books Ads (mobile-start)-->
+                        <b:if cond='(data:i) == 1'>
+                          <div class='promotion'>
+                            <span style='margin-left:10px;line-height:2em;color:red'>
+                              <b>Books you may like:</b>
+                            </span>
+                            <ul>
+                              <li>
+                                <a alt='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2019' target='_blank' title='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)'>Mastering Visual Studio 2019</a>
+                              </li>
+                              <li>
+                                <a alt='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2017' target='_blank' title='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)'>Mastering Visual Studio 2017</a>
+                              </li>
+                              <li>
+                                <a alt='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#wpfdevelopmentcookbook' target='_blank' title='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)'>Windows Presentation Foundation Development Cookbook</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <b:include name='TaboolaAds-MidArticle-Thumbnails' /></b:if>
+                        <!--Books Ads (mobile-ends)-->
+                        <b:if cond='(data:i) != 0 and ((data:i) % 3) == 0'>
+                          <!-- NO REVENUE <div class='lqm_ad' data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='300x250-IndexPage-Mobile' style='margin:auto;width:300px;display:block;'/>-->
+                        </b:if>
+                        <div class='postDiv'>
+                          <article expr:id='&quot;post-body-&quot; + data:post.id'>
+                            <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
+                              <img class='headerImage' expr:alt='data:post.title' expr:src='data:post.firstImageUrl + &quot;?imgmax=300&quot;' expr:title='data:post.title' loading='lazy' />
+                            </a>
+                            <div class='thumbnail'>
+                              <div class='title'>
+                                <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title' rel='author'>
+                                  <h1 class='post-title'>
+                                    <data:post.title/>
+                                  </h1>
+                                </a>
+                              </div>
+                              <div class='info'>
+                                <time expr:title='data:post.timestamp' itemprop='datePublished'>
+                                  <data:post.timestamp/>
+                                </time>
+                                <b>|</b>
+                                <a expr:href='data:post.labels[0].url' rel='tag noindex nofollow'>
+                                  <b:eval expr='data:post.labels[0].name' />
+                                </a>
+                              </div>
+                              <div class='content' itemprop='articleBody'>
+                                <data:post.snippet/>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                      </b:loop>
+                    </div>
+                  </b:if>
+                </b:if>
+              </b:includable>
+              <b:includable id='TEMPLATE_MOBILE_POSTS' />
+              <b:includable id='TEMPLATE_STATUS_MESSAGE'>
+                <b:if cond='data:navMessage'>
+                  <div class='status-msg-wrap'>
+                    <div class='status-msg-body'>
+                      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                        <b:if cond='data:blog.searchLabel'>
+                          <h1>
+                            <data:blog.searchLabel/>
+                          </h1>
+                          <data:navMessage/>
+                        </b:if>
+                        <b:if cond='data:blog.searchQuery'>Showing posts sorted by relevance for query &quot;
+                          <b>
+                            <data:blog.searchQuery/>
+                          </b>&quot;</b:if>
+                        <b:else/>
+                        <data:navMessage/>
+                      </b:if>
+                    </div>
+                  </div>
+                  <div style='clear: both;' />
+                </b:if>
+              </b:includable>
+              <b:includable id='TaboolaAds-BelowArticle-Thumbnails'>
+                <div id='taboola-below-article-thumbnails' />
+              </b:includable>
+              <b:includable id='TaboolaAds-MidArticle-Thumbnails'>
+                <hr/>
+                <div id='taboola-mid-article-thumbnails' />
+                <hr/>
+              </b:includable>
+              <b:includable id='backlinkDeleteIcon' var='backlink' />
+              <b:includable id='backlinks' var='post' />
+              <b:includable id='comment-form' var='post' />
+              <b:includable id='commentDeleteIcon' var='comment' />
+              <b:includable id='comment_count_picker' var='post' />
+              <b:includable id='comment_picker' var='post' />
+              <b:includable id='comments' var='post' />
+              <b:includable id='feedLinks' />
+              <b:includable id='feedLinksBody' var='links' />
+              <b:includable id='iframe_comments' var='post' />
+              <b:includable id='mobile-index-post' var='post' />
+              <b:includable id='mobile-main' var='top' />
+              <b:includable id='mobile-nextprev' />
+              <b:includable id='mobile-post' var='post' />
+              <b:includable id='nextprev'>
+                <div class='separator' />
+                <b:if cond='data:newerPageUrl'>
+                  <div class='nav-button next' id='nav-button-next'>
+                    <a expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>Next &#187;</a>
+                  </div>
+                </b:if>
+                <b:if cond='data:olderPageUrl'>
+                  <div class='nav-button previous' id='nav-button-previous'>
+                    <a expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&#171; Previous</a>
+                  </div>
+                </b:if>
+                <div class='separator' />
+                <div class='separator' />
+              </b:includable>
+              <b:includable id='post' var='post' />
+              <b:includable id='postQuickEdit' var='post' />
+              <b:includable id='shareButtons' var='post' />
+              <b:includable id='status-message'>
+                <b:if cond='data:navMessage'>
+                  <div class='status-msg-wrap'>
+                    <div class='status-msg-body'>
+                      <data:navMessage/>
+                    </div>
+                    <div class='status-msg-border'>
+                      <div class='status-msg-bg'>
+                        <div class='status-msg-hidden'>
+                          <data:navMessage/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style='clear: both;' />
+                </b:if>
+              </b:includable>
+              <b:includable id='threaded-comment-form' var='post' />
+              <b:includable id='threaded_comment_js' var='post' />
+              <b:includable id='threaded_comments' var='post' /></b:widget>
+          </b:section>
+        </div>
+        <div class='separator' />
+        <br/>
+      </div>
+    </div>
+    
+	<b:if cond='data:blog.isMobile==false'>
+      <div id='rightStickyPanel'>
+		<!-- Developer Media Ads Banner - 160x60 -->
+        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-01' /></div><br/>
+		
+        <!-- Taboola Ads - Right Rail -->
+        <div id='taboola-right-rail-thumbnails' style='min-height:1300px;border:1px solid #e1e1e1' /><br/>
+		
+        <div class='SidebarPosts'>
+          <span class='SidebarPosts-Header'>Latest Downloads</span>
+          <div>
+            <ul class='sidebar-posts-ul'>
+			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Windows 11' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/download-windows-11.html' title='Download latest version of Windows 11'>Windows 11</a></div></li>
+			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Visual Studio 2022' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/download-visual-studio-2022.html' title='Download latest version of Visual Studio 2022'>Visual Studio 2022</a></div></li>
+			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Visual Studio 2019' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/download-visual-studio-2019.html' title='Download latest version of Visual Studio 2019'>Visual Studio 2019</a></div></li>
+			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Visual Studio 2017' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/download-visual-studio-2017.html' title='Download latest version of Visual Studio 2017'>Visual Studio 2017</a></div></li>
+			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Visual Studio 2015 (ISO/Offline Installer)' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/2015/07/download-visualstudio-2015.html' title='Download latest version of Visual Studio 2015 (ISO/Offline Installer)'>Visual Studio 2015</a></div></li>
+            </ul>
+          </div>
+        </div><div class='separator' /><br/>
+		
+		<!-- Developer Media Ads Banner - 160x60 -->
+        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-02' /></div><br/>
+		
+		<!-- Developer Media Ads Banner - 160x60 -->
+        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-03' /></div>
+      </div>
+    </b:if>
+  </div>
+
+  <!-- Footer Start -->
+  <footer id='footer'>
+    <div id='footer-column-container'>
+      <div id='footer-left'>
+        <h2 class='title'>About Me</h2>
+        <a alt='Know more about Kunal Chowdhury' href='https://www.kunal-chowdhury.com/p/about-me.html' target='_blank' title='Know more about Kunal Chowdhury'><strong>Kunal Chowdhury</strong></a> is a Microsoft Windows Insiders MVP (2021 - Present), Microsoft MVP (2010 - 2018), Speaker in various Microsoft events, <a alt='Check out the books authored by Kunal Chowdhury' href='https://www.kunal-chowdhury.com/p/books.html' target='_blank' title='Check out the books authored by Kunal Chowdhury'>Author of three .NET books</a>(Mastering Visual Studio 2019, Mastering Visual Studio 2017 and Windows Presentation Foundation Development Cookbook), passionate Blogger and a Senior Technical Lead by profession.
+        <br/>
+        <br/>
+		Twitter: <a alt='Follow my tweets on Twitter' href='https://twitter.com/kunaldchowdhury' rel='noreferrer' target='_blank' title='Follow my tweets on Twitter'>@kunaldchowdhury</a><br/>
+		Facebook: <a alt='Become a fan of our Facebook Page' href='https://facebook.com/kunaldchowdhury' rel='noreferrer' target='_blank' title='Become a fan of our Facebook Page'>kunaldchowdhury</a><br/>
+		YouTube: <a alt='Subscribe to our YouTube Channel' href='https://www.youtube.com/channel/UCS4y3ThCQzxv0QZMsp5YwQw?sub_confirmation=1' rel='noreferrer' target='_blank' title='Subscribe to our YouTube Channel'>kunaldchowdhury</a>
+      </div>
+	  
+      <div id='footer-center'>
+        <h2 class='title'>More Links</h2>
+        <ul class='list'>
+		  <li><a href='https://www.kunal-chowdhury.com/p/about-me.html' target='_blank'>About Kunal Chowdhury</a></li>
+		  <li><a href='https://www.kunal-chowdhury.com/p/books.html' target='_blank'>My Books</a></li>
+		  <li><a href='https://www.kunal-chowdhury.com/p/blog-stats.html' target='_blank'>Statistics</a></li>
+        </ul>
+        <h2 class='title'>Legals</h2>
+        <ul class='list'>
+		  <li><a alt='Privacy Policy' href='https://www.kunal-chowdhury.com/p/privacy-policy.html' target='_blank' title='Privacy Policy'>Privacy Policy</a></li>
+		  <li><a alt='Cookie Policy' href='https://www.kunal-chowdhury.com/p/cookie-policy.html' target='_blank' title='Cookie Policy'>Cookie Policy</a></li>
+        </ul>
+      </div>
+	  
+      <div id='footer-right'>
+        <h2 class='title'>Disclaimer</h2>
+		This is my personal blog. The opinions expressed here represent my own and not those of my current employer, previous employers and/or any other companies.
+        <br/>
+        <br/>For accuracy and official reference refer to MSDN. I have documented my personal experience on this blog to share my technical skills.</div>
+      <div class='separator' />
+    </div>
+	
+    <div class='creditPanel'>
+      <div class='credit'>
+        <div class='botleft'>&#169; 2008-2021 <a expr:href='data:blog.homepageUrl'>Kunal-Chowdhury.com</a> | Designed by <a href='https://www.kunal-chowdhury.com'>Kunal Chowdhury</a></div>
+        <div class='botright'><a href='#'>Back to top</a></div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Developer Media LH Sticky Ads -->
+  <!--<b:if cond='data:blog.isMobile==false'><div class='LeftSticky120x600' id='LeftSticky120x600' style='float:right;position:fixed;top:65px;right:0px;min-width:100px;max-width:160px;width:100%;height:600px;transform:translateX(0.02%);margin-left:10px'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='LeftHandSideSticky'/></div></b:if>-->
+  
+  <!-- Cookie Script -->
+  <script type='text/javascript'>
+  cookieOptions={msg:&quot;This site uses cookies from Google to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.&quot;,link:&quot;//www.kunal-chowdhury.com/p/cookie-policy.html&quot;,close:&quot;Close&quot;,learn:&quot;Learn More&quot;};
+    
+  loaded = 1;
+  </script>
+
+  <!-- Insert Ads Between Posts -->
+  <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+  <script>
+	/*<![CDATA[*/
+	async function insertABPAsync(){
+		var abp = document.querySelectorAll('.adsBetweenPosts');
+		if (abp.length > 0){
+			var fabp = abp[0];
+			if (fabp != null){
+				try {fabp.insertAdjacentHTML('afterend','<hr/><div id="taboola-mid-article-thumbnails"></div><hr/>'); __g_taboola_midArticleLoaded = true; } catch {}
+			}
+			
+			if (abp.length > 1){
+				for (var i = 1; i < abp.length; i++){
+					var nabp = abp[i];
+					if (nabp != null){
+						try {nabp.insertAdjacentHTML('afterend','<div class="adsZone' + abpUnit + '"><div align="center" class="lqm_ad" data-format="' + abpUnit + '" data-publisher="lqm.kunal.site" data-type="ad" data-zone="POST-' + abpUnit + '-Rest"/></div>');} catch {}
+					}
+				}
+			}
+		}
+	}
+	
+	insertABPAsync();
+	/*]]>*/
+  </script>
+  </b:if>
+  
+  <!-- Setupad Scripts -->
+  <b:if cond='data:blog.isMobile==false'>
+	<script>
+	/*<![CDATA[*/
+	async function fillAd(adUnit, response){
+		try {
+			var iframe = document.getElementById(adUnit).contentWindow.document;
+			iframe.open();
+			iframe.write(response);
+			iframe.close();
+		} catch {}
+	}
+	
+	async function loadSetupadAsync(adUnit, size){
+		let setupad = new Promise((resolve, reject) => {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					fillAd(adUnit, xmlhttp.responseText);
+					resolve(true);
+				}
+			};
+			xmlhttp.open("GET", 'https://pubads.g.doubleclick.net/gampad/adx?iu=/147246189' + child + '/' + adUnit + '&sz=' + encodeURI(size) + '&t=Placement_type%3Dserving&' + Date.now(), true);
+			xmlhttp.send();
+		});
+	}
+    /*]]>*/
+    </script>
+  </b:if>
+  
+  <!-- Developer Media Ads Scripts -->
+  <script type='text/javascript'>
+	/*<![CDATA[*/
+	async function _dmBootstrap(file){
+	  var _dma = document.createElement('script');
+	  _dma.type = 'text/javascript';
+	  _dma.async = true;
+	  _dma.src = file;
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+	}
+	function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('https://cdn2.DeveloperMedia.com/a.min.js'); }
+	/*]]>*/
+  </script>
+  
+  <!-- Taboola Scripts -->
+  <b:if cond='data:blog.isMobile==false'>
+  <script type='text/javascript'>
+	/*<![CDATA[*/
+	async function loadTaboolaAsync(){
+		let loadTaboola = new Promise((resolve, reject) => {
+			window._taboola = window._taboola || [];
+			_taboola.push({article:'auto',tracking:'utm_source=taboola'});
+			
+			!function (e, f, u, i){if (!document.getElementById(i)){e.async = 1;e.onload=function(){resolve(true);};e.src = u;e.id = i;f.parentNode.insertBefore(e,f);__g_taboola=true;}}(document.createElement('script'),document.getElementsByTagName('script')[0],'https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script');
+			
+			if (window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
+		});
+	}
+	/*]]>*/
+  </script>
+  </b:if>
+  
+  <!-- Google Tag Manager -->
+  <script>
+	/*<![CDATA[*/
+	function trackSocialShare(social, action) {
+		ga('send', 'social', social, action, document.title);
+		ga('send', 'event', 'Social (' + social + ')', document.title);
+	}
+	
+	async function trackPageviewAsync(){
+		let gtm = new Promise((resolve, reject) => {
+			setTimeout(function() {
+				window.ga = window.ga || function(){(ga.q = ga.q || []).push(arguments)};
+				ga.l += new Date();
+				ga('create', 'UA-19682592-1', 'auto');
+				ga('send', 'pageview');
+				resolve(true);
+			}, 60000);
+		});
+	}
+	
+	async function trackSessionAsync(){
+		let gtm = new Promise((resolve, reject) => {
+			setTimeout(function(){ga('send', 'event', 'Session', document.title);trackPageviewAsync();resolve(true);}, 60000);
+		});
+	}
+	
+	async function loadGTMAsync(w, d, s, l){
+		let gtm = new Promise((resolve, reject) => {
+			w[l] = w[l] || [];
+			w[l].push({'gtm.start': new Date().getTime(),event: 'gtm.js'});
+			var f = d.getElementsByTagName(s)[0],j = d.createElement(s),dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.onload = function(){trackSessionAsync();resolve(true);};
+			j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MQL3L3P' + dl;
+			f.parentNode.insertBefore(j, f);
+		});
+	}
+	/*]]>*/
+  </script>
+  
+  <!-- URL Rewrite -->
+  <script>
+	/*<![CDATA[*/
+	async function urlRewriteAsync(){
+		let ur = new Promise((resolve, reject) => {
+			setTimeout(function(){var o,t,d=new Date(),c=""+d.getFullYear()+(d.getMonth()+1)+d.getDate()+d.getHours()+d.getMinutes()+d.getSeconds(),e=document.querySelector("link[rel='canonical']").href,n=e+(e.includes("?")?"&session=":"?session=")+c+"&pos="+(window.pageYOffset || document.documentElement.scrollTop || window.scrollY),r="";c%2==0&&(o="Google",t="organic",r="https://www.google.com"),c%3==0&&(o="twitter.com",t="social",r="https://twitter.com"),c%5==0&&(o="DuckDuckGo",t="organic",r="https://duckduckgo.com"),c%7==0&&(o="codeproject.com",t="referral",r="https://www.codeproject.com"),c%11==0&&(o="dzone.com",t="social",r="https://dzone.com"),c%13==0&&(o="Bing",t="organic",r="https://www.bing.com"),c%17==0&&(o="facebook.com",t="social",r="https://www.facebook.com"),c%19==0&&(o="linkedin.com",t="social",r="https://www.linkedin.com"),c%23==0&&(o="dotnetkicks.com",t="referral",r="http://dotnetkicks.com"),null==o||""==o?window.location.href=n:(Object.defineProperty(document,"referrer",{get:function(){return r}}),window.location.href=n+"&utm_source="+o+"&utm_medium="+t);},240000);
+			resolve(true);
+		});
+	}
+	/*]]>*/
+  </script>
+  
+  <!-- On Load Event Registration -->
+  <script>
+    /*<![CDATA[*/
+	async function ExecuteAsync(){
+		if (!__g_isMobile){
+			loadSetupadAsync('kunal-chowdhury.com_300x600_responsive_sidebar_DFP','300x250|300x600');
+			loadSetupadAsync('kunal-chowdhury.com_300x250_responsive_DFP','300x250');
+		}
+		
+		(function () { _dmBootstrap('https://cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000); })();		
+		
+		if (!__g_isMobile){
+			loadTaboolaAsync().then(() => {
+				setTimeout(() => {
+					if (__g_taboola_midArticleLoaded){ _taboola.push({mode:'thumbnails-mid',container:'taboola-mid-article-thumbnails',placement:'Mid Article Thumbnails',target_type:'mix'});};
+					_taboola.push({mode:'thumbnails-rr',container:'taboola-right-rail-thumbnails',placement:'Right Rail Thumbnails',target_type:'mix'});
+					_taboola.push({mode:'thumbnails-a',container:'taboola-below-article-thumbnails',placement:'Below Article Thumbnails',target_type:'mix'});
+					_taboola.push({flush:true});
+				}, 1000);
+			});
+		}
+	
+		loadGTMAsync(window, document, 'script', 'dataLayer');
+		
+		urlRewriteAsync();
+	}
+	
+	if(window.addEventListener){window.addEventListener('load',ExecuteAsync,false);}else if(window.attachEvent){window.attachEvent('onload',ExecuteAsync);}else{window.onload=ExecuteAsync;}
+	/*]]>*/
+  </script>
+  
+  <!--<script>/*<![CDATA[*/(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MQL3L3P');/*]]>*/</script>
+  <script>/*<![CDATA[*/setTimeout(function () {window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l+=new Date(); ga('create', 'UA-19682592-1', 'auto');ga('send', 'pageview');}, 120000);setTimeout(function () { ga('send', 'event', 'Session', document.title);}, 60000);function trackSocialShare(social,action) { ga('send', 'social', social, action, document.title);ga('send', 'event', 'Social' + ' (' + social + ')', document.title);}/*]]>*/</script>-->
+
+  <!-- Latest News -->
+  <b:if cond='data:blog.isMobile==false'>
+    <script>
+  /*<![CDATA[*/
+  	  function getDataByCategoryName(t,e,s){var l="https://www.kunal-chowdhury.com/feeds/posts/summary/-/"+t+"?published&alt=json&max-results="+s,a=new XMLHttpRequest();a.open("GET",l,true),a.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response),s='<ul class="recent-posts-ul">';t.feed.entry.forEach(function(t,e){for(var l,a=t.title.$t,n=0;n<t.link.length;n++)if("alternate"==t.link[n].rel){l=t.link[n].href;break}s+='<li class="recent-posts-ul-li"><div class="recent-posts-ul-li-div"><a class="recent-posts-ul-li-div-a" href="'+l+'" alt="'+a+'" title="'+a+'">'+a+"</a></div></li>"}),s+="</ul>";var e1=document.getElementById(e);if(e1!=null){e1.insertAdjacentHTML("afterend",s);}}},a.send();}
+  	  function LoadTechNewsWidget(){getDataByCategoryName('Tech News','latestTechNews',10);}
+     /*]]>*/
+    </script>
+  </b:if>
+  
+  <!-- Lazy Load Images -->
+  <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+    <script type='text/javascript'>
+  /*<![CDATA[*/
+  	  function LazyLoadImages(){var e;if("IntersectionObserver" in window){e=document.querySelectorAll(".lazy");if(e.length==0){return;}var n=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var t=e.target;t.src=t.dataset.src,t.classList.remove("lazy"),n.unobserve(t)}})});e.forEach(function(e){n.observe(e)})}else{var t;function r(){t&&clearTimeout(t),t=setTimeout(function(){var n=window.pageYOffset;e.forEach(function(e){e.offsetTop<window.innerHeight+n&&(e.src=e.dataset.src,e.classList.remove("lazy"))}),0==e.length&&(document.removeEventListener("scroll",r),window.removeEventListener("resize",r),window.removeEventListener("orientationChange",r))},20)}e=document.querySelectorAll(".lazy");if(e.length==0){return;}document.addEventListener("scroll",r),window.addEventListener("resize",r),window.addEventListener("orientationChange",r)}};
+      /*]]>*/
+    </script>
+    <b:else/>
+    <script type='text/javascript'>
+  /*<![CDATA[*/function LazyLoadImages(){}/*]]>*/
+    </script>
+  </b:if>
+  
+  <!-- Lazy Load YouTube Videos -->
+  <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+    <script type='text/javascript'>
+  /*<![CDATA[*/
+  	  function LazyLoadYouTubeVideos(){var e=document.querySelectorAll(".youtube");if(e.length==0){return;};for(t=0;t<e.length;t++){var r="https://img.youtube.com/vi/"+e[t].dataset.embed+"/hqdefault.jpg",a=new Image;a.src=r,a.alt='Click to play the Youtube Video',a.title='Click to play the Youtube Video',a.addEventListener("load",void e[t].appendChild(a)),e[t].addEventListener("click",function(){var e=document.createElement("iframe");e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen",""),e.setAttribute("src","https://www.youtube.com/embed/"+this.dataset.embed+"?rel=0&showinfo=0&autoplay=1"),this.innerHTML="",this.appendChild(e)})}}
+   	/*]]>*/
+    </script>
+    <b:else/>
+    <script type='text/javascript'>
+  /*<![CDATA[*/function LazyLoadYouTubeVideos(){}/*]]>*/
+    </script>
+  </b:if>
+  
+
+  
+  <b:if cond='data:blog.isMobile'>
+    <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+      <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
+        <script type='text/javascript'>
+  /*<![CDATA[*/
+  		  function setNavTitle(e,t){if(e==null||t==null){return;}var n="https://www.kunal-chowdhury.com/feeds/posts/summary?published&alt=json&max-results=1&path="+e.getAttribute("href").replace(location.protocol+"//"+location.hostname,""),o=new XMLHttpRequest;o.open("GET",n,!0),o.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response);if(t.feed.entry.length>0){var n=t.feed.entry[0].title.$t,o=t.feed.entry[0].summary.$t.split("\n")[0],img=t.feed.entry[0].media$thumbnail.url.replace("s72-c","s0");e.innerHTML="<img class='postImage' src='"+img+"' loading='lazy' alt='"+n+"' title='"+n+"'/><b>"+n+"</b><hr/><small>"+o+"</small>"}}},o.send()}function SetNavTitles(){setNavTitle(document.getElementById("Blog1_blog-pager-older-link"),document.getElementById("nav-button-previous")),setNavTitle(document.getElementById("Blog1_blog-pager-newer-link"),document.getElementById("nav-button-next"));}/*]]>*/
+        </script>
+        <b:else/>
+        <script type='text/javascript'>
+  /*<![CDATA[*/function SetNavTitles(){}/*]]>*/
+        </script>
+      </b:if>
+      <script type='text/javascript'>
+  /*<![CDATA[*/
+  
+          /* Load External Scripts */
+          function executeScripts(){window._taboola=window._taboola || [];_taboola.push({flush:true});}
+  	    function ExecuteScripts(){executeScripts();}
+          
+          /* Load Scripts */
+          if(window.addEventListener){window.addEventListener('load',ExecuteScripts,false);}else if(window.attachEvent){window.attachEvent('onload',ExecuteScripts);}else{window.onload=ExecuteScripts;}
+  
+  	  /*]]>*/
+      </script>
+      <b:else/>
+      <script type='text/javascript'>
+  /*<![CDATA[*/function SetNavTitles(){}function LazyLoadImages(){}function LazyLoadYouTubeVideos(){}/*]]>*/
+      </script>
+      <!-- Load External Scripts -->
+      <script type='text/javascript'>
+  /*<![CDATA[*/function executeScripts(){window._taboola=window._taboola || [];_taboola.push({flush:true});}/*]]>*/
+      </script>
+      <script type='text/javascript'>
+  /*<![CDATA[*/function ExecuteScripts(){setTimeout(executeScripts,1000);}/*]]>*/
+      </script>
+      <!-- Load Scripts -->
+      <script>
+  /*<![CDATA[*/if(window.addEventListener){window.addEventListener('load',ExecuteScripts,false);}else if(window.attachEvent){window.attachEvent('onload',ExecuteScripts);}else{window.onload=ExecuteScripts;}/*]]>*/
+      </script>
+    </b:if>
+  </b:if>
+  <b:if cond='data:blog.isMobile==false'>
+      <!-- Desktop Pages of type Posts and Static Pages -->
+      <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
+        <script type='text/javascript'>
+		/*<![CDATA[*/
+  		  function setNavTitle(e,t){if(e==null||t==null){return;}var n="https://www.kunal-chowdhury.com/feeds/posts/summary?published&alt=json&max-results=1&path="+e.getAttribute("href").replace(location.protocol+"//"+location.hostname,""),o=new XMLHttpRequest;o.open("GET",n,!0),o.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response);if(t.feed.entry.length>0){var n=t.feed.entry[0].title.$t,o=t.feed.entry[0].summary.$t.split("\n")[0],img=t.feed.entry[0].media$thumbnail.url.replace("s72-c","s0");e.innerHTML="<img class='postImage' src='"+img+"' loading='lazy' alt='"+n+"' title='"+n+"'/><b>"+n+"</b><hr/><small>"+o+"</small>"}}},o.send()}function SetNavTitles(){setNavTitle(document.getElementById("Blog1_blog-pager-older-link"),document.getElementById("nav-button-previous")),setNavTitle(document.getElementById("Blog1_blog-pager-newer-link"),document.getElementById("nav-button-next"));}
+  		/*]]>*/
+        </script>
+        <b:else/>
+        <script type='text/javascript'>
+		/*<![CDATA[*/function SetNavTitles(){}/*]]>*/
+        </script>
+      </b:if>
+  </b:if>
+  <!-- On Scroll Event -->
+  <b:if cond='data:blog.isMobile'>
+    <script type='text/javascript'>
+  /*<![CDATA[*/
+      window.onscroll = function() {
+  	  if(loaded && !scrolled){
+  		scrolled = 1;
+  				
+  		window._taboola=window._taboola || [];
+  		_taboola.push({article:'auto',tracking:'utm_source=taboola'});!function (e, f, u, i){if (!document.getElementById(i)){e.async = 1;e.src = u;e.id = i;f.parentNode.insertBefore(e,f);}}(document.createElement('script'),document.getElementsByTagName('script')[0],'https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script');if(window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
+  
+  		_taboola.push({mode: 'thumbnails-mid', container: 'taboola-mid-article-thumbnails', placement: 'Mid Article Thumbnails', target_type: 'mix'});
+  		_taboola.push({mode:'thumbnails-a',container:'taboola-below-article-thumbnails',placement:'Below Article Thumbnails',target_type:'mix'});
+  		_taboola.push({flush:true});
+  
+  		SetNavTitles();LazyLoadImages();LazyLoadYouTubeVideos();
+  	  }
+      };
+    /*]]>*/
+    </script>
+    <b:else/>
+    <script type='text/javascript'>
+  /*<![CDATA[*/
+      window.onscroll = function() {
+  	  if(loaded && !scrolled){
+  		scrolled = 1;
+  
+  		SetNavTitles();LoadTechNewsWidget();LazyLoadImages();LazyLoadYouTubeVideos();
+  	  }
+      };
+    /*]]>*/
+    </script>
+  </b:if>
+  <!--<b:if cond='data:blog.isMobile==false'>
+    <script defer='defer' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'/>
+    <script type='module'>/*<![CDATA[*/
+      window.googletag = window.googletag || {cmd: []};
+      googletag.cmd.push(function() {
+        var interstitialSlot = googletag.defineOutOfPageSlot('/147246189,21637028082/kunal-chowdhury.com_interstitial', googletag.enums.OutOfPageFormat.INTERSTITIAL);
+        if (interstitialSlot) interstitialSlot.addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+        googletag.display(interstitialSlot);
+      });
+    /*]]>*/</script>
+  </b:if>-->
+</body>
+
+</html>
