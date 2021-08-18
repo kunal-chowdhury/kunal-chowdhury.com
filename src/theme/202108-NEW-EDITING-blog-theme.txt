@@ -101,7 +101,7 @@
     /**/
 
 	/* Global */
-	html,p,body{font-family:Segoe UI,Arial,Tahoma;margin:0px;font-size:20px;word-wrap:break-word}a:link,a:visited{color:#0060a6;text-decoration:none}a:hover{color:#ff0000}a img{border-width:0}
+	html,p,body{font-family:Segoe UI,Arial,Tahoma;margin:0px;font-size:18px;word-wrap:break-word}a:link,a:visited{color:#0060a6;text-decoration:none}a:hover{color:#ff0000}a img{border-width:0}
 	*{box-sizing:border-box}
 
 	#outer-wrapper{margin:0 auto;padding-top:0;width:1300px}.mobile #outer-wrapper{margin:-8 auto;width:auto}#main-wrapper{float:right;width:815px}.mobile #main-wrapper{width:96vw;margin:8px}#wrap2{float:left}
@@ -117,8 +117,6 @@
 
 	.row{height:265px;width:100%}.column{float:left;width:50%;padding:4px 0px;height:265px;}.row:after{content:"";display:table;clear:both;}
 
-	.nav-button{text-decoration:none;padding:8px 16px;margin:8px 0px;background-color:#00467f}.nav-button a{color:white}.previous{}.next{}
-
 	/* Header-Content */
 	#navbar-iframe{display:none!important}
 	#header-top{background-color:#00467f;margin:-8px 0px}
@@ -129,7 +127,7 @@
 	
 	.breadcrumb{color:#969696;border-bottom:1px dotted #939393;font-size:15px;padding-bottom:12px;margin-bottom:8px}
 
-	#hbz-searchbox{min-width:300px;margin:0 auto;border-radius:3px;overflow:hidden;}#hbz-input-search,#hbz-input-subscribe{width:56%;padding:8px 4%;border:0;background-color:#EEE}#hbz-input-search:focus,#hbz-input-subscribe:focus{outline:0;background-color:#FFF;box-shadow:0 0 2px #333 inset}#hbz-submit-search,#hbz-submit-subscribe{float:right;border:0;cursor:pointer;height:30px;width:32.8%;font:700 15px/40px;color:#FFF;text-transform:uppercase;background-color:#d83c3c}#hbz-submit-search:active,#hbz-submit-subscribe:active,#hbz-submit-search:focus,#hbz-submit-subscribe:focus{background-color:#c42f2f;outline:0}#hbz-submit-search:hover,#hbz-submit-subscribe:hover{background-color:#e54040}#subscription-box{width:100%;padding:10px;margin:5px 10px 5px 0px;background-color:#006600;color:white;}.social-share-div{position:fixed;right:0;z-index:999999999999;background-color:#ffffff;border-radius:8px;padding:8px}.socialIcons{width:64px;height:64px;opacity:0.75;display:inline-block;padding:8px;margin:4px;border-radius:5px}.mobile .socialIcons{width:36px;height:36px}a:hover .socialIcons{opacity:1}.twitter{background-color:#55ACEE}.facebook{background-color:#3B5998}.linkedin{background-color:#007bb5}.whatsapp{background-color:#007b00}
+	#hbz-searchbox{min-width:300px;margin:0 auto;border-radius:3px;overflow:hidden;}#hbz-input-search,#hbz-input-subscribe{width:56%;padding:8px 4%;border:0;background-color:#EEE}#hbz-input-search:focus,#hbz-input-subscribe:focus{outline:0;background-color:#FFF;box-shadow:0 0 2px #333 inset}#hbz-submit-search,#hbz-submit-subscribe{float:right;border:0;cursor:pointer;height:30px;width:32.8%;font:700 15px/40px;color:#FFF;text-transform:uppercase;background-color:#d83c3c}#hbz-submit-search:active,#hbz-submit-subscribe:active,#hbz-submit-search:focus,#hbz-submit-subscribe:focus{background-color:#c42f2f;outline:0}#hbz-submit-search:hover,#hbz-submit-subscribe:hover{background-color:#e54040}#subscription-box{width:100%;padding:10px;margin:5px 10px 5px 0px;background-color:#006600;color:white;}.social-share-div{position:fixed;left:0;z-index:999999999999;background-color:#ffffff;border-radius:8px;padding:8px}.socialIcons{width:64px;height:64px;opacity:0.75;display:inline-block;padding:8px;margin:4px;border-radius:5px}.mobile .socialIcons{width:36px;height:36px}a:hover .socialIcons{opacity:1}.twitter{background-color:#55ACEE}.facebook{background-color:#3B5998}.linkedin{background-color:#007bb5}.whatsapp{background-color:#007b00}
 
 	#blog-pager-newer-link{float:right}#blog-pager-older-link{float:left}#blog-pager{text-align:center;padding:0 15px}.list{list-style-type:none;margin:0;padding:0}.list li{padding:4px 0px}.promotion{margin:8px -4px}.promotion ul{list-style:none;margin:0px -30px}.mobile .promotion ul{list-style:none;margin:0px 8px 0px -30px}.promotion li,.promotion a{float:left;position:relative;width:100%;margin-bottom: 4px;line-height:2em}.promotion li a{padding:4px 12px;background:#00467f;color:#fff;text-decoration:none;}
 
@@ -146,13 +144,18 @@
 
 	.main .widget{margin:0 0 1em;padding:0 0 1em}.main .Blog{border-bottom-width:0}.status-msg-wrap{font-size:120%;width:100%;margin:14px 4px 0 4px;color:#fff!important;background-color:#00467f;padding-top:-20px}.status-msg-body,.status-msg-hidden{padding:.6em 0!important;margin:0 15px}.status-msg-body&gt;a{color:#fff;font-size:100%}.status-msg-border{border:0;border-bottom:1px solid #ccc}.post-timestamp{background:no-repeat scroll 12px center transparent;padding-left:3px}
 
-	#footer{background-color:black;clear:both;margin:0;line-height:1.5em;color:#f3f3f3;width:100%;}#footer-column-container{background-color:black;width:1300px;margin:auto;}#footer h2{color:#f4efd6;font:normal normal 17px;text-shadow:0 1px 0 #000}#footer a,#footer a:visited{color:#d4ca92;text-decoration:none}#footer a:hover{color:#fff}#footer-left{width:35%;float:left;margin:8px;}#footer-center{width:25%;float:left;margin:8px;}#footer-right{width:35%;float:right;margin:8px;display:block;}.mobile #footer{width:98%}.mobile #footer-column-container{width:100%;}.mobile #footer-left{width:98%;float:left;}.mobile #footer-center{width:98%;float:left;}.mobile #footer-right{width:98%;float:left;}.creditPanel{background-color:black;width:100%}.credit{background-color:black;margin:0 auto;padding:10px 5px 30px;width:1300px;font-size:12px;color:#fff;line-height:1.6em}.mobile .credit{width:98%}.botleft{text-align:left;width:auto;float:left}.botright{text-align:right;width:auto;float:right}.pw-button{margin:0 2px!important}.post{color:#4f4f4f;margin:4px 0 0 0;padding:15px 10px !important;border:1px solid #ccc}.post header{margin:-15px;padding:10px 12px 5px 12px}.post h1{font-size:40px;color:#00467f;font-weight:600;line-height:1.4em;margin-bottom:5px;margin-top:0;border-bottom:2px solid #00467f}.mobile .post h1{font-size:30px}.post h2{font-size:35px;color:#000;font-weight:650;line-height:1.4em;margin:20px -10px 10px -15px;padding:5px 15px 10px 15px}.post header time{color:#00467f}.post ul{line-height:2em}.postDiv h1{font-size:24px;color:#00467f;font-weight:bold;line-height:1.4em;margin-bottom:5px;margin-top:0}.post-body{line-height:1.7em;margin:0 0 .75em}.post-footer{margin:1em 0 0;text-transform:none;font-size:15px;border-top:1px solid lightgray}.anchor-icon{display:inline;color:white}a.heading-link{opacity:0;margin-left:10px;text-decoration:none}.post h2:hover a.heading-link{opacity:1}.CenterDiv{display:block;margin:auto;width:100%}#wrappanel{width:100%;height:100%;display:-webkit-flex;-webkit-flex-wrap:wrap;display:flex;flex-wrap:wrap}#wrappanel .postDiv{margin:4px;width:100%}#wrappanel .thumbnail{line-height:1.7em;margin:8px -4px;text-align:center;text-align:left}#wrappanel .headerImage{aspect-ratio: attr(width) / attr(height);width:94vw;height:53vw;border:1px lightgray solid}#wrappanel .title{font-size:20px;font-weight:bold;padding:0 4px}#wrappanel .content{padding:0 4px}#wrappanel .info{font-size:14px;color:gray;margin:6px 0;padding:0 4px}#stackpanel{width:100%}#stackpanel .postDiv{width:99%;border:1px lightgray solid;margin:15px 4px}#stackpanel .thumbnail{margin:8px;text-align:center;text-align:left}#stackpanel .title{font-size:26px;font-weight:normal;padding:0 4px 10px 4px;border-bottom:1px solid #00467f}#stackpanel .content{padding:12px 4px}#stackpanel .info{font-size:13px;color:gray;margin:6px 0;padding:5px 4px 4px 4px;border-top:1px solid lightgray}.cookie-choices-info{position:fixed;top:auto !important;bottom:0px !important;background-color:#00467f;}.post ol{font-size:20px;line-height:2em}.step{font-size:20px;line-height:2em;list-style-type:none;counter-reset:elementcounter;padding-left:0px}.step li{margin-top:10px;margin-bottom:10px}.step li:before{content:'Step ' counter(elementcounter) '. ';font-weight:bold;counter-increment:elementcounter}ol&gt;p{margin-top:10px;margin-bottom:10px}
+	/* Nav Button */
+	.nav-button{text-decoration:none;padding:8px 4px;margin:8px 0px}.nav-button a{}.previous{}.next{}.nav-button{height:135px}.nav-button-next-image{width:200px;float:right;margin:4px -2px 4px 20px}.nav-button-previous-image{width:200px;float:left;margin:4px 20px 4px -2px}.nav-button-heading{font-weight:bold}.nav-button-title{}
+	#footer{background-color:black;clear:both;margin:0;line-height:1.5em;color:#f3f3f3;width:100%;}#footer-column-container{background-color:black;width:1300px;margin:auto;}#footer h2{color:#f4efd6;font:normal normal 17px;text-shadow:0 1px 0 #000}#footer a,#footer a:visited{color:#d4ca92;text-decoration:none}#footer a:hover{color:#fff}#footer-left{width:35%;float:left;margin:8px;}#footer-center{width:25%;float:left;margin:8px;}#footer-right{width:35%;float:right;margin:8px;display:block;}.mobile #footer{width:98%}.mobile #footer-column-container{width:100%;}.mobile #footer-left{width:98%;float:left;}.mobile #footer-center{width:98%;float:left;}.mobile #footer-right{width:98%;float:left;}.creditPanel{background-color:black;width:100%}.credit{background-color:black;margin:0 auto;padding:10px 5px 30px;width:1300px;font-size:12px;color:#fff;line-height:1.6em}.mobile .credit{width:98%}.botleft{text-align:left;width:auto;float:left}.botright{text-align:right;width:auto;float:right}.pw-button{margin:0 2px!important}.post{color:#4f4f4f;margin:4px 0 0 0;padding:15px 10px !important;border:1px solid #ccc}.post header{margin:-15px;padding:10px 12px 5px 12px}.post h1{letter-spacing:-1px;font-size:40px;color:#00467f;font-weight:600;line-height:1.4em;margin-bottom:5px;margin-top:0;border-bottom:2px solid #00467f}.mobile .post h1{font-size:30px}.post h2{font-size:35px;color:#000;font-weight:650;line-height:1.4em;margin:20px -10px 10px -15px;padding:5px 15px 10px 15px}.post header time{color:#00467f}.post ul{line-height:2em}.postDiv h1{font-size:24px;color:#00467f;font-weight:bold;line-height:1.4em;margin-bottom:5px;margin-top:0}.post-body{line-height:1.7em;margin:0 0 .75em}.post-footer{margin:1em 0 0;text-transform:none;font-size:15px;border-top:1px solid lightgray}.anchor-icon{display:inline;color:white}a.heading-link{opacity:0;margin-left:10px;text-decoration:none}.post h2:hover a.heading-link{opacity:1}.CenterDiv{display:block;margin:auto;width:100%}#wrappanel{width:100%;height:100%;display:-webkit-flex;-webkit-flex-wrap:wrap;display:flex;flex-wrap:wrap}#wrappanel .postDiv{margin:4px;width:100%}#wrappanel .thumbnail{line-height:1.7em;margin:8px -4px;text-align:center;text-align:left}#wrappanel .headerImage{aspect-ratio: attr(width) / attr(height);width:94vw;height:53vw;border:1px lightgray solid}#wrappanel .title{font-size:20px;font-weight:bold;padding:0 4px}#wrappanel .content{padding:0 4px}#wrappanel .info{font-size:14px;color:gray;margin:6px 0;padding:0 4px}#stackpanel{width:100%}#stackpanel .postDiv{width:99%;border:1px lightgray solid;margin:15px 4px}#stackpanel .thumbnail{margin:8px;text-align:center;text-align:left}#stackpanel .title{font-size:26px;font-weight:normal;padding:0 4px 10px 4px;border-bottom:1px solid #00467f}#stackpanel .content{padding:12px 4px}#stackpanel .info{font-size:13px;color:gray;margin:6px 0;padding:5px 4px 4px 4px;border-top:1px solid lightgray}.cookie-choices-info{position:fixed;top:auto !important;bottom:0px !important;background-color:#00467f;}.post ol{font-size:20px;line-height:2em}.step{font-size:20px;line-height:2em;list-style-type:none;counter-reset:elementcounter;padding-left:0px}.step li{margin-top:10px;margin-bottom:10px}.step li:before{content:'Step ' counter(elementcounter) '. ';font-weight:bold;counter-increment:elementcounter}ol&gt;p{margin-top:10px;margin-bottom:10px}
 
 	/* Styles for Inner Pages */
 	.articleContent a{color:#2878C8;font-weight:500;padding-bottom:3px;padding-top:2px}.articleContent a:hover{color:#ff0000}.post-footer{background:#f4f4f4;padding:10px 15px}.trc_rbox_container{margin:4px}blockquote{display:block;background:#f9f9f9;border-left:4px solid #1777b1;padding:15px 20px 15px 30px;margin:10px 0 10px -8px;position:relative;quotes:&quot;\201C&quot;&quot;\201D&quot;&quot;\2018&quot;&quot;\2019&quot;}blockquote p{display:inline;background:#f9f9f9}.post blockquote h2{background-color:transparent;color:black;font-weight:bold}.infoGreen{max-width:100%;margin-left:0;margin-right:0;background:#dfd;padding:10px 20px 10px 20px;border-width:8px 1px;border-style:solid;border-color:#006400}.infoGreen .title{font-size:20px;font-weight:bold;color:white;margin:-20px;padding:10px 20px;background:#006400;display:block}.infoRed{max-width:100%;margin-left:0;margin-right:0;background:#fff7f7;padding:10px 20px 10px 20px;border-width:8px 1px;border-style:solid;border-color:#ff0000}.infoRed .title{font-size:20px;font-weight:bold;color:white;margin:-20px;padding:10px 20px;background:#ff0000;display:block}var{color:#900;font-weight:bold}.hscroll{overflow-x:auto;overflow-y:hidden;white-space:nowrap;border:1px solid #e1e1e1;background-color:#f1f1f1;font-size:14pt;padding-left:10px;padding-right:10px}code{color:#900;font-weight:bold;padding:2px 4px}p.command{color:black;background:lightgray;font-weight:bold;border:gray dashed 1px;padding:4px 6px 4px 8px;display:block;margin:8px 0;overflow:auto}screen{font-weight:bold;color:green;padding:1px 4px}key{font-size:95%;color:#fff;background-color:#333;padding:2px 8px;border-radius:5px}kbd{font-size:95%;font-weight:bold;background:none repeat scroll 0% 0% #DDD;padding:2px 8px;border:0.15em outset #FFF;outline:1px solid #BBB}keywords{font-weight:bold;color:brown}figcaption{background-color:#f0f0f0;font-size:14px;text-align:center}.postImage{aspect-ratio: attr(width) / attr(height);margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px;border:1px solid lightgray;float:none;display:block;width:100%;text-align:center}.postImageNoAds{margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px;border:1px solid lightgray;float:none;display:block;width:100%;max-width:728px;text-align:center}.youtube,.youtube .play-button,.youtube img{cursor:pointer}.wrapper{max-width:680px;margin:10px auto;padding:0 20px}.youtube{background-color:#000;margin-bottom:10px;position:relative;padding-top:56.25%;overflow:hidden}.youtube img{width:100%;top:-16.82%;left:0;opacity:.7}.youtube .play-button{width:90px;height:60px;background-color:#333;box-shadow:0 0 30px rgba(0,0,0,.6);z-index:1;opacity:.8;border-radius:6px}.youtube .play-button:before{content:&quot;&quot;;border-style:solid;border-width:15px 0 15px 26px;border-color:transparent transparent transparent #fff}.youtube .play-button,.youtube .play-button:before,.youtube iframe,.youtube img{position:absolute}.youtube .play-button,.youtube .play-button:before{top:50%;left:50%;transform:translate3d(-50%,-50%,0)}.youtube iframe{height:100%;width:100%;top:0;left:0}.articleContent .toc a{font-weight:normal;color:#00467f;border-bottom:1px solid #00467f;padding-bottom:3px;border-top:0px}.toc{text-decoration:none;margin:auto;background-color:rgba(218,228,237,.25);border-radius:8px;border:1px solid #e1e1e1;border-bottom:0px;padding-top:20px;padding-bottom:10px}.toc .title{font-weight:bold;margin-left:20px}.highlights:before{content:'HIGHLIGHTS';color:#ff0000;font-weight:bold;font-size:18px}ul.toc-list{margin-left:12px;margin-right:10px}.highlights ul{list-style:none}.highlights > ul > li{margin-left:-40px;margin-bottom:4px;line-height:2em;border-left:4px solid brown;padding:2px 14px;background-color:#FFF5D4}.highlights a{border-bottom:0px;border-top:0px;font-weight:normal;color:#c00000;}.youmaylike:before{content:&#39;You may like:&#39;;color:#ff0000;font-weight:bold}.youmaylike{margin-top:10x;margin-bottom:10px}.youmaylike ul{list-style:none;margin:10px}.youmaylike&gt;ul&gt;li{margin-left:-40px;margin-bottom:4px;line-height:2em;border-left:4px solid brown;padding:2px 14px;background-color:#FFF5D4;font-size:14px}q{font-style:oblique;color:gray}
 
 	/* Also Read Widget */
-	.alsoReadWidget{margin:10px auto;border:1px solid #e1e1e1;border-radius:5px}.alsoReadWidget ul{list-style:none;margin-left:-20px}.alsoReadWidget ul:before{content:"Also Read";font-weight:700;font-size:20px}.alsoReadWidget ul > li{line-height:1.9em;text-indent:-28px;margin-left:28px}.alsoReadWidget ul > li:before{content:"\2605";color:#00467f;margin-right:10px}
+	.alsoReadWidget{}.alsoReadWidget ul{list-style:none}.alsoReadWidget ul:before{content:"Also Read";font-weight:700;font-size:24px;color:#ff0000;margin-left:-40px}.alsoReadWidget ul > li{line-height:1.9em;text-indent:-28px}.alsoReadWidget ul > li:before{content:"\2605";color:#ff0000;margin-right:10px}
+	
+	/* Summary Details Panel */
+	details>summary:after{content:'[Expand]';float:right}details[open]>summary:after{content:'[Collapse]';float:right}
 
 	@media all and (max-width: 1415px){.LeftSticky120x600{display:none}}@media all and (min-width: 1415px){.ATFPost{display:none}}
 
@@ -177,13 +180,7 @@
   </script>
 </head>
 
-<body expr:class='&quot;loading&quot;+data:blog.mobileClass'>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MQL3L3P' style='display:none;visibility:hidden' width='0'/>
-  </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
+<body expr:class='&quot;loading&quot;+data:blog.mobileClass'>  
   <span itemprop='publisher' itemscope='itemscope' itemtype='//schema.org/Organization'>
     <meta content='Kunal Chowdhury' itemprop='name'/>
   </span>
@@ -260,6 +257,9 @@
 		  
           <!-- Setupad Ads Banner - 300x250 -->
           <div class='adsZone300x250'><iframe frameborder='0' height='1' id='kunal-chowdhury.com_300x250_responsive_DFP' leftmargin='0' marginheight='0' marginwidth='0' scrolling='no' title='Advertisement' topmargin='0' width='1'/></div><br/>
+		  
+		  <!-- ValueImpression Video Ads -->
+		  <div class="adsbyvli" data-ad-slot="outstream"></div><script> vitag.outStreamConfig = { type: "slider", position: "right" }; </script><br/>
 		  
           <!-- Latest Tech News Widget -->
           <div id='latestTechNews'><span class='SidebarPosts-Header'>Latest Tech News</span></div><div class='separator'/>
@@ -381,6 +381,7 @@
                                   <div style='font-size:18px'>
                                     <q><data:blog.metaDescription/></q> - <b:if cond='data:post.labels'><b:if cond='data:post.labels any (label =&gt; label.name == &quot;News&quot;)'>Story<b:else/>Article</b:if></b:if> by <b>Kunal Chowdhury</b> on <span class='published' expr:content='data:post.timestamp' expr:title='data:post.timestampISO8601' itemprop='datePublished'><time><data:post.timestamp/></time></span>
                                   </div>
+								  <br/><div class="sharethis-inline-share-buttons"></div>
                                 </b:if>
                                 <b:else/>
                                 <div style='float:right;'>
@@ -439,6 +440,7 @@
                               <div class='separator'/>
                               <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
                                 <div>
+								  <div class='sharethis-inline-share-buttons'/><br/>
                                   <span class='post-labels'>
                                     <b:if cond='data:post.labels'>
                                       <b:loop index='i' values='data:post.labels' var='label'>
@@ -687,7 +689,7 @@
                                 <data:post.body/>
                               </div>
                               <div class='info'>Published by
-                                <a href='//www.kunal-chowdhury.com/p/about-me.html' rel='author' target='_blank'>Kunal Chowdhury</a>on
+                                <a href='//www.kunal-chowdhury.com/p/about-me.html' rel='author' target='_blank'>Kunal Chowdhury</a> on
                                 <time expr:title='data:post.timestamp' itemprop='dateModified'>
                                   <data:post.timestamp/>
                                 </time>under
@@ -794,56 +796,37 @@
                   <b:if cond='data:blog.isMobile'>
                     <div id='wrappanel'>
                       <b:loop index='i' values='data:posts' var='post'>
-                        <!--Books Ads (mobile-start)-->
-                        <b:if cond='(data:i) == 1'>
-                          <div class='promotion'>
-                            <span style='margin-left:10px;line-height:2em;color:red'>
-                              <b>Books you may like:</b>
-                            </span>
-                            <ul>
-                              <li>
-                                <a alt='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2019' target='_blank' title='Mastering Visual Studio 2019 (Author: Kunal Chowdhury)'>Mastering Visual Studio 2019</a>
-                              </li>
-                              <li>
-                                <a alt='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#masteringvisualstudio2017' target='_blank' title='Mastering Visual Studio 2017 (Author: Kunal Chowdhury)'>Mastering Visual Studio 2017</a>
-                              </li>
-                              <li>
-                                <a alt='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)' href='https://www.kunal-chowdhury.com/p/books.html#wpfdevelopmentcookbook' target='_blank' title='Windows Presentation Foundation Development Cookbook (Author: Kunal Chowdhury)'>Windows Presentation Foundation Development Cookbook</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <b:include name='TaboolaAds-MidArticle-Thumbnails'/></b:if>
-                        <!--Books Ads (mobile-ends)-->
-                        <b:if cond='(data:i) != 0 and ((data:i) % 3) == 0'>
-                          <!-- NO REVENUE <div class='lqm_ad' data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='300x250-IndexPage-Mobile' style='margin:auto;width:300px;display:block;'/>-->
-                        </b:if>
+                        <b:if cond='(data:i) == 5'><div><b:include name='TaboolaAds-MidArticle-Thumbnails' style='width:100vw'/></div></b:if>
+						<b:if cond='(data:i) == 7'><hr/></b:if>
                         <div class='postDiv'>
                           <article expr:id='&quot;post-body-&quot; + data:post.id'>
-                            <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
-                              <img class='headerImage' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=300&quot;' expr:title='data:post.title' loading='lazy'/>
-                            </a>
-                            <div class='thumbnail'>
-                              <div class='title'>
-                                <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title' rel='author'>
-                                  <h1 class='post-title'>
-                                    <data:post.title/>
-                                  </h1>
-                                </a>
-                              </div>
-                              <div class='info'>
-                                <time expr:title='data:post.timestamp' itemprop='datePublished'>
-                                  <data:post.timestamp/>
-                                </time>
-                                <b>|</b>
-                                <a expr:href='data:post.labels[0].url' rel='tag noindex nofollow'>
-                                  <b:eval expr='data:post.labels[0].name'/>
-                                </a>
-                              </div>
-                              <div class='content' itemprop='articleBody'>
-                                <data:post.snippet/>
-                              </div>
-                            </div>
+                            <b:if cond='(data:i) == 0 OR OR (data:i) == 10'>
+								<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=50&quot;' expr:data-src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=600&quot;' expr:title='data:post.title' loading='lazy'/></a>
+								<div class='thumbnail'>
+									<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:22px'><data:post.title/></h1></a></div>
+									<!--<div class='content' itemprop='articleBody' style='font-size:14px'><data:post.snippet/></div>-->
+								</div>
+                            <b:elseif cond='(data:i) == 16'/>
+								<!-- ValueImpression Ads Banner - 300x250 -->
+								<div class='adsZone300x250'><div class='adsbyvli' data-ad-slot='vi_1704772570' style='width:300px;height:250px'/>
+								<script>/*<![CDATA[*/(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display('vi_1704772570')})/*]]>*/</script></div><br/>
+								
+								<div class='thumbnail'>
+									<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:20px;height:25vw'><data:post.title/></h1></a></div>
+								</div>
+							<b:elseif cond='((data:i) &gt; 0 AND (data:i) &lt; 5) OR ((data:i) &gt; 10 AND (data:i) &lt; 16)'/>
+								<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' style='width:35vw;height:20vw;float:left;margin-right:10px' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=20&quot;' expr:data-src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=300&quot;' expr:title='data:post.title' loading='lazy'/></a>
+								<div class='thumbnail'>
+									<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:15px;height:22vw'><data:post.title/></h1></a></div>
+								</div>
+							<b:else/>
+								<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' style='width:35vw;height:20vw;float:right;margin-left:10px' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=20&quot;' expr:data-src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=300&quot;' expr:title='data:post.title' loading='lazy'/></a>
+								<div class='thumbnail'>
+									<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:15px;height:22vw'><data:post.title/></h1></a></div>
+								</div>
+							</b:if>
                           </article>
+						  <hr/>
                         </div>
                       </b:loop>
                     </div>
@@ -878,9 +861,7 @@
                 <div id='taboola-below-article-thumbnails'/>
               </b:includable>
               <b:includable id='TaboolaAds-MidArticle-Thumbnails'>
-                <hr/>
-                <div id='taboola-mid-article-thumbnails'/>
-                <hr/>
+				<div id='taboola-mid-article-thumbnails'/>
               </b:includable>
               <b:includable id='backlinkDeleteIcon' var='backlink'/>
               <b:includable id='backlinks' var='post'/>
@@ -897,19 +878,35 @@
               <b:includable id='mobile-nextprev'/>
               <b:includable id='mobile-post' var='post'/>
               <b:includable id='nextprev'>
-                <div class='separator'/>
-                <b:if cond='data:newerPageUrl'>
-                  <div class='nav-button next' id='nav-button-next'>
-                    <a expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>Next &#187;</a>
-                  </div>
-                </b:if>
-                <b:if cond='data:olderPageUrl'>
-                  <div class='nav-button previous' id='nav-button-previous'>
-                    <a expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&#171; Previous</a>
-                  </div>
-                </b:if>
-                <div class='separator'/>
-                <div class='separator'/>
+			    <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
+                  <div class='separator'/>
+                  <b:if cond='data:newerPageUrl'>
+                    <div class='nav-button next' id='nav-button-next'>
+                      <a expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>Next &#187;</a>
+                    </div>
+				    <hr/>
+                  </b:if>
+                  <b:if cond='data:olderPageUrl'>
+                    <div class='nav-button previous' id='nav-button-previous'>
+                      <a expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&#171; Previous</a>
+                    </div>
+				    <hr/>
+                  </b:if>
+                  <div class='separator'/>
+				<b:else/>
+                  <div class='separator'/>
+                  <b:if cond='data:olderPageUrl'>
+                    <div class='nav-button previous' id='nav-button-previous' style='float:left'>
+                      <a expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&#171; Previous Page</a>
+                    </div>
+                  </b:if>
+                  <b:if cond='data:newerPageUrl'>
+                    <div class='nav-button next' id='nav-button-next' style='float:right'>
+                      <a expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>Next Page &#187;</a>
+                    </div>
+                  </b:if>
+                  <div class='separator'/>
+				</b:if>
               </b:includable>
               <b:includable id='post' var='post'/>
               <b:includable id='postQuickEdit' var='post'/>
@@ -944,7 +941,7 @@
     
 	<b:if cond='data:blog.isMobile==false'>
       <div id='rightStickyPanel'>
-		<!-- Developer Media Ads Banner - 160x60 -->
+		<!-- Developer Media Ads Banner - 160x600 -->
         <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-01'/></div><br/>
 		
         <!-- Taboola Ads - Right Rail -->
@@ -963,10 +960,10 @@
           </div>
         </div><div class='separator'/><br/>
 		
-		<!-- Developer Media Ads Banner - 160x60 -->
+		<!-- Developer Media Ads Banner - 160x600 -->
         <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-02'/></div><br/>
 		
-		<!-- Developer Media Ads Banner - 160x60 -->
+		<!-- Developer Media Ads Banner - 160x600 -->
         <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-03'/></div>
       </div>
     </b:if>
@@ -1034,7 +1031,7 @@
 		if (abp.length > 0){
 			var fabp = abp[0];
 			if (fabp != null){
-				try {fabp.insertAdjacentHTML('afterend','<hr/><div id="taboola-mid-article-thumbnails"></div><hr/>'); __g_taboola_midArticleLoaded = true; } catch {}
+				try {fabp.insertAdjacentHTML('afterend','<hr/><div id="taboola-mid-article-thumbnails"></div><hr/><div class="sharethis-inline-share-buttons"></div><hr/>'); __g_taboola_midArticleLoaded = true; } catch {}
 			}
 			
 			if (abp.length > 1){
@@ -1091,7 +1088,6 @@
   </script>
   
   <!-- Taboola Scripts -->
-  <b:if cond='data:blog.isMobile==false'>
   <script type='text/javascript'>
 	/*<![CDATA[*/
 	async function loadTaboolaAsync(){
@@ -1104,22 +1100,19 @@
 	}
 	/*]]>*/
   </script>
-  </b:if>
   
   <!-- Google Tag Manager -->
   <script>
 	/*<![CDATA[*/
+	function trackEvent(c,t){ga('send', 'event', c, t);}
 	function trackSocialShare(social, action) {
 		ga('send', 'social', social, action, document.title);
-		ga('send', 'event', 'Social (' + social + ')', document.title);
-	}
+		trackEvent('Social (' + social + ')', document.title);
+	}	
 	
 	async function trackPageviewAsync(){
 		let gtm = new Promise((resolve, reject) => {
 			setTimeout(function() {
-				window.ga = window.ga || function(){(ga.q = ga.q || []).push(arguments)};
-				ga.l += new Date();
-				ga('create', 'UA-19682592-1', 'auto');
 				ga('send', 'pageview');
 				resolve(true);
 			}, 60000);
@@ -1128,7 +1121,10 @@
 	
 	async function trackSessionAsync(){
 		let gtm = new Promise((resolve, reject) => {
-			setTimeout(function(){ga('send', 'event', 'Session', document.title);trackPageviewAsync();resolve(true);}, 60000);
+			setTimeout(function(){
+				ga('send', 'event', 'Session', document.title);
+				trackPageviewAsync();
+				resolve(true);}, 60000);
 		});
 	}
 	
@@ -1141,8 +1137,13 @@
 			j.onload = function(){trackSessionAsync();resolve(true);};
 			j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MQL3L3P' + dl;
 			f.parentNode.insertBefore(j, f);
+			
+			window.ga = window.ga || function(){(ga.q = ga.q || []).push(arguments)};
+			ga.l += new Date();
+			ga('create', 'UA-19682592-1', 'auto');
 		});
 	}
+	
 	/*]]>*/
   </script>
   
@@ -1151,11 +1152,18 @@
 	/*<![CDATA[*/
 	async function urlRewriteAsync(){
 		let ur = new Promise((resolve, reject) => {
-			setTimeout(function(){var o,t,d=new Date(),c=""+d.getFullYear()+(d.getMonth()+1)+d.getDate()+d.getHours()+d.getMinutes()+d.getSeconds(),e=document.querySelector("link[rel='canonical']").href,n=e+(e.includes("?")?"&session=":"?session=")+c+"&pos="+(window.pageYOffset || document.documentElement.scrollTop || window.scrollY),r="";c%2==0&&(o="Google",t="organic",r="https://www.google.com"),c%3==0&&(o="twitter.com",t="social",r="https://twitter.com"),c%5==0&&(o="DuckDuckGo",t="organic",r="https://duckduckgo.com"),c%7==0&&(o="codeproject.com",t="referral",r="https://www.codeproject.com"),c%11==0&&(o="dzone.com",t="social",r="https://dzone.com"),c%13==0&&(o="Bing",t="organic",r="https://www.bing.com"),c%17==0&&(o="facebook.com",t="social",r="https://www.facebook.com"),c%19==0&&(o="linkedin.com",t="social",r="https://www.linkedin.com"),c%23==0&&(o="dotnetkicks.com",t="referral",r="http://dotnetkicks.com"),null==o||""==o?window.location.href=n:(Object.defineProperty(document,"referrer",{get:function(){return r}}),window.location.href=n+"&utm_source="+o+"&utm_medium="+t);},240000);
+			setTimeout(function(){var o,t,d=new Date(),c=""+d.getFullYear()+(d.getMonth()+1)+d.getDate()+d.getHours()+d.getMinutes(),e=document.querySelector("link[rel='canonical']").href,n=e+(e.includes("?")?"&session=":"?session=")+c+"&pos="+(window.pageYOffset || document.documentElement.scrollTop || window.scrollY),r="";c%2==0&&(o="Google",t="organic",r="https://www.google.com"),c%3==0&&(o="twitter.com",t="social",r="https://twitter.com"),c%5==0&&(o="DuckDuckGo",t="organic",r="https://duckduckgo.com"),c%7==0&&(o="codeproject.com",t="referral",r="https://www.codeproject.com"),c%11==0&&(o="dzone.com",t="social",r="https://dzone.com"),c%13==0&&(o="Bing",t="organic",r="https://www.bing.com"),c%17==0&&(o="facebook.com",t="social",r="https://www.facebook.com"),c%19==0&&(o="linkedin.com",t="social",r="https://www.linkedin.com"),c%23==0&&(o="dotnetkicks.com",t="referral",r="http://dotnetkicks.com"),null==o||""==o?window.location.href=n:(Object.defineProperty(document,"referrer",{get:function(){return r}}),window.location.href=n+"&utm_source="+o+"&utm_medium="+t);},240000);
 			resolve(true);
 		});
 	}
 	/*]]>*/
+  </script>
+  
+  <!-- Lazy Load Images -->
+  <script>
+	/*<![CDATA[*/
+  	function LazyLoadImages(){var e;if("IntersectionObserver" in window){e=document.querySelectorAll(".lazy");if(e.length==0){return;}var n=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var t=e.target;t.src=t.dataset.src,t.classList.remove("lazy"),n.unobserve(t)}})});e.forEach(function(e){n.observe(e)})}else{var t;function r(){t&&clearTimeout(t),t=setTimeout(function(){var n=window.pageYOffset;e.forEach(function(e){e.offsetTop<window.innerHeight+n&&(e.src=e.dataset.src,e.classList.remove("lazy"))}),0==e.length&&(document.removeEventListener("scroll",r),window.removeEventListener("resize",r),window.removeEventListener("orientationChange",r))},20)}e=document.querySelectorAll(".lazy");if(e.length==0){return;}document.addEventListener("scroll",r),window.addEventListener("resize",r),window.addEventListener("orientationChange",r)}};
+    /*]]>*/
   </script>
   
   <!-- On Load Event Registration -->
@@ -1183,6 +1191,7 @@
 		loadGTMAsync(window, document, 'script', 'dataLayer');
 		
 		urlRewriteAsync();
+		LazyLoadImages();
 	}
 	
 	if(window.addEventListener){window.addEventListener('load',ExecuteAsync,false);}else if(window.attachEvent){window.attachEvent('onload',ExecuteAsync);}else{window.onload=ExecuteAsync;}
@@ -1202,19 +1211,17 @@
     </script>
   </b:if>
   
-  <!-- Lazy Load Images -->
-  <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
-    <script type='text/javascript'>
-  /*<![CDATA[*/
-  	  function LazyLoadImages(){var e;if("IntersectionObserver" in window){e=document.querySelectorAll(".lazy");if(e.length==0){return;}var n=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var t=e.target;t.src=t.dataset.src,t.classList.remove("lazy"),n.unobserve(t)}})});e.forEach(function(e){n.observe(e)})}else{var t;function r(){t&&clearTimeout(t),t=setTimeout(function(){var n=window.pageYOffset;e.forEach(function(e){e.offsetTop<window.innerHeight+n&&(e.src=e.dataset.src,e.classList.remove("lazy"))}),0==e.length&&(document.removeEventListener("scroll",r),window.removeEventListener("resize",r),window.removeEventListener("orientationChange",r))},20)}e=document.querySelectorAll(".lazy");if(e.length==0){return;}document.addEventListener("scroll",r),window.addEventListener("resize",r),window.addEventListener("orientationChange",r)}};
-      /*]]>*/
-    </script>
-    <b:else/>
-    <script type='text/javascript'>
-  /*<![CDATA[*/function LazyLoadImages(){}/*]]>*/
-    </script>
+  <!-- Custom Nav Titles -->
+  <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
+	<script type='text/javascript'>
+	/*<![CDATA[*/
+	  async function setNavTitle(e,t,h,ic){if(e==null||t==null){return;}var n="https://www.kunal-chowdhury.com/feeds/posts/summary?published&alt=json&max-results=1&path="+e.getAttribute("href").replace(location.protocol+"//"+location.hostname,""),o=new XMLHttpRequest;o.open("GET",n,!0),o.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response);if(t.feed.entry.length>0){var n=t.feed.entry[0].title.$t,o=t.feed.entry[0].summary.$t.split("\n")[0],img=t.feed.entry[0].media$thumbnail.url.replace("s72-c","s200");e.innerHTML="<img class='"+ic+"' src='https://imagecdn.app/v2/image/"+img+"?width=200' loading='lazy' alt='"+n+"' title='"+n+"'/><span class='nav-button-heading'>"+h+"</span><hr/><span class='nav-button-title'>"+n+"</span>"}}},o.send()}function SetNavTitles(){setNavTitle(document.getElementById("Blog1_blog-pager-newer-link"),document.getElementById("nav-button-next"),"NEXT STORY","nav-button-next-image");setNavTitle(document.getElementById("Blog1_blog-pager-older-link"),document.getElementById("nav-button-previous"),"PREVIOUS STORY","nav-button-previous-image");}
+	/*]]>*/	
+	</script>
+  <b:else/>
+    <script>SetNavTitles(){}</script>
   </b:if>
-  
+	  
   <!-- Lazy Load YouTube Videos -->
   <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
     <script type='text/javascript'>
@@ -1232,16 +1239,6 @@
   
   <b:if cond='data:blog.isMobile'>
     <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
-      <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
-        <script type='text/javascript'>
-  /*<![CDATA[*/
-  		  function setNavTitle(e,t){if(e==null||t==null){return;}var n="https://www.kunal-chowdhury.com/feeds/posts/summary?published&alt=json&max-results=1&path="+e.getAttribute("href").replace(location.protocol+"//"+location.hostname,""),o=new XMLHttpRequest;o.open("GET",n,!0),o.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response);if(t.feed.entry.length>0){var n=t.feed.entry[0].title.$t,o=t.feed.entry[0].summary.$t.split("\n")[0],img=t.feed.entry[0].media$thumbnail.url.replace("s72-c","s0");e.innerHTML="<img class='postImage' src='"+img+"' loading='lazy' alt='"+n+"' title='"+n+"'/><b>"+n+"</b><hr/><small>"+o+"</small>"}}},o.send()}function SetNavTitles(){setNavTitle(document.getElementById("Blog1_blog-pager-older-link"),document.getElementById("nav-button-previous")),setNavTitle(document.getElementById("Blog1_blog-pager-newer-link"),document.getElementById("nav-button-next"));}/*]]>*/
-        </script>
-        <b:else/>
-        <script type='text/javascript'>
-  /*<![CDATA[*/function SetNavTitles(){}/*]]>*/
-        </script>
-      </b:if>
       <script type='text/javascript'>
   /*<![CDATA[*/
   
@@ -1256,7 +1253,7 @@
       </script>
       <b:else/>
       <script type='text/javascript'>
-  /*<![CDATA[*/function SetNavTitles(){}function LazyLoadImages(){}function LazyLoadYouTubeVideos(){}/*]]>*/
+  /*<![CDATA[*/function LazyLoadYouTubeVideos(){}/*]]>*/
       </script>
       <!-- Load External Scripts -->
       <script type='text/javascript'>
@@ -1271,20 +1268,7 @@
       </script>
     </b:if>
   </b:if>
-  <b:if cond='data:blog.isMobile==false'>
-      <!-- Desktop Pages of type Posts and Static Pages -->
-      <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
-        <script type='text/javascript'>
-		/*<![CDATA[*/
-  		  function setNavTitle(e,t){if(e==null||t==null){return;}var n="https://www.kunal-chowdhury.com/feeds/posts/summary?published&alt=json&max-results=1&path="+e.getAttribute("href").replace(location.protocol+"//"+location.hostname,""),o=new XMLHttpRequest;o.open("GET",n,!0),o.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response);if(t.feed.entry.length>0){var n=t.feed.entry[0].title.$t,o=t.feed.entry[0].summary.$t.split("\n")[0],img=t.feed.entry[0].media$thumbnail.url.replace("s72-c","s0");e.innerHTML="<img class='postImage' src='"+img+"' loading='lazy' alt='"+n+"' title='"+n+"'/><b>"+n+"</b><hr/><small>"+o+"</small>"}}},o.send()}function SetNavTitles(){setNavTitle(document.getElementById("Blog1_blog-pager-older-link"),document.getElementById("nav-button-previous")),setNavTitle(document.getElementById("Blog1_blog-pager-newer-link"),document.getElementById("nav-button-next"));}
-  		/*]]>*/
-        </script>
-        <b:else/>
-        <script type='text/javascript'>
-		/*<![CDATA[*/function SetNavTitles(){}/*]]>*/
-        </script>
-      </b:if>
-  </b:if>
+
   <!-- On Scroll Event -->
   <b:if cond='data:blog.isMobile'>
     <script type='text/javascript'>
@@ -1293,14 +1277,16 @@
   	  if(loaded && !scrolled){
   		scrolled = 1;
   				
-  		window._taboola=window._taboola || [];
-  		_taboola.push({article:'auto',tracking:'utm_source=taboola'});!function (e, f, u, i){if (!document.getElementById(i)){e.async = 1;e.src = u;e.id = i;f.parentNode.insertBefore(e,f);}}(document.createElement('script'),document.getElementsByTagName('script')[0],'https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script');if(window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
+  		getScript('https://services.vlitag.com/adv1/?q=92521586c3401f92f42fb24840ac549d','vi_loader_script');
+		getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script');
+		
+		loadTaboolaAsync();
   
   		_taboola.push({mode: 'thumbnails-mid', container: 'taboola-mid-article-thumbnails', placement: 'Mid Article Thumbnails', target_type: 'mix'});
   		_taboola.push({mode:'thumbnails-a',container:'taboola-below-article-thumbnails',placement:'Below Article Thumbnails',target_type:'mix'});
   		_taboola.push({flush:true});
   
-  		SetNavTitles();LazyLoadImages();LazyLoadYouTubeVideos();
+  		SetNavTitles();LazyLoadYouTubeVideos();
   	  }
       };
     /*]]>*/
@@ -1309,15 +1295,18 @@
     <script type='text/javascript'>
   /*<![CDATA[*/
       window.onscroll = function() {
-  	  if(loaded && !scrolled){
-  		scrolled = 1;
-  
-  		SetNavTitles();LoadTechNewsWidget();LazyLoadImages();LazyLoadYouTubeVideos();
-  	  }
+		  if(loaded && !scrolled){
+			scrolled = 1;
+	  
+			SetNavTitles();LoadTechNewsWidget();LazyLoadYouTubeVideos();
+		  }
       };
     /*]]>*/
     </script>
   </b:if>
+  
+  <b:if cond='data:blog.isMobile==false AND data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'><script>/*<![CDATA[*/getScript('https://platform-api.sharethis.com/js/sharethis.js#property=61195df349abbb00129cb2e7&product=inline-share-buttons');/*]]>*/</script></b:if>
+  
   <!--<b:if cond='data:blog.isMobile==false'>
     <script defer='defer' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'/>
     <script type='module'>/*<![CDATA[*/
