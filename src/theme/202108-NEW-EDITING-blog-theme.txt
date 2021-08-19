@@ -171,15 +171,17 @@
 		if (!__g_isMobile){getScript('https://services.vlitag.com/adv1/?q=92521586c3401f92f42fb24840ac549d','vi_loader_script');}
 		getScript('https://cdn1.developermedia.com/a.min.js','dm_loader_script');
 		if (!__g_isMobile){getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script');}
-		getScript('https://www.google-analytics.com/analytics.js');
+		getScript('https://www.google-analytics.com/analytics.js','ga_loader_script');
 	})();
 	/*]]>*/
   </script>
   
   <script>
+    /*<![CDATA[*/
 	var vitag = vitag || {};
 	
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create', 'UA-19682592-1', 'auto');ga('send', 'pageview');
+	/*]]>*/
   </script>
 </head>
 
@@ -1165,8 +1167,6 @@
 				}, 1000);
 			});
 		}
-	
-		loadGTMAsync(window, document, 'script', 'dataLayer');
 		
 		urlRewriteAsync();
 		LazyLoadImages();
@@ -1283,7 +1283,7 @@
     </script>
   </b:if>
   
-  <b:if cond='data:blog.isMobile==false AND data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'><script>/*<![CDATA[*/getScript('https://platform-api.sharethis.com/js/sharethis.js#property=61195df349abbb00129cb2e7&product=inline-share-buttons');/*]]>*/</script></b:if>
+  <b:if cond='data:blog.isMobile==false AND data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'><script>/*<![CDATA[*/getScript('https://platform-api.sharethis.com/js/sharethis.js#property=61195df349abbb00129cb2e7&product=inline-share-buttons','st_loader_script');/*]]>*/</script></b:if>
   
   <!--<b:if cond='data:blog.isMobile==false'>
     <script defer='defer' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'/>
