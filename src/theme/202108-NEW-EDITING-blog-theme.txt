@@ -171,12 +171,15 @@
 		if (!__g_isMobile){getScript('https://services.vlitag.com/adv1/?q=92521586c3401f92f42fb24840ac549d','vi_loader_script');}
 		getScript('https://cdn1.developermedia.com/a.min.js','dm_loader_script');
 		if (!__g_isMobile){getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script');}
+		getScript('https://www.google-analytics.com/analytics.js');
 	})();
 	/*]]>*/
   </script>
   
   <script>
 	var vitag = vitag || {};
+	
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create', 'UA-19682592-1', 'auto');ga('send', 'pageview');
   </script>
 </head>
 
@@ -796,8 +799,19 @@
                   <b:if cond='data:blog.isMobile'>
                     <div id='wrappanel'>
                       <b:loop index='i' values='data:posts' var='post'>
-                        <b:if cond='(data:i) == 5'><div><b:include name='TaboolaAds-MidArticle-Thumbnails' style='width:100vw'/></div></b:if>
-						<b:if cond='(data:i) == 7'><hr/></b:if>
+                        <b:if cond='(data:i) == 5'>
+							<!-- ValueImpression Video Ads -->
+							<div class="adsbyvli" data-ad-slot="outstream"></div><script> vitag.outStreamConfig = { type: "slider", position: "right" }; </script><br/>
+						</b:if>
+						<b:if cond='(data:i) == 10'>
+							<div style='width:100vw'><b:include name='TaboolaAds-MidArticle-Thumbnails' style='width:100vw'/></div>
+						</b:if>
+						<b:if cond='(data:i) == 16'>
+							<!-- ValueImpression Ads Banner - 300x250 -->
+							<div class='adsbyvli' data-ad-slot='vi_1704772570' style='width:300px;height:250px'/>
+							<script>/*<![CDATA[*/(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display('vi_1704772570')})/*]]>*/</script><br/>
+						</b:if>
+						
                         <div class='postDiv'>
                           <article expr:id='&quot;post-body-&quot; + data:post.id'>
                             <b:if cond='(data:i) == 0 OR OR (data:i) == 10'>
@@ -806,11 +820,7 @@
 									<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:22px'><data:post.title/></h1></a></div>
 									<!--<div class='content' itemprop='articleBody' style='font-size:14px'><data:post.snippet/></div>-->
 								</div>
-                            <b:elseif cond='(data:i) == 16'/>
-								<!-- ValueImpression Ads Banner - 300x250 -->
-								<div class='adsZone300x250'><div class='adsbyvli' data-ad-slot='vi_1704772570' style='width:300px;height:250px'/>
-								<script>/*<![CDATA[*/(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display('vi_1704772570')})/*]]>*/</script></div><br/>
-								
+                            <b:elseif cond='(data:i) == 16'/>								
 								<div class='thumbnail'>
 									<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:20px;height:25vw'><data:post.title/></h1></a></div>
 								</div>
@@ -1101,7 +1111,7 @@
 	/*]]>*/
   </script>
   
-  <!-- Google Tag Manager -->
+  <!-- Google Analytics -->
   <script>
 	/*<![CDATA[*/
 	function trackEvent(c,t){ga('send', 'event', c, t);}
@@ -1110,40 +1120,8 @@
 		trackEvent('Social (' + social + ')', document.title);
 	}	
 	
-	async function trackPageviewAsync(){
-		let gtm = new Promise((resolve, reject) => {
-			setTimeout(function() {
-				ga('send', 'pageview');
-				resolve(true);
-			}, 60000);
-		});
-	}
-	
-	async function trackSessionAsync(){
-		let gtm = new Promise((resolve, reject) => {
-			setTimeout(function(){
-				ga('send', 'event', 'Session', document.title);
-				trackPageviewAsync();
-				resolve(true);}, 60000);
-		});
-	}
-	
-	async function loadGTMAsync(w, d, s, l){
-		let gtm = new Promise((resolve, reject) => {
-			w[l] = w[l] || [];
-			w[l].push({'gtm.start': new Date().getTime(),event: 'gtm.js'});
-			var f = d.getElementsByTagName(s)[0],j = d.createElement(s),dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.onload = function(){trackSessionAsync();resolve(true);};
-			j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MQL3L3P' + dl;
-			f.parentNode.insertBefore(j, f);
-			
-			window.ga = window.ga || function(){(ga.q = ga.q || []).push(arguments)};
-			ga.l += new Date();
-			ga('create', 'UA-19682592-1', 'auto');
-		});
-	}
-	
+	(async function(){setTimeout(function(){ga('send', 'pageview');}, 120000);})();	
+	(async function(){setTimeout(function(){ga('send', 'event', 'Session', document.title);}, 60000);})();
 	/*]]>*/
   </script>
   
