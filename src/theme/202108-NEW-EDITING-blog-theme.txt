@@ -79,8 +79,6 @@
   <link href='https://www.kunal-chowdhury.com/feeds/posts/default?alt=rss' rel='alternate' title='Kunal-Chowdhury.com - The Technology Navigator - RSS' type='application/rss+xml'/>
   
   <b:skin><![CDATA[
-    /**/
-
 	/* Global */
 	html,p,body{font-family:Segoe UI,Arial,Tahoma;margin:0px;font-size:18px;word-wrap:break-word}a:link,a:visited{color:#0060a6;text-decoration:none}a:hover{color:#ff0000}a img{border-width:0}
 	*{box-sizing:border-box}
@@ -141,15 +139,24 @@
 	@media all and (max-width: 1415px){.LeftSticky120x600{display:none}}@media all and (min-width: 1415px){.ATFPost{display:none}}
 
 	.mobile .post-comment-link{display:none}.mobile .post-labels{display:none}.post-labels-div{margin:4px;padding:4px 12px;background-color:#f5f5f5;border-radius:2px;display:inline-block;font-size:18px}.post-labels-div>a{color:#999}#head-top{height:55px;}
-
-	/**/
   ]]></b:skin>
    
   <script type='text/javascript'>
   /*<![CDATA[*/
-    var loaded, scrolled = 0, __g_taboola = false, __g_taboola_midArticleLoaded = false;
+    var loaded, scrolled = 0, __g_taboola_midArticleLoaded = false;
     var childNetworkId="21637028082",child=childNetworkId.trim()?","+childNetworkId.trim():"";
 	var abpUnit = __g_isMobile ? "300x250" : "728x90";
+	
+    async function getScript(url, id, isAsync){
+		var s = document.createElement('script'); s.defer = isAsync; s.async = isAsync; s.src = url; s.id = id; s.crossorigin = "anonymous";
+		var h = document.getElementsByTagName('head')[0];
+		h.appendChild(s);
+	}
+	
+	var _taboola = _taboola || [];
+	var vitag = vitag || {};
+	getScript('https://services.vlitag.com/adv1/?q=92521586c3401f92f42fb24840ac549d','vi_loader_script', true);
+	getScript('https://cdn1.developermedia.com/a.min.js','dm_loader_script', true);
   /*]]>*/
   </script>  
 </head>
@@ -281,9 +288,6 @@
               </li>
             </ul>
           </div>
-		  
-          <!-- Developer Media Ads Banner - 300x250 -->
-          <div class='adsZone300x250'><div data-format='300x250' data-publisher='lqm.kunal.site' data-type='ad' data-zone='SIDEBAR-300x250-03'/></div><br/>
         </div>
       </sidebar>
     </b:if>
@@ -335,7 +339,7 @@
                         <article>
                           <div class='post' itemscope='itemscope' itemtype='https://schema.org/Article'>
 							<div class='breadcrumb' itemscope='itemscope' itemtype='https://schema.org/breadcrumb'><div itemscope='itemscope' itemtype='https://schema.org/BreadcrumbList'>
-							  <span itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'><a href='/' alt='Home (kunal-chowdhury.com)' title='Home (kunal-chowdhury.com)' itemprop='item'><span itemprop='name'>Home</span></a><meta itemprop='position' content='1'/></span> / <!--<b:if cond='data:post.labels any (label =&gt; label.name == &quot;Tech News&quot;)'><span itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'><a href='/search/label/Tech News' alt='Latest Technical News Coverings' title='Latest Technical News Coverings' itemprop='item'><span itemprop='name'>Tech News</span></a><meta itemprop='position' content='2'/></span> / <span itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'><a expr:href='data:blog.url.canonical' expr:alt='data:post.title' expr:title='data:post.title' itemprop='item'><span itemprop='name'><data:post.title/></span></a><meta itemprop='position' content='3'/></span><b:else/>--><span itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'><a expr:href='data:blog.url.canonical' expr:alt='data:post.title' expr:title='data:post.title' itemprop='item'><span itemprop='name'><data:post.title/></span></a><meta itemprop='position' content='2'/></span><!--</b:if>-->
+							  <span itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'><a href='/' alt='Home (kunal-chowdhury.com)' title='Home (kunal-chowdhury.com)' itemprop='item'><span itemprop='name'>Home</span></a><meta itemprop='position' content='1'/></span> / <span itemprop='itemListElement' itemscope='itemscope' itemtype='https://schema.org/ListItem'><a expr:href='data:blog.url.canonical' expr:alt='data:post.title' expr:title='data:post.title' itemprop='item'><span itemprop='name'><data:post.title/></span></a><meta itemprop='position' content='2'/></span><!--</b:if>-->
 							</div></div>
 						
                             <header>							  
@@ -364,49 +368,15 @@
                                 <div class='separator'/>
                               </b:if>
                               <hr/>
-							  
-                              <b:if cond='data:blog.isMobile==false'>
-                                <div class='social-share-div'>
-                                  <a alt='Share on Twitter' expr:href='&quot;https://twitter.com/share?url=&quot; + data:blog.url.canonical + &quot;&amp;via=kunaldchowdhury&amp;text=&quot; + data:blog.pageName' onclick='trackSocialShare(&quot;twitter&quot;,&quot;tweet&quot;)' rel='noreferrer' target='_blank' title='Share on Twitter'>
-                                    <div class='socialIcons twitter'>
-                                      <svg aria-hidden='true' data-icon='twitter' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
-                                        <path d='M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z' fill='white'/>
-                                      </svg>
-                                    </div>
-                                  </a>
-                                  <br/>
-                                  <a alt='Share on Facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url.canonical + &quot;&amp;t=&quot; + data:blog.pageName' onclick='trackSocialShare(&quot;facebook&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on Facebook'>
-                                    <div class='socialIcons facebook'>
-                                      <svg aria-hidden='true' data-icon='facebook' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
-                                        <path d='M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z' fill='white'/>
-                                      </svg>
-                                    </div>
-                                  </a>
-                                  <br/>
-                                  <a alt='Share on LinkedIn' expr:href='&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:blog.url.canonical' onclick='trackSocialShare(&quot;linkedin&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on LinkedIn'>
-                                    <div class='socialIcons linkedin'>
-                                      <svg aria-hidden='true' data-icon='linkedin' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
-                                        <path d='M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z' fill='white'/>
-                                      </svg>
-                                    </div>
-                                  </a>
-                                  <b:if cond='data:blog.isMobile'>
-                                    <br/>
-                                    <a alt='Share on WhatsApp' expr:href='&quot;whatsapp://send?text=&quot; + data:blog.pageName + &quot; &quot; + data:blog.url.canonical' onclick='trackSocialShare(&quot;whatsapp&quot;,&quot;share&quot;)' rel='noreferrer' target='_blank' title='Share on WhatsApp'>
-                                      <div class='socialIcons whatsapp'>
-                                        <svg aria-hidden='true' data-icon='whatsapp' data-prefix='fab' role='img' viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'>
-                                          <path d='M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z' fill='white'/>
-                                        </svg>
-                                      </div>
-                                    </a>
-                                  </b:if>
-                                </div>
-                              </b:if>
                             </header>
                             <div class='post-header'>
                               <div class='post-header-line-1'/>
                             </div>
-                            <br/>
+							  
+						    <b:if cond='data:blog.isMobile'>
+							  <div class="adsbyvli" data-ad-slot="outstream"></div><script>vitag.outStreamConfig = { type: "slider", position: "right" };</script>
+						    </b:if>
+							
                             <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
                               <article class='articleContent' id='postBody'>
                                 <data:post.body/>
@@ -922,14 +892,8 @@
     
 	<b:if cond='data:blog.isMobile==false'>
       <div id='rightStickyPanel'>
-		<!-- Developer Media Ads Banner - 160x600 -->
-        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-01'/></div><br/>
-		
-        <!-- Taboola Ads - Right Rail -->
-        <div id='taboola-right-rail-thumbnails' style='min-height:1300px;border:1px solid #e1e1e1'/><br/>
-		
         <div class='SidebarPosts'>
-          <span class='SidebarPosts-Header'>Latest Downloads</span>
+          <span class='SidebarPosts-Header'>Downloads</span>
           <div>
             <ul class='sidebar-posts-ul'>
 			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Windows 11' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/p/download-windows-11.html' title='Download latest version of Windows 11'>Windows 11</a></div></li>
@@ -939,13 +903,16 @@
 			  <li class='sidebar-posts-ul-li' style='min-height:20px !important;text-align:center'><div class='sidebar-posts-ul-li-div'><a alt='Download latest version of Visual Studio 2015 (ISO/Offline Installer)' class='sidebar-posts-ul-li-div-a' href='https://www.kunal-chowdhury.com/2015/07/download-visualstudio-2015.html' title='Download latest version of Visual Studio 2015 (ISO/Offline Installer)'>Visual Studio 2015</a></div></li>
             </ul>
           </div>
-        </div><div class='separator'/><br/>
+        </div><br/>
 		
 		<!-- Developer Media Ads Banner - 160x600 -->
-        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-02'/></div><br/>
+        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-01'/></div><br/>
+		
+        <!-- Taboola Ads - Right Rail -->
+        <div id='taboola-right-rail-thumbnails' style='min-height:1300px;border:1px solid #e1e1e1'/><br/>
 		
 		<!-- Developer Media Ads Banner - 160x600 -->
-        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-03'/></div>
+        <div class='adsZone160x600'><div data-format='160x600' data-publisher='lqm.kunal.site' data-type='ad' data-zone='RIGHTRAIL-160x60-02'/></div>
       </div>
     </b:if>
   </div>
@@ -1007,65 +974,45 @@
   <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
   <script>
 	/*<![CDATA[*/
-	async function insertABPAsync(){
-		var abp = document.querySelectorAll('.adsBetweenPosts');
-		if (abp.length > 0){
-			var fabp = abp[0];
-			if (fabp != null){
-				try {fabp.insertAdjacentHTML('afterend','<hr/><div id="taboola-mid-article-thumbnails"></div><hr/><div class="sharethis-inline-share-buttons"></div><hr/>'); __g_taboola_midArticleLoaded = true; } catch {}
-			}
-			
-			if (abp.length > 1){
-				for (var i = 1; i < abp.length; i++){
-					var nabp = abp[i];
-					if (nabp != null){
-						try {nabp.insertAdjacentHTML('afterend','<div class="adsZone' + abpUnit + '"><div align="center" class="lqm_ad" data-format="' + abpUnit + '" data-publisher="lqm.kunal.site" data-type="ad" data-zone="POST-' + abpUnit + '-Rest"/></div>');} catch {}
-					}
+	var abp = document.querySelectorAll('.adsBetweenPosts');
+	if (abp.length > 0){
+		var fabp = abp[0];
+		if (fabp != null){
+			try {
+			  if(__g_isMobile){fabp.insertAdjacentHTML('afterend','<hr/><div id="taboola-mid-article-thumbnails"></div><hr/>');}
+			  else{fabp.insertAdjacentHTML('afterend','<hr/><div id="taboola-mid-article-thumbnails"></div><hr/><div class="sharethis-inline-share-buttons"></div><hr/>');}
+			  __g_taboola_midArticleLoaded = true; 
+			} catch {}
+		}
+		
+		if (abp.length > 1){
+			for (var i = 1; i < abp.length; i++){
+				var nabp = abp[i];
+				if (nabp != null){
+					try {nabp.insertAdjacentHTML('afterend','<div class="adsZone' + abpUnit + '"><div align="center" class="lqm_ad" data-format="' + abpUnit + '" data-publisher="lqm.kunal.site" data-type="ad" data-zone="POST-' + abpUnit + '-Rest"/></div>');} catch {}
 				}
 			}
 		}
 	}
-	
-	insertABPAsync();
 	/*]]>*/
   </script>
   </b:if>
   
+  <!-- Google Analytics -->
   <script>
-	/*<![CDATA[*/
-    async function getScript(url, id, isAsync){
-		var s = document.createElement('script'); s.defer = isAsync; s.async = isAsync; s.src = url; s.id = id; s.crossorigin = "anonymous";
-		var h = document.getElementsByTagName('head')[0];
-		h.appendChild(s);
+    /*<![CDATA[*/	
+	window.ga = window.ga || function(){(ga.q=ga.q||[]).push(arguments)}; ga.l =+ new Date; ga('create', 'UA-19682592-1', 'auto'); ga('send', 'pageview');
+	getScript('https://www.google-analytics.com/analytics.js','ga_loader_script', true);
+	
+	function trackEvent(c,t){ga('send', 'event', c, t);}
+	function trackSocialShare(social, action) {
+		ga('send', 'social', social, action, document.title);
+		trackEvent('Social (' + social + ')', document.title);
 	}
 	/*]]>*/
   </script>
   
-  <script>
-    /*<![CDATA[*/
-	var vitag = vitag || {};
-	
-	var _taboola = _taboola || []; _taboola.push({article:'auto',tracking:'utm_source=taboola'}); if (window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
-	
-	window.ga = window.ga || function(){(ga.q=ga.q||[]).push(arguments)}; ga.l =+ new Date; ga('create', 'UA-19682592-1', 'auto'); ga('send', 'pageview');
-	/*]]>*/
-  </script>
-  
-  <!-- Ad Scripts -->
-  <script>
-	/*<![CDATA[*/
-	(async function(){
-		getScript('https://www.google-analytics.com/analytics.js','ga_loader_script', true);
-		if (!__g_isMobile){
-			getScript('https://cdn1.developermedia.com/a.min.js','dm_loader_script', true);
-			getScript('https://services.vlitag.com/adv1/?q=92521586c3401f92f42fb24840ac549d','vi_loader_script', true);
-			getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script', true); _taboola.push({flush:true});
-		}
-	})();
-	/*]]>*/
-  </script>
-  
-  <!-- Setupad Scripts -->
+  <!-- Setupad Ads Scripts -->
   <b:if cond='data:blog.isMobile==false'>
 	<script>
 	/*<![CDATA[*/
@@ -1099,17 +1046,6 @@
   <script type='text/javascript'>
 	/*<![CDATA[*/
 	function _dmFollowup(file) { if (typeof DMAds === 'undefined') getScript('https://cdn2.developermedia.com/a.min.js','dm_loader_script', true); }
-	/*]]>*/
-  </script>
-  
-  <!-- Google Analytics -->
-  <script>
-	/*<![CDATA[*/
-	function trackEvent(c,t){ga('send', 'event', c, t);}
-	function trackSocialShare(social, action) {
-		ga('send', 'social', social, action, document.title);
-		trackEvent('Social (' + social + ')', document.title);
-	}
 	/*]]>*/
   </script>
   
@@ -1164,7 +1100,8 @@
 		}
 		
 		LazyLoadImages();
-				
+
+		_taboola.push({article:'auto',tracking:'utm_source=taboola'}); if (window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
 		if (!__g_isMobile){_taboola.push({mode:'thumbnails-rr',container:'taboola-right-rail-thumbnails',placement:'Right Rail Thumbnails',target_type:'mix'});}
 		if (__g_taboola_midArticleLoaded){ _taboola.push({mode:'thumbnails-mid',container:'taboola-mid-article-thumbnails',placement:'Mid Article Thumbnails',target_type:'mix'});};
 		_taboola.push({mode:'thumbnails-a',container:'taboola-below-article-thumbnails',placement:'Below Article Thumbnails',target_type:'mix'});
@@ -1181,35 +1118,20 @@
   </script>
   
   <!-- On Scroll Event -->
-  <b:if cond='data:blog.isMobile'>
-    <script type='text/javascript'>
+  <script type='text/javascript'>
 	/*<![CDATA[*/
-      window.onscroll = function() {
-		  if(loaded && !scrolled){
-			scrolled = 1;
-
-			getScript('https://cdn1.developermedia.com/a.min.js','dm_loader_script', true);
-			getScript('https://services.vlitag.com/adv1/?q=92521586c3401f92f42fb24840ac549d','vi_loader_script', true);
-			getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script', true); _taboola.push({flush:true});
-			
-			SetNavTitles();LazyLoadYouTubeVideos();
-		  }
-      };
-    /*]]>*/
-    </script>
-    <b:else/>
-    <script type='text/javascript'>
-  /*<![CDATA[*/
-      window.onscroll = function() {
-		  if(loaded && !scrolled){
-			scrolled = 1;
-	  
-			SetNavTitles();LoadTechNewsWidget();LazyLoadYouTubeVideos();
-		  }
-      };
-    /*]]>*/
-    </script>
-  </b:if>
+	window.onscroll = function() {
+	  if(loaded && !scrolled){
+		scrolled = 1;
+		getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script', true); _taboola.push({flush:true});
+		
+		SetNavTitles();
+		if(!__g_isMobile){LoadTechNewsWidget();}
+		LazyLoadYouTubeVideos();
+	  }
+	};
+	/*]]>*/
+  </script>
   
   <b:if cond='data:blog.isMobile==false AND data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'><script>/*<![CDATA[*/getScript('https://platform-api.sharethis.com/js/sharethis.js#property=61195df349abbb00129cb2e7&product=inline-share-buttons','st_loader_script', true);/*]]>*/</script></b:if>
   
