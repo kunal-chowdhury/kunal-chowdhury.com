@@ -580,7 +580,7 @@
 						<div class='thumbnail-div-outer' style='width:100%'>
 						  <div class='thumbnail-div-img' style='width:150px;float:left;margin-right:12px;margin-top:10px'>
 							<a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
-								<img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + resizeImage(data:post.firstImageUrl, 728, &quot;800:450&quot;) + &quot;?width=728&quot;' expr:title='data:post.title' height='410' loading='lazy' width='728'/>
+								<img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 728, &quot;800:450&quot;)' expr:title='data:post.title' height='410' loading='lazy' width='728'/>
 							</a>
 						  </div>
 						  <div class='thumbnail-div-title'>
@@ -598,7 +598,7 @@
 						<div class='thumbnail-div-outer'>
 							<div class='thumbnail-div-img'>
 							<a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
-								<img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + resizeImage(data:post.firstImageUrl, 728, &quot;800:450&quot;) + &quot;?width=728&quot;' expr:title='data:post.title' height='410' loading='lazy' width='728'/>
+								<img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 728, &quot;800:450&quot;)' expr:title='data:post.title' height='410' loading='lazy' width='728'/>
 							</a>
 							</div>
 							<hr/>
@@ -619,7 +619,7 @@
 						<div class='thumnail-div-348 thumbnail-div-outer'>
 							<div class='thumbnail-div-img'>
 							<a expr:alt='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
-								<img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + resizeImage(data:post.firstImageUrl, 348, &quot;800:450&quot;) + &quot;?width=728&quot;' expr:title='data:post.title' height='196' loading='lazy' width='348'/>
+								<img class='thumbnail-div-img' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 348, &quot;800:450&quot;)' expr:title='data:post.title' height='196' loading='lazy' width='348'/>
 							</a>
 							</div>
 							<hr/>
@@ -733,7 +733,7 @@
                         <div class='postDiv'>
                           <article expr:id='&quot;post-body-&quot; + data:post.id'>
                             <a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'>
-                              <img class='headerImage' expr:alt='data:post.title' expr:src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=250&quot;' expr:title='data:post.title' loading='lazy'/>
+                              <img class='headerImage' expr:alt='data:post.title' expr:src='data:post.firstImageUrl + &quot;?width=250&quot;' expr:title='data:post.title' loading='lazy'/>
                             </a>
                             <div class='thumbnail'>
                               <div class='title'>
@@ -770,7 +770,7 @@
                       <b:loop index='i' values='data:posts' var='post'>
                         <b:if cond='(data:i) == 5'>
 							<!-- ValueImpression Video Ads -->
-							<div class='adsbyvli' data-ad-slot='outstream'/><script> vitag.outStreamConfig = { type: &quot;slider&quot;, position: &quot;right&quot; }; </script><br/>
+							<div class='adsbyvli' data-ad-slot='outstream'/><script>/*<![CDATA[*/vitag.outStreamConfig = { type: 'slider', position: 'right'};/*]]>*/</script><br/>
 						</b:if>
 						<b:if cond='(data:i) == 10'>
 							<div style='width:100vw'><b:include name='TaboolaAds-MidArticle-Thumbnails' style='width:100vw'/></div>
@@ -790,7 +790,7 @@
 							<b:elseif cond='data:post.labels any (label =&gt; label.name == &quot;NOSHOW&quot;)'/>
 							<b:else/>
 								<b:if cond='(data:i) == 0 OR OR (data:i) == 10'>
-									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' expr:title='data:post.title' loading='lazy'/></a>
+									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 350, &quot;800:450&quot;)' expr:title='data:post.title' loading='lazy'/></a>
 									<div class='thumbnail'>
 										<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:22px'><data:post.title/></h1></a></div>
 										<!--<div class='content' itemprop='articleBody' style='font-size:14px'><data:post.snippet/></div>-->
@@ -800,17 +800,17 @@
 										<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:20px;height:25vw'><data:post.title/></h1></a></div>
 									</div>
 								<b:elseif cond='((data:i) &gt; 0 AND (data:i) &lt; 5)'/>
-									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' loading='lazy' style='width:35vw;height:20vw;float:left;margin-right:10px'/></a>
+									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage' expr:alt='data:post.title' expr:src='resizeImage(data:post.firstImageUrl, 200, &quot;800:450&quot;)' loading='lazy' style='width:35vw;height:20vw;float:left;margin-right:10px'/></a>
 									<div class='thumbnail'>
 										<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:15px;height:22vw'><data:post.title/></h1></a></div>
 									</div>
 								<b:elseif cond='((data:i) &gt; 10 AND (data:i) &lt; 16)'/>
-									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' expr:alt='data:post.title' expr:data-src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=300&quot;' expr:title='data:post.title' loading='lazy' src='https://3.bp.blogspot.com/-ZqzYphJoK5A/YR5Bbu80sMI/AAAAAAAAdRs/0PaIW_rSzoMktOEs7cOQ9tNR8hJRZIfeQCLcBGAsYHQ/s0/bg-min.jpg' style='width:35vw;height:20vw;float:left;margin-right:10px'/></a>
+									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' expr:alt='data:post.title' expr:data-src='resizeImage(data:post.firstImageUrl, 200, &quot;800:450&quot;)' expr:title='data:post.title' loading='lazy' src='https://3.bp.blogspot.com/-ZqzYphJoK5A/YR5Bbu80sMI/AAAAAAAAdRs/0PaIW_rSzoMktOEs7cOQ9tNR8hJRZIfeQCLcBGAsYHQ/s0/bg-min.jpg' style='width:35vw;height:20vw;float:left;margin-right:10px'/></a>
 									<div class='thumbnail'>
 										<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:15px;height:22vw'><data:post.title/></h1></a></div>
 									</div>
 								<b:else/>
-									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' expr:alt='data:post.title' expr:data-src='&quot;https://imagecdn.app/v2/image/&quot; + data:post.firstImageUrl + &quot;?width=300&quot;' expr:title='data:post.title' loading='lazy' src='https://3.bp.blogspot.com/-ZqzYphJoK5A/YR5Bbu80sMI/AAAAAAAAdRs/0PaIW_rSzoMktOEs7cOQ9tNR8hJRZIfeQCLcBGAsYHQ/s0/bg-min.jpg' style='width:35vw;height:20vw;float:right;margin-left:10px'/></a>
+									<a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><img class='headerImage lazy' expr:alt='data:post.title' expr:data-src='resizeImage(data:post.firstImageUrl, 200, &quot;800:450&quot;)' expr:title='data:post.title' loading='lazy' src='https://3.bp.blogspot.com/-ZqzYphJoK5A/YR5Bbu80sMI/AAAAAAAAdRs/0PaIW_rSzoMktOEs7cOQ9tNR8hJRZIfeQCLcBGAsYHQ/s0/bg-min.jpg' style='width:35vw;height:20vw;float:right;margin-left:10px'/></a>
 									<div class='thumbnail'>
 										<div class='title'><a expr:alt='data:post.title' expr:href='data:post.url' expr:name='data:post.id' expr:title='data:post.title'><h1 class='post-title' style='font-size:15px;height:22vw'><data:post.title/></h1></a></div>
 									</div>
