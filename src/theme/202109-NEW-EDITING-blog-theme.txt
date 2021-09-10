@@ -51,6 +51,8 @@
 	/*]]>*/
   </script>
   
+  <link rel="preconnect" href="https://ik.imagekit.io"/>
+  
   <script type='text/javascript'>
   /*<![CDATA[*/
     var loaded, scrolled = 0, __g_taboola_midArticleLoaded = false;
@@ -1077,47 +1079,6 @@
 	/*]]>*/
   </script>
   
-  <!-- Lazy Load Images -->
-  <script>
-	/*<![CDATA[*/
-  	function LazyLoadImages(){var e;if("IntersectionObserver" in window){e=document.querySelectorAll(".lazy");if(e.length==0){return;}var n=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var t=e.target;t.src=t.dataset.src,t.classList.remove("lazy"),n.unobserve(t)}})});e.forEach(function(e){n.observe(e)})}else{var t;function r(){t&&clearTimeout(t),t=setTimeout(function(){var n=window.pageYOffset;e.forEach(function(e){e.offsetTop<window.innerHeight+n&&(e.src=e.dataset.src,e.classList.remove("lazy"))}),0==e.length&&(document.removeEventListener("scroll",r),window.removeEventListener("resize",r),window.removeEventListener("orientationChange",r))},20)}e=document.querySelectorAll(".lazy");if(e.length==0){return;}document.addEventListener("scroll",r),window.addEventListener("resize",r),window.addEventListener("orientationChange",r)}};
-    /*]]>*/
-  </script>
-  
-  <!-- Latest News -->
-  <b:if cond='data:blog.isMobile==false'>
-    <script>
-  /*<![CDATA[*/
-  	  function getDataByCategoryName(t,e,s){var l="https://www.kunal-chowdhury.com/feeds/posts/summary/-/"+t+"?published&alt=json&max-results="+s,a=new XMLHttpRequest();a.open("GET",l,true),a.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response),s='<ul class="recent-posts-ul">';t.feed.entry.forEach(function(t,e){for(var l,a=t.title.$t,n=0;n<t.link.length;n++)if("alternate"==t.link[n].rel){l=t.link[n].href;break}s+='<li class="recent-posts-ul-li"><div class="recent-posts-ul-li-div"><a class="recent-posts-ul-li-div-a" href="'+l+'" alt="'+a+'" title="'+a+'">'+a+"</a></div></li>"}),s+="</ul>";var e1=document.getElementById(e);if(e1!=null){e1.insertAdjacentHTML("afterend",s);}}},a.send();}
-  	  function LoadTechNewsWidget(){getDataByCategoryName('Tech News','latestTechNews',10);}
-     /*]]>*/
-    </script>
-  </b:if>
-  
-  <!-- Custom Nav Titles -->
-  <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
-	<script type='text/javascript'>
-	/*<![CDATA[*/
-	  async function setNavTitle(e,t,h,ic){if(e==null||t==null){return;}var n="https://www.kunal-chowdhury.com/feeds/posts/summary?published&alt=json&max-results=1&path="+e.getAttribute("href").replace(location.protocol+"//"+location.hostname,""),o=new XMLHttpRequest;o.open("GET",n,!0),o.onload=function(){if(this.status>=200&&this.status<400){var t=JSON.parse(this.response);if(t.feed.entry.length>0){var n=t.feed.entry[0].title.$t,o=t.feed.entry[0].summary.$t.split("\n")[0],img=t.feed.entry[0].media$thumbnail.url.replace("s72-c","s200");e.innerHTML="<img class='"+ic+"' src='https://imagecdn.app/v2/image/"+img+"?width=200' loading='lazy' alt='"+n+"' title='"+n+"'/><span class='nav-button-heading'>"+h+"</span><hr/><span class='nav-button-title'>"+n+"</span>"}}},o.send()}function SetNavTitles(){setNavTitle(document.getElementById("Blog1_blog-pager-newer-link"),document.getElementById("nav-button-next"),"NEXT STORY","nav-button-next-image");setNavTitle(document.getElementById("Blog1_blog-pager-older-link"),document.getElementById("nav-button-previous"),"PREVIOUS STORY","nav-button-previous-image");}
-	/*]]>*/	
-	</script>
-  <b:else/>
-    <script>SetNavTitles(){}</script>
-  </b:if>
-	  
-  <!-- Lazy Load YouTube Videos -->
-  <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
-    <script type='text/javascript'>
-  /*<![CDATA[*/
-  	  function LazyLoadYouTubeVideos(){var e=document.querySelectorAll(".youtube");if(e.length==0){return;};for(t=0;t<e.length;t++){var r="https://img.youtube.com/vi/"+e[t].dataset.embed+"/hqdefault.jpg",a=new Image;a.src=r,a.alt='Click to play the Youtube Video',a.title='Click to play the Youtube Video',a.addEventListener("load",void e[t].appendChild(a)),e[t].addEventListener("click",function(){var e=document.createElement("iframe");e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen",""),e.setAttribute("src","https://www.youtube.com/embed/"+this.dataset.embed+"?rel=0&showinfo=0&autoplay=1"),this.innerHTML="",this.appendChild(e)})}}
-   	/*]]>*/
-    </script>
-    <b:else/>
-    <script type='text/javascript'>
-  /*<![CDATA[*/function LazyLoadYouTubeVideos(){}/*]]>*/
-    </script>
-  </b:if>
-  
   <!-- Google Analytics -->
   <script>
     /*<![CDATA[*/  
@@ -1143,18 +1104,17 @@
 			loadSetupadAsync('kunal-chowdhury.com_300x250_responsive_DFP','300x250');
 		}
 		
-		LazyLoadImages();
-
 		_taboola.push({article:'auto',tracking:'utm_source=taboola'}); if (window.performance && typeof window.performance.mark == 'function'){window.performance.mark('tbl_ic');}
 		if (!__g_isMobile){_taboola.push({mode:'thumbnails-rr',container:'taboola-right-rail-thumbnails',placement:'Right Rail Thumbnails',target_type:'mix'});}
 		if (__g_taboola_midArticleLoaded){ _taboola.push({mode:'thumbnails-mid',container:'taboola-mid-article-thumbnails',placement:'Mid Article Thumbnails',target_type:'mix'});};
 		_taboola.push({mode:'thumbnails-a',container:'taboola-below-article-thumbnails',placement:'Below Article Thumbnails',target_type:'mix'});
 		_taboola.push({flush:true});
 		
+		getScript('https://ik.imagekit.io/kunaldchowdhury/kunaldchowdhury.urlrewrite.js','ur_loader_script',true);
+		
 		setTimeout(_dmFollowup, 2000);
 		setTimeout(function(){ga('send','event',(__g_isMobile ? 'Mobile' : 'Desktop'),'Session');}, 5000);
 		setInterval(function(){ga('send', 'pageview', document.querySelector("link[rel='canonical']").href.replace('https://www.kunal-chowdhury.com','').replace('http://www.kunal-chowdhury.com'));}, 90000);
-		setTimeout(function(){var o,t,d=new Date(),c=""+d.getFullYear()+(d.getMonth()+1)+d.getDate()+d.getHours()+d.getMinutes(),e=document.querySelector("link[rel='canonical']").href,n=e+(e.includes("?")?"&session=":"?session=")+c+"&pos="+(window.pageYOffset || document.documentElement.scrollTop || window.scrollY),r="";c%2==0&&(o="Google",t="organic",r="https://www.google.com"),c%3==0&&(o="twitter.com",t="social",r="https://twitter.com"),c%5==0&&(o="DuckDuckGo",t="organic",r="https://duckduckgo.com"),c%7==0&&(o="codeproject.com",t="referral",r="https://www.codeproject.com"),c%11==0&&(o="dzone.com",t="social",r="https://dzone.com"),c%13==0&&(o="Bing",t="organic",r="https://www.bing.com"),c%17==0&&(o="facebook.com",t="social",r="https://www.facebook.com"),c%19==0&&(o="linkedin.com",t="social",r="https://www.linkedin.com"),c%23==0&&(o="dotnetkicks.com",t="referral",r="http://dotnetkicks.com"),null==o||""==o?window.location.href=n:(Object.defineProperty(document,"referrer",{get:function(){return r}}),window.location.href=n+"&utm_source="+o+"&utm_medium="+t);},240000);
 	}
 	
 	if(window.addEventListener){window.addEventListener('load',ExecuteAsync,false);}else if(window.attachEvent){window.attachEvent('onload',ExecuteAsync);}else{window.onload=ExecuteAsync;}
@@ -1167,12 +1127,13 @@
 	window.onscroll = function() {
 	  if(loaded && !scrolled){
 		scrolled = 1;
+		
+		getScript('https://ik.imagekit.io/kunaldchowdhury/kunaldchowdhury.images.js','img_loader_script',true);
+		getScript('https://ik.imagekit.io/kunaldchowdhury/kunaldchowdhury.navtitles.js','nt_loader_script',true);
+		if(!__g_isMobile){getScript('https://ik.imagekit.io/kunaldchowdhury/kunaldchowdhury.technews.js','tn_loader_script',true);}
+		getScript('https://ik.imagekit.io/kunaldchowdhury/kunaldchowdhury.youtube.js','yt_loader_script',true);
 		getScript('https://cdn.taboola.com/libtrc/kunalchowdhury/loader.js','tb_loader_script', true); _taboola.push({flush:true});
 		getScript('https://platform-api.sharethis.com/js/sharethis.js#property=61195df349abbb00129cb2e7&product=inline-share-buttons','st_loader_script', true);
-		
-		try{SetNavTitles();}catch{}
-		if(!__g_isMobile){LoadTechNewsWidget();}
-		LazyLoadYouTubeVideos();
 	  }
 	};
 	/*]]>*/
