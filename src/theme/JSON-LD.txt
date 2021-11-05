@@ -1,0 +1,136 @@
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.kunal-chowdhury.com/#organization",
+      "name": "kunal-chowdhury.com",
+      "url": "https://www.kunal-chowdhury.com/",
+      "sameAs": [
+        "https://www.facebook.com/kunaldchowdhury",
+        "https://www.youtube.com/channel/UCS4y3ThCQzxv0QZMsp5YwQw",
+        "https://twitter.com/kunaldchowdhury"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.kunal-chowdhury.com/#logo",
+        "url": "https://3.bp.blogspot.com/-uLxLqZUaOk8/XaAGDg58nmI/AAAAAAAAXVM/K_42QOZG8ww_K1UjqwqQSl192RipXjdjgCLcBGAsYHQ/s200/blog-logo-min.jpg",
+        "inLanguage": "en-US",
+        "width": 200,
+        "height": 41,
+        "caption": "kunal-chowdhury.com"
+      },
+      "image": {
+        "@id": "https://www.kunal-chowdhury.com/#logo"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.kunal-chowdhury.com/#website",
+      "url": "https://www.kunal-chowdhury.com/",
+      "name": "kunal-chowdhury.com",
+      "inLanguage": "en-US",
+      "description": "Latest Technology News, Product Reviews, Tips and Tricks on Windows and Android",
+      "publisher": {
+        "@id": "https://www.kunal-chowdhury.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://www.kunal-chowdhury.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "<data:blog.url.canonical/>#primaryimage",
+      "inLanguage": "en-US",
+      "url": "<data:blog.postImageUrl/>",
+      "width": 800,
+      "height": 450,
+      "caption": "<data:blog.pageName/>"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "<data:blog.url.canonical/>#webpage",
+      "url": "<data:blog.url.canonical/>",
+      "name": "<data:blog.pageName/>",
+      "isPartOf": {
+        "@id": "https://www.kunal-chowdhury.com/#website"
+      },
+      "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "<data:blog.url.canonical/>#primaryimage"
+      },
+      "datePublished": "<data:post.timestamp/>",
+      "dateModified": "<data:post.timestamp/>",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "<data:blog.url.canonical/>"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "NewsArticle",
+      "@id": "<data:blog.url.canonical/>#article",
+      "isPartOf": {
+        "@id": "<data:blog.url.canonical/>#webpage"
+      },
+      "author": {
+        "@id": "https://www.kunal-chowdhury.com/#/schema/person/24E74FA26B6240909D34FB2BDC456B0B"
+      },
+      "headline": "<data:blog.pageName/>",
+      "datePublished": "<data:post.timestamp/>",
+      "dateModified": "<data:post.timestamp/>",
+      "commentCount": 0,
+      "mainEntityOfPage": {
+        "@id": "<data:blog.url.canonical/>#webpage"
+      },
+      "publisher": {
+        "@id": "https://www.kunal-chowdhury.com/#organization"
+      },
+      "image": {
+        "@id": "<data:blog.url.canonical/>#primaryimage"
+      },
+      "articleSection": "Tech News",
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "<data:blog.url.canonical/>#respond"
+          ]
+        }
+      ],
+      "copyrightYear": "2021",
+      "copyrightHolder": {
+        "@id": "https://www.kunal-chowdhury.com/#organization"
+      }
+    },
+    {
+      "@type": [
+        "Person"
+      ],
+      "@id": "https://www.kunal-chowdhury.com/#/schema/person/24E74FA26B6240909D34FB2BDC456B0B",
+      "name": "Kunal Chowdhury",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.kunal-chowdhury.com/#authorlogo",
+        "inLanguage": "en-US",
+        "url": "https://raw.githubusercontent.com/kunal-chowdhury/kunal-chowdhury.com/master/src/images/profile-photos/kunal-chowdhury-200x200.jpg",
+        "caption": "Kunal Chowdhury"
+      },
+      "description": "Kunal Chowdhury is the owner and editor in chief of kunal-chowdhury.com. He is a Microsoft Windows Insider MVP (2021 - 2022), Microsoft MVP (2010 - 2018), Windows 10 Champion, Microsoft India Rockstar, former Telerik Developer Expert, former Codeproject MVP and Mentor, Speaker in various Microsoft events, Author, passionate Blogger and a Software Engineer by profession. He was also a Nokia Developer Champion for his contribution towards Windows Phone and Nokia Lumia.",
+      "sameAs": [
+        "https://twitter.com/kunaldchowdhury"
+      ]
+    }
+  ]
+}
+</script>
